@@ -169,6 +169,7 @@ SCAV section tooltips were in code but not binded to fields
   
  </System:String>
  <!--MessageBoxes and/or Exception handlers-->
+ <System:String xml:space="preserve" x:Key="SVMWrongInstallation">Wrong Installation: NEEDTRANSLATION</System:String>
  <System:String x:Key="FileNotFoundException">您尝试加载的文件不存在</System:String>
  <System:String x:Key="CorruptedJSON">该文件已损坏或不适合加载为预设</System:String>
  <System:String x:Key="NoAccess">无法读取文件。请检查是否为Windows权限问题？</System:String>

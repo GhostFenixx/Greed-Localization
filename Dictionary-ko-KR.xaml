@@ -79,6 +79,7 @@ SCAV section tooltips were in code but not binded to fields
 [H1] Missing Ukrainian tooltips in Events
  </System:String>
  <!--MessageBoxes and/or Exception handlers-->
+ <System:String xml:space="preserve" x:Key="SVMWrongInstallation">Wrong Installation: NEEDTRANSLATION</System:String>
  <System:String x:Key="FileNotFoundException">로드하려는 파일이 존재하지 않습니다.</System:String>
  <System:String x:Key="CorruptedJSON">이 파일이 손상되었거나 프리셋으로 로드할 수 없습니다.</System:String>
  <System:String x:Key="NoAccess">파일을 읽을 수 없습니다. Windows 권한 문제인가요?</System:String>
