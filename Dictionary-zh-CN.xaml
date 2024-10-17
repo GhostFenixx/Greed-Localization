@@ -345,6 +345,8 @@ SCAV section tooltips were in code but not binded to fields
  <!--Traders Section-->
  <System:String x:Key="TradersMisc">商人杂项</System:String>
  <System:String x:Key="FIRTrade">商人在售的物品为"在战局中找到"</System:String>
+ <System:String x:Key="UnlockJaeger">NEEDTRANSLATION</System:String>
+ <System:String x:Key="UnlockRef">NEEDTRANSLATION</System:String>
  <System:String x:Key="AllQuestsAvailable">所有任务可用</System:String>
  <System:String x:Key="RemoveTimeCondition">移除新任务的时间限制</System:String>
  <System:String x:Key="TradersLvl4">全商人 4(皇冠)等级</System:String>
@@ -490,12 +492,25 @@ SCAV section tooltips were in code but not binded to fields
  <System:String x:Key="GearExtract">移除撤离点 冰镐和绳索 的要求</System:String>
  <System:String x:Key="ArmorExtract">移除撤离点 不能穿戴护甲 的要求</System:String>
  <System:String x:Key="NoBackpack">移除撤离点不能穿戴背包的要求</System:String>
+ <!--Coop/Car Section-->
+ <System:String x:Key="CarAndCoop">NEEDTRANSLATION</System:String>
  <System:String x:Key="FreeCoop">合作撤离点无条件限制</System:String>
  <System:String x:Key="CoopPaid">合作撤离点改为付费撤离</System:String>
  <System:String x:Key="FenceGift">移除黑商Fence合作撤离奖励</System:String>
  <System:String x:Key="CarExtractTime">载具撤离等待时间(秒):</System:String>
  <System:String x:Key="CoopExitPrices">合作撤离点 价格</System:String>
  <System:String x:Key="CarExitPrices">载具撤离点 价格</System:String>
+
+ <!--BTR Section-->
+ <System:String x:Key="BTR">NEEDTRANSLATION</System:String>
+ <System:String x:Key="ForceBTRStash">NEEDTRANSLATION</System:String>
+ <System:String x:Key="ForceBTRFriendly">NEEDTRANSLATION</System:String>
+ <System:String x:Key="BTRTaxiPrice">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="BTRCoverPrice">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="BTRPriceMult">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="Usec">USEC:</System:String>
+ <System:String x:Key="Bear">BEAR:</System:String>
+ 
  <!--Events Section-->
  <System:String x:Key="Events">活动事件</System:String>
  <System:String x:Key="RaidersEverywhere">全部Scav变成Raider</System:String>
@@ -504,9 +519,9 @@ SCAV section tooltips were in code but not binded to fields
  <System:String x:Key="BossesOnCustoms">海关 全Boss</System:String>
  <System:String x:Key="BossesOnHealthResort">海岸线疗养院 全Boss</System:String>
  <System:String x:Key="HealthResortIncludeGuards">包括 Boss保镖</System:String>
+ <System:String x:Key="TagillaInterchange">NEEDTRANSLATION</System:String>
  <System:String x:Key="GoonsFactory">工厂 三狗刷新概率:</System:String>
  <System:String x:Key="KillaFactory">工厂 Killa刷新概率:</System:String>
- <System:String x:Key="SnowEvent">雪地环境</System:String>
  <System:String x:Key="Halloween">万圣节活动</System:String>
  <System:String x:Key="Christmas">圣诞节活动</System:String>
  <System:String x:Key="DisableEvents">关闭正在进行的活动事件</System:String>
@@ -523,6 +538,15 @@ SCAV section tooltips were in code but not binded to fields
  <System:String x:Key="DeployTimer">战局部署倒计时</System:String>
  <System:String x:Key="EnableBosses">开启 Boss</System:String>
  <System:String x:Key="ScavWars">Scav内战</System:String>
+ <!--Weather Section-->
+ <System:String x:Key="ForceSeason">NEEDTRANSLATION</System:String>
+ <System:String x:Key="Season">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="Summer">NEEDTRANSLATION</System:String>
+ <System:String x:Key="Autumn">NEEDTRANSLATION</System:String>
+ <System:String x:Key="Winter">NEEDTRANSLATION</System:String>
+ <System:String x:Key="Spring">NEEDTRANSLATION</System:String>
+ <System:String x:Key="Storm">NEEDTRANSLATION</System:String>
+ 
  <!--Fleamarket Section-->
  <System:String x:Key="PlayerFlea">玩家 出售/购买</System:String>
  <System:String x:Key="FleaMarketLevel">跳蚤市场 解锁等级:</System:String>
@@ -586,7 +610,8 @@ SCAV section tooltips were in code but not binded to fields
  <System:String x:Key="Pockets">PMC口袋:</System:String>
  <System:String x:Key="SpecsAmount">特殊装备栏槽位数量:</System:String>
  <System:String x:Key="Size">大小:</System:String>
- <System:String x:Key="Rows">行:</System:String>
+ <System:String x:Key="Width">Width:</System:String>
+ <System:String x:Key="Height">Height:</System:String>
  <System:String x:Key="Columns">列:</System:String>
  <System:String x:Key="FirstCell">1号口袋:</System:String>
  <System:String x:Key="SecondCell">2号口袋:</System:String>
@@ -617,14 +642,14 @@ SCAV section tooltips were in code but not binded to fields
  <System:String x:Key="RewardSpread">奖励分配倍率:</System:String>
 
  <System:String x:Key="Types">任务类型:</System:String>
-
+ <System:String x:Key="RewardScale">NEEDTRANSLATION</System:String>
  <System:String x:Key="Levels">等级:</System:String>
- <System:String x:Key="ExpReward">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="Experience">NEEDTRANSLATION:</System:String>
  <System:String x:Key="CurrencyReward">NEEDTRANSLATION:</System:String>
  <System:String x:Key="ItemsReward">NEEDTRANSLATION:</System:String>
- <System:String x:Key="ReputationReward">NEEDTRANSLATION:</System:String>
- <System:String x:Key="ChanceToGiveSkillPoints">NEEDTRANSLATION:</System:String>
- <System:String x:Key="AmountOfSkillPoints">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="Reputation">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="SkillPoint">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="SkillChance">NEEDTRANSLATION:</System:String>
 
  <!--Scav Section-->
  <System:String x:Key="SCAVHealth">SCAV 健康值</System:String>
@@ -663,6 +688,11 @@ SCAV section tooltips were in code but not binded to fields
  <!--Custom Section-->
  <System:String x:Key="Debug">调试工具Debug</System:String>
  <System:String x:Key="LoggerIntoServer">在服务器日志中记录预设</System:String>
+ <System:String x:Key="CustomFields">NEEDTRANSLATION</System:String>
+ <System:String x:Key="Mailbox">NEEDTRANSLATION</System:String>
+ <System:String x:Key="DisableSPTFriend">NEEDTRANSLATION</System:String>
+ <System:String x:Key="DisableCommando">NEEDTRANSLATION</System:String>
+ <System:String x:Key="DisablePMCMessages">NEEDTRANSLATION</System:String>
  <!--Unified name of Game objects-->
  <System:String x:Key="FleaWeapons">武器:</System:String>
  <System:String x:Key="FleaMedical">医疗物品:</System:String>
@@ -714,6 +744,7 @@ SCAV section tooltips were in code but not binded to fields
  <System:String x:Key="Goons">三狗</System:String>
  <System:String x:Key="Zryachiy">兹利亚奇Zryachiy</System:String>
  <System:String x:Key="Kaban">卡班Kaban</System:String>
+ <System:String x:Key="Partisan">NEEDTRANSLATION</System:String>
  <System:String x:Key="Kollontay">葛朗台Kollontay</System:String>
  <System:String x:Key="Cultist">邪教徒</System:String>
  <!--Unified names of Bots Types-->
@@ -725,6 +756,7 @@ SCAV section tooltips were in code but not binded to fields
  <System:String x:Key="PMCAI">PMC:</System:String>
  <System:String x:Key="Bosses">Boss:</System:String>
  <System:String x:Key="Followers">Boss保镖:</System:String>
+
 
  <!--Tooltips-->
  <System:String x:Key="EquipRigsWithArmors_TT">允许将防弹胸挂（如AVS或Tac-Tec）与护甲（如Trooper或Slick）一起装备</System:String>
@@ -842,7 +874,6 @@ SCAV section tooltips were in code but not binded to fields
 但请注意，AI PMC仍然可以由raider转换而来</System:String>
  <System:String xml:space="preserve" x:Key="HealthResortIncludeGuards_TT">强烈不推荐！这更类似于压力测试而非正常游玩功能
 会导致单个区域内出现超过30个AI，请慎重修改</System:String>
- <System:String x:Key="SnowEvent_TT">仅改变天气设置</System:String>
  <System:String xml:space="preserve" x:Key="Halloween_TT">万圣节活动：启动藏身处的活动专属灯光，
 修改兹利亚奇Zryachiy的行为和刷出，AI将携带活动物品</System:String>
  <System:String xml:space="preserve" x:Key="Christmas_TT">圣诞节活动：启动藏身处的活动专属灯光，并赠送一个圣诞礼物，

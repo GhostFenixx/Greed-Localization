@@ -421,9 +421,11 @@ TUE Stash та Gamma
  <System:String x:Key="Halloween">Хелловін</System:String>
  <System:String x:Key="Christmas">Різдво</System:String>
  <System:String x:Key="DisableEvents">Вимкнути поточні події</System:String>
+ <System:String x:Key="TagillaInterchange">Тагілла сопроводжуе кіллу у Развязці</System:String>
  <System:String x:Key="GlukharLabs">Глухар у Лабораторії</System:String>
  <System:String x:Key="Bloodhounds">Шанс спавна загону Погоні</System:String>
  <!--Raid Startup Section-->
+ <System:String x:Key="RaidStartup">Налаштування перед початком рейда</System:String>
  <System:String x:Key="Cursed">Позначений і проклятий</System:String>
  <System:String x:Key="MIARaid">MIA наприкінці рейду</System:String>
  <System:String x:Key="LootRaid">Зберігати спорядження наприкінці рейду</System:String>
@@ -432,6 +434,14 @@ TUE Stash та Gamma
  <System:String x:Key="DeployTimer">Таймер Висадки:</System:String>
  <System:String x:Key="EnableBosses">Увімкнути Босів</System:String>
  <System:String x:Key="ScavWars">Війна Диких</System:String>
+ <!--Weather Section-->
+ <System:String x:Key="ForceSeason">Перезаписати погоду</System:String>
+ <System:String x:Key="Season">Сезон:</System:String>
+ <System:String x:Key="Summer">Літо</System:String>
+ <System:String x:Key="Autumn">Осінь</System:String>
+ <System:String x:Key="Winter">Зима</System:String>
+ <System:String x:Key="Spring">Весна</System:String>
+ <System:String x:Key="Storm">Шторм</System:String>
  <!--Fleamarket Section-->
  <System:String x:Key="PlayerFlea">Продажі/Покупки гравця</System:String>
  <System:String x:Key="FleaMarketLevel">Рівень доступу до барахолки:</System:String>
@@ -496,6 +506,8 @@ TUE Stash та Gamma
  <System:String x:Key="SpecsAmount">Кількість Спец.Слотів:</System:String>
  <System:String x:Key="Size">Розмір:</System:String>
  <System:String x:Key="Rows">Рядки:</System:String>
+ <System:String x:Key="Width">Ширина:</System:String>
+ <System:String x:Key="Height">Висота:</System:String>
  <System:String x:Key="Columns">Стовпці:</System:String>
  <System:String x:Key="FirstCell">1-ша Клітина:</System:String>
  <System:String x:Key="SecondCell">2-га Клітина:</System:String>

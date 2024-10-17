@@ -116,6 +116,8 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
 [Be advised - it will launch your browser]</System:String>
  <System:String xml:space="preserve" x:Key="KofiLink">Press 'Ok' To visit Kofi.com - A place where you can support the developer,
 [Be advised - it will launch your browser]</System:String>
+ <System:String xml:space="preserve" x:Key="GitHubLink">Press 'Ok' To visit Github.com - There you can report any issues you've encountered,
+[Be advised - it will launch your browser]</System:String>
  <System:String xml:space="preserve" x:Key="FikaLink">Press 'Ok' To visit Project Fika Discord - One of communities of SPT where GhostFenixx happen to be in,
 [Be advised - it will launch your browser]</System:String>
  <System:String xml:space="preserve" x:Key="SPTWeb">Press 'Ok' To visit SPT Website - SPT Domain with all the mods,
@@ -174,6 +176,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="ItemIDWeb">ID Item Finder website</System:String>
  <System:String x:Key="ModWeb">Mod's webpage</System:String>
  <System:String x:Key="KoFi">Ko-Fi Donation link</System:String>
+ <System:String x:Key="GitHub">Report an issue on GitHub</System:String>
  <System:String x:Key="EmuRC">EmutarkovRC Discord</System:String>
  <System:String x:Key="Fika">Project Fika Discord</System:String>
  <System:String x:Key="WikiPage">Tarkov Wiki</System:String>
@@ -443,7 +446,6 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="HealthResortIncludeGuards">Including guards</System:String>
  <System:String x:Key="GoonsFactory">Goons in Factory and their spawn chance:</System:String>
  <System:String x:Key="KillaFactory">Killa in Factory and his spawn chance:</System:String>
- <System:String x:Key="SnowEvent">Add Snow</System:String>
  <System:String x:Key="Halloween">Halloween</System:String>
  <System:String x:Key="Christmas">Christmas</System:String>
  <System:String x:Key="DisableEvents">Disable ongoing events</System:String>
@@ -461,6 +463,14 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="DeployTimer">Deploy timer in the raid</System:String>
  <System:String x:Key="EnableBosses">Enable Bosses</System:String>
  <System:String x:Key="ScavWars">Scav Wars</System:String>
+ <!--Raid Startup Section-->
+ <System:String x:Key="ForceSeason">Force seasonal weather</System:String>
+ <System:String x:Key="Season">Type of season:</System:String>
+ <System:String x:Key="Summer">Summer</System:String>
+ <System:String x:Key="Autumn">Autumn</System:String>
+ <System:String x:Key="Winter">Winter</System:String>
+ <System:String x:Key="Spring">Spring</System:String>
+ <System:String x:Key="Storm">Storm</System:String>
  <!--Fleamarket Section-->
  <System:String x:Key="PlayerFlea">Player Selling/Buying</System:String>
  <System:String x:Key="FleaMarketLevel">Lvl to access Fleamarket:</System:String>
@@ -526,8 +536,10 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="Pockets">PMC Pockets:</System:String>
  <System:String x:Key="SpecsAmount">Amount of spec slots:</System:String>
  <System:String x:Key="Size">Size:</System:String>
- <System:String x:Key="Rows">Rows:</System:String>
- <System:String x:Key="Columns">Columns:</System:String>
+ <!--<System:String x:Key="Rows">Rows:</System:String>
+ <System:String x:Key="Columns">Columns:</System:String>-->
+ <System:String x:Key="Width">Width:</System:String>
+ <System:String x:Key="Height">Height:</System:String>
  <System:String x:Key="FirstCell">1st Cell:</System:String>
  <System:String x:Key="SecondCell">2nd  Cell:</System:String>
  <System:String x:Key="ThirdCell">3rd  Cell:</System:String>
@@ -800,7 +812,6 @@ Such exits as:
 AI PMC still can be converted from raiders so be aware</System:String>
  <System:String xml:space="preserve" x:Key="HealthResortIncludeGuards_TT">Highly not recommended, this is more of a stress test than a feature
 You'll have more than 30 AI in a single area, you've been warned</System:String>
- <System:String x:Key="SnowEvent_TT">Only changes weather settings</System:String>
  <System:String xml:space="preserve" x:Key="Halloween_TT">Halloween event - enables event exclusive lights in hideout, 
 alters Zryachiy behavior and spawns, adds event loot into AI</System:String>
  <System:String xml:space="preserve" x:Key="Christmas_TT">Christmas event - enables event exclusive lights in hideout, gives you a christmas gift, 

@@ -416,7 +416,6 @@ SCAV section tooltips were in code but not binded to fields
  <System:String x:Key="BossesOnCustoms">모든 보스들 커스텀(세관)에 생성</System:String>
  <System:String x:Key="GoonsFactory">군즈 팩토리(공장) 생성 확률 :</System:String>
  <System:String x:Key="KillaFactory">킬라 팩토리(공장) 생성 확률 :</System:String>
- <System:String x:Key="SnowEvent">눈 추가</System:String>
  <System:String x:Key="Halloween">할로윈</System:String>
  <System:String x:Key="Christmas">크리스마스</System:String>
  <System:String x:Key="DisableEvents">진행 중인 이벤트 비활성화</System:String>
@@ -529,12 +528,12 @@ SCAV section tooltips were in code but not binded to fields
  <System:String x:Key="Types">퀘스트 임무 종류 :</System:String>
 
  <System:String x:Key="Levels">레벨 :</System:String>
- <System:String x:Key="ExpReward">NEEDTRANSLATION :</System:String>
- <System:String x:Key="CurrencyReward">NEEDTRANSLATION :</System:String>
- <System:String x:Key="ItemsReward">NEEDTRANSLATION :</System:String>
- <System:String x:Key="ReputationReward">NEEDTRANSLATION :</System:String>
- <System:String x:Key="ChanceToGiveSkillPoints">NEEDTRANSLATION :</System:String>
- <System:String x:Key="AmountOfSkillPoints">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="Experience">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="CurrencyReward">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="ItemsReward">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="Reputation">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="SkillPoint">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="SkillChance">NEEDTRANSLATION:</System:String>
 
  <!--Scav Section-->
  <System:String x:Key="SCAVHealth">스캐브(Scav) 체력 편집기</System:String>
@@ -758,7 +757,6 @@ GPU당 약 1배 효율 증가를 달성하려면 24.26으로 설정하세요.</S
 AI PMC는 여전히 레이더에서 변환될 수 있으므로 주의하세요.</System:String>
  <System:String xml:space="preserve" x:Key="HealthResortIncludeGuards_TT">매우 권장하지 않습니다. 이는 기능이라기보다는 스트레스 테스트에 가깝습니다.
 단일 지역에 30명 이상의 AI가 생성되니 주의하세요. 이 점을 명심하시기 바랍니다!</System:String>
- <System:String xml:space="preserve" x:Key="SnowEvent_TT">날씨 설정만 변경합니다.</System:String>
  <System:String xml:space="preserve" x:Key="Halloween_TT">은신처에 이벤트 전용 조명을 활성화하고, 
 지라치의 생성과 행동을 변경하며, AI에 이벤트 전리품을 추가합니다.</System:String>
  <System:String xml:space="preserve" x:Key="Christmas_TT">은신처에 이벤트 전용 조명을 활성화하고, 크리스마스 선물을 제공하며, 
