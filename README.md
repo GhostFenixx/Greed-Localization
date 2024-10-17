@@ -1,2 +1,2 @@
 # Greed-Localization
-Greed-Localization
+This would be merged inside Greed.exe
