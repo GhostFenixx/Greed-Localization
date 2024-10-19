@@ -463,6 +463,18 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="DeployTimer">Deploy timer in the raid</System:String>
  <System:String x:Key="EnableBosses">Enable Bosses</System:String>
  <System:String x:Key="ScavWars">Scav Wars</System:String>
+
+ <System:String x:Key="AsOnline">As in online</System:String>
+ <System:String x:Key="High">High</System:String>
+ <System:String x:Key="Horde">Horde</System:String>
+ <System:String x:Key="Low">Low</System:String>
+ <System:String x:Key="Medium">Medium</System:String>
+ <System:String x:Key="Impossible">Impossible</System:String>
+ <System:String x:Key="Easy">Easy</System:String>
+ <System:String x:Key="NoBots">None</System:String>
+ <System:String x:Key="Hard">Hard</System:String>
+ <System:String x:Key="Random">Random</System:String>
+
  <!--Raid Startup Section-->
  <System:String x:Key="ForceSeason">Force seasonal weather</System:String>
  <System:String x:Key="Season">Type of season:</System:String>
@@ -564,7 +576,15 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="KillsAmountLvl2">Amount of Kills [Lvl range 16-40]:</System:String>
  <System:String x:Key="KillsAmountLvl3">Amount of Kills [Lvl range 41-100]:</System:String>
  <System:String x:Key="ScavKillsLvl2">Amount of Kills [Lvl range 16-100]:</System:String>
- 
+
+ <System:String x:Key="Elimination">Elimination</System:String>
+ <System:String x:Key="Exploration">Exploration</System:String>
+ <System:String x:Key="Completion">Completion</System:String>
+ <System:String x:Key="CompElim">Completion, Elimination</System:String>
+ <System:String x:Key="CompExpl">Completion, Exploration</System:String>
+ <System:String x:Key="ExplElim">Exploration, Elimination</System:String>
+ <System:String x:Key="ExplElimComp">Completion, Exploration, Elimination</System:String>
+
  <System:String x:Key="RewardScale">Level based scale of rewards</System:String>
  <System:String x:Key="Levels">Levels:</System:String>
  <System:String x:Key="Experience">Experience:</System:String>
@@ -572,7 +592,6 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="Reputation">Reputation:</System:String>
  <System:String x:Key="SkillPoint">Amount of skill points:</System:String>
  <System:String x:Key="SkillChance">Chance to get skill points:</System:String>
-
  <System:String x:Key="RequiredItems">Amount of items required:</System:String>
  <System:String x:Key="MaxExtracts">Maximum Extracts required:</System:String>
  <System:String x:Key="RewardSpread">Reward spread multiplier:</System:String>
@@ -819,7 +838,7 @@ enables snow, enable the ability for Santa Claus to spawn, adds event loot into 
  <System:String  xml:space="preserve" x:Key="Types_TT">Daily missions splits into 3 types: Extermination, Completion, Exploration
  Extermination - Kill PMC, SCAVs or Bosses. Sometimes into specific body part or from close/long range.
  Completion - Provide items with `found in raid` tag
- Exploration - Exfiltrate from spefici location with the tag `survived`. Sometimes through specific exit</System:String>
+ Exploration - Exfiltrate from specific location with the tag `survived`. Sometimes through specific exit</System:String>
  <System:String  xml:space="preserve" x:Key="FenceBlacklist_TT">Removing certain IDs may result in an error on the server launch. 
 Proceed with caution</System:String>
  <System:String xml:space="preserve" x:Key="SafeExit_TT">Allows to leave via menu to save gear/loot however it will count

@@ -437,6 +437,17 @@ TUE Stash и Gamma
  <System:String x:Key="EnableBosses">Включить Боссов</System:String>
  <System:String x:Key="ScavWars">Война Диких</System:String>
  <System:String x:Key="RaidStartup">Настроки перед стартом рейда</System:String>
+
+ <System:String x:Key="AsOnline">Как в онлайне</System:String>
+ <System:String x:Key="High">Много</System:String>
+ <System:String x:Key="Horde">Орда</System:String>
+ <System:String x:Key="Low">Мало</System:String>
+ <System:String x:Key="Medium">Среднее</System:String>
+ <System:String x:Key="Impossible">Невозможная</System:String>
+ <System:String x:Key="Easy">Легкая</System:String>
+ <System:String x:Key="NoBots">Выкл</System:String>
+ <System:String x:Key="Hard">Сложная</System:String>
+ <System:String x:Key="Random">Случайная</System:String>
  <!--Weather Section-->
  <System:String x:Key="ForceSeason">Перезаписать погоду</System:String>
  <System:String x:Key="Season">Сезон:</System:String>
@@ -548,6 +559,13 @@ TUE Stash и Gamma
  <System:String x:Key="Reputation">Репутация:</System:String>
  <System:String x:Key="SkillPoint">Кол-во очков навыка:</System:String>
  <System:String x:Key="SkillChance">Шанс получения очков навыков:</System:String>
+ <System:String x:Key="Elimination">Устранение</System:String>
+ <System:String x:Key="Exploration">Выйти с локации</System:String>
+ <System:String x:Key="Completion">Найти и передать</System:String>
+ <System:String x:Key="CompElim">Найти и передать, Устранение</System:String>
+ <System:String x:Key="CompExpl">Найти и передать, Выйти с локации</System:String>
+ <System:String x:Key="ExplElim">Выйти с локации, Устранение</System:String>
+ <System:String x:Key="ExplElimComp">Найти и передать, Выйти с локации, Устранение</System:String>
 
  <!--Scav Section-->
  <System:String x:Key="SCAVHealth">Здоровье Дикого</System:String>
