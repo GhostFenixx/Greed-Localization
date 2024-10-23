@@ -5,19 +5,17 @@
 由 GhostFenixx 独立开发
 使用 VS 2022 Tools 在 .NET 6 + ModernWPF（作者 Kinnara）上制作
 https://github.com/Kinnara/ModernWpf
-共享遵循协议：CC BY-NC-ND 许可
-详情请阅读：creativecommons.org 许可协议
-该许可允许共享，但 不允许 修改/构建衍生作品或商业分发（即销售）。
-解释权归作者所有。
+共享遵循协议： Personal Use Source License (PUSL) 许可
+详情请阅读：https://github.com/GhostFenixx/Greed?tab=License-1-ov-file#readme 许可协议
+
 
 原文：
 Greed - A .Json loader creator for a SPT mod called "Server Value Modifier"
 Independent Application made by GhostFenixx
 Using VS 2022 Tools on .NET 6 + ModernWPF Library By Kinnara
 https://github.com/Kinnara/ModernWpf
-Shared by CC BY-NC-ND License
-For more info: read license on - creativecommons.org
-It allows you to share, but not modify/build upon or commercially distribute(Read Sell).
+Shared by PUSL License
+For more info: read license on -https://github.com/GhostFenixx/Greed?tab=License-1-ov-file#readme
 </System:String>
  <System:String xml:space="preserve" x:Key="DisclaimerText"> 免责声明
  该应用程序使用了电子游戏《逃离塔科夫》的素材/媒体资产，并链接到游戏官方维基百科WIKI，网址为“https://escapefromtarkov.fandom.com/”

@@ -6,9 +6,8 @@
 Независимое приложение создано GhostFenixx
 Используя инструментарий VS 2022 на .NET 6 + Библиотека ModernWPF созданной Kinnara
 https://github.com/Kinnara/ModernWpf
-Распостроняется по лицезнии CC BY-NC-ND 
-Для ознакомления с лицензией: creativecommons.org
-Это разрешает вам его не коммерчески распространять, но не модифицировать или что либо еще.
+Распостроняется по лицезнии Personal Use Source License (PUSL)
+Для ознакомления с лицензией: https://github.com/GhostFenixx/Greed?tab=License-1-ov-file#readme
 </System:String>
  <System:String xml:space="preserve" x:Key="DisclaimerText">ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ
 В этом приложении используются медиа и/или материалы из видеоигры «Escape from Tarkov», а также ссылки, ведущие на официальную вики-страницу игры, доступ к которой можно получить через `https://escapefromtarkov.fandom.com/`

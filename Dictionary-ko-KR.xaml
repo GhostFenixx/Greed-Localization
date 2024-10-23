@@ -5,9 +5,8 @@
 Independent Application made by GhostFenixx
 Using VS 2022 Tools on .NET 6 + ModernWPF Library By Kinnara
 https://github.com/Kinnara/ModernWpf
-Shared by CC BY-NC-ND License
-For more info: read license on - creativecommons.org
-It allows you to share, but not modify/build upon or commercially distribute(Read Sell).
+Shared by Personal Use Source License (PUSL) License
+For more info: read license on - https://github.com/GhostFenixx/Greed?tab=License-1-ov-file#readme
 </System:String>
  <System:String xml:space="preserve" x:Key="DisclaimerText">면책 조항
 이 애플리케이션은 비디오 게임 "Escape from Tarkov"의 미디어 및/또는 자료를 사용하며, https://escapefromtarkov.fandom.com/을 통해 접근할 수 있는 공식 게임 위키로 연결되는 링크를 포함합니다.
