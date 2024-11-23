@@ -81,7 +81,7 @@ TUE Stash та Gamma
  <!--MessageBoxes and/or Exception handlers-->
  <System:String xml:space="preserve" x:Key="SVMWrongInstallation">SVM був неправильно встановлений, програма не знаходиться в "user/mods"
 Будь ласка, дотримуйтесь інструкцій зі встановлення на сторінці мода.
-Ви можете продовжити використовувати програму, якщо натиснете `Ok`, але працювати він не буде.
+Ви можете продовжити використовувати програму, якщо натиснути `Ok`, але працювати вона не буде.
 Натисніть 'Cancel' щоб закрити програму.
 </System:String>
  <System:String x:Key="FileNotFoundException">Файл, який ви намагаєтеся завантажити - не існує</System:String>
@@ -164,7 +164,6 @@ TUE Stash та Gamma
  <System:String x:Key="ItemIDWeb">ID Item Finder website</System:String>
  <System:String x:Key="ModWeb">Сторінка мода</System:String>
  <System:String x:Key="KoFi">Лінк на підтримку мода</System:String>
- <System:String x:Key="EmuRC">Діскорд EmutarkovRC</System:String>
  <System:String x:Key="Fika">Діскорд Project Fika</System:String>
  <!--Preset Notes Initial Text-->
  <System:String x:Key="PresetInitialText">Ваше полотно для нотаток. Використовуйте, як хочете. Воно буде збережено у пресеті</System:String>
@@ -179,6 +178,7 @@ TUE Stash та Gamma
  <System:String x:Key="WeightChanger">Вага Предметів:</System:String>
  <System:String x:Key="MalfunctChanceMult">Шанс Заклинювання:</System:String>
  <System:String x:Key="MisfireChance">Шанс Осічки:</System:String>
+ <System:String x:Key="FragmentMult">Шанс фрагментації пулі:</System:String>
  <System:String x:Key="ExamineKeys">Включая ключі</System:String>
  <System:String x:Key="WeaponHeatOff">Вимкнути перегрів зброї</System:String>
     <System:String x:Key="SMGToHolster">Пістолети-Кулемети кладуться в кобуру</System:String>
@@ -214,7 +214,11 @@ TUE Stash та Gamma
     <System:String x:Key="RoublesOrDefault">Рублі:</System:String>
  <!--Individual Item Changer Section-->
  <System:String x:Key="Changer">Індивідуальний редактор предметів (Читай FAQ)</System:String>
-    <!--Hideout Section-->
+ <System:String x:Key="IDDefault">Default IIC:</System:String>
+ <System:String x:Key="IDParent">Change everything by Parent ID:</System:String>
+ <System:String x:Key="IDPrice">Change/Add price in a handbook:</System:String>
+ <System:String x:Key="IDFilter">Push an ID into Filter:</System:String>
+ <!--Hideout Section-->
  <System:String x:Key="FuelConsumptionRate">Споживання палива:</System:String>
  <System:String x:Key="NoFuelMult">Ефективність без палива:</System:String>
  <System:String x:Key="AirFilterRate">Ефективність повітряного фільтра:</System:String>
@@ -289,6 +293,7 @@ TUE Stash та Gamma
  <System:String x:Key="InsuranceMaximumTime">Максимальний час повернення страхування в годинах:</System:String>
  <System:String x:Key="InsuranceInterval">Часовий інтервал перевірки на страхування за секунди:</System:String>
  <System:String x:Key="InsuranceTimeOverride">Змінити страхування, щоб працювало в секундах:</System:String>
+ <System:String x:Key="InsuranceAttachmentChance">Шанс того що у вас не знімуть модулі з зброї в %</System:String>
  <System:String x:Key="HealMarkup">Націнка на лікування</System:String>
  <!--Repair Section-->
  <System:String x:Key="Repair">Ремонт</System:String>
@@ -424,6 +429,7 @@ TUE Stash та Gamma
  <System:String x:Key="KillaFactory">Кілла на Заводі та його шанс спавна:</System:String>
  <System:String x:Key="SnowEvent">Сніг</System:String>
  <System:String x:Key="Halloween">Хелловін</System:String>
+ <System:String x:Key="DisableZombies">Вимкнути зомбі</System:String>
  <System:String x:Key="Christmas">Різдво</System:String>
  <System:String x:Key="DisableEvents">Вимкнути поточні події</System:String>
  <System:String x:Key="TagillaInterchange">Тагілла сопроводжуе кіллу у Развязці</System:String>
@@ -485,6 +491,7 @@ TUE Stash та Gamma
  <System:String x:Key="BundleOfferChance">Шанс того що пропозиція буде з пачкою предметів у %:</System:String>
  <!--CSM Section-->
  <System:String x:Key="Cases">Контейнери</System:String>
+ <System:String x:Key="RemoveFilters">NEEDTRANSLATION</System:String>
  <System:String x:Key="MoneyCase">Грошовий кейс:</System:String>
  <System:String x:Key="SimpleWallet">Простий гаманець:</System:String>
  <System:String x:Key="WZWallet">WZ Гаманець:</System:String>
@@ -577,9 +584,8 @@ TUE Stash та Gamma
  <System:String x:Key="FriendlyBosses">Всі Боси завжди ворожі</System:String>
  <System:String x:Key="HostileBosses">Всі Боси завжди дружелюбні</System:String>
  <System:String x:Key="ScavTimer">Час відкату Дикого в секундах:</System:String>
+ <System:String x:Key="ScavStats">Характеристики Дикого</System:String>
  <System:String x:Key="CarBaseStanding">Репутація за спільний/машина вихід:</System:String>
- <System:String x:Key="StandingFriendlyKill">Репутація за вбивство іншого Дикого:</System:String>
- <System:String x:Key="StandingPMCKill">Репутація за вбивство ПВК:</System:String>
  <!--Bots Section-->
  <System:String x:Key="BotsSpawnChance">Шанси спавна босів та спец типів ШІ</System:String>
  <System:String x:Key="BotsArmorDurab">Міцність спорядження ШІ</System:String>
@@ -788,6 +794,9 @@ TUE Stash та Gamma
 ШІ ПВК все ще можуть перетворитися з рейдерів, тому майте на увазі</System:String>
  <System:String x:Key="SnowEvent_TT">Змінює тільки погоду</System:String>
  <System:String x:Key="Halloween_TT">Вмикає святкове освітлення в сховищі, змінює поведінку та спавни Зрячого, добавляє тематичну здобич в ШІ.</System:String>
+ <System:String x:Key="DisableZombies_TT">Вимикає зомбі під час свята, по замовчуванню вони є.
+Нічого не робить якщо свято не активно.</System:String>
+ <System:String  xml:space="preserve" x:Key="RandomInfectionLevel_TT">При запуску серверу локації отримають випадкові рівні інфекції </System:String>
  <System:String xml:space="preserve" x:Key="Christmas_TT">Вмикає святкове освітлення, дарує різдвяний подарунок. Вмикає сніг, вмикає спавн Санта Клауса, добавляє тематичну здобич в ШІ. </System:String>
  <System:String xml:space="preserve" x:Key="HealthResortIncludeGuards_TT">Дуже не рекомендується, це скоріше стрес тест ніж опція
 У вас буде більше 30 ШІ в одному місці, Я попередив</System:String>

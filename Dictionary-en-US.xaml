@@ -218,6 +218,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="WeightChanger">Items Weight:</System:String>
  <System:String x:Key="MalfunctChanceMult">Weapon malfunction chance:</System:String>
  <System:String x:Key="MisfireChance">Weapon misfire chance:</System:String>
+ <System:String x:Key="FragmentMult">Bullet fragmentation chance:</System:String>
  <System:String x:Key="ExamineKeys">Including keys</System:String>
  <System:String x:Key="WeaponHeatOff">Turn off weapon overheat</System:String>
  <System:String x:Key="SMGToHolster">Allow SMGs in holster slot</System:String>
@@ -233,7 +234,8 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
 
  <!--Keys Section-->
  <System:String x:Key="Keys">Keys:</System:String>
- <System:String x:Key="RemoveKeysUsageNumber">Infinite uses for keys and keycards</System:String>
+ <System:String x:Key="InfiniteKeycards">Infinite uses for keycards</System:String>
+ <System:String x:Key="InfiniteKeys">Infinite uses for keys</System:String>
  <System:String x:Key="AvoidSingleKeys">Except Single-use keys</System:String>
  <System:String x:Key="AvoidMarkedKeys">Except keys for marked rooms</System:String>
  <System:String x:Key="KeyUseMult">Multiplier of keys uses:</System:String>
@@ -254,7 +256,10 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="RoublesOrDefault">Roubles:</System:String>
  <!--Individual Item Changer Section-->
  <System:String x:Key="Changer">Individual item changer (Read FAQ)</System:String>
-
+ <System:String x:Key="IDDefault">Default IIC:</System:String>
+ <System:String x:Key="IDParent">Change everything by Parent ID:</System:String>
+ <System:String x:Key="IDPrice">Change/Add price in a handbook:</System:String>
+ <System:String x:Key="IDFilter">Push an ID into Filter:</System:String>
  <!--Hideout Section-->
  <System:String x:Key="FuelConsumptionRate">Fuel consumption rate:</System:String>
  <System:String x:Key="NoFuelMult">Efficiency multiplier with no fuel:</System:String>
@@ -333,6 +338,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="InsuranceMaximumTime">Maximum time for insurance return in hours:</System:String>
  <System:String x:Key="InsuranceInterval">Time interval to check for insurance in seconds:</System:String>
  <System:String x:Key="InsuranceTimeOverride">Override insurance time to seconds:</System:String>
+ <System:String x:Key="InsuranceAttachmentChance">Chance your attachments won't be stripped in % </System:String>
  <System:String x:Key="HealMarkup">Heal Markup</System:String>
  <!--Repair Section-->
  <System:String x:Key="Repair">Repair</System:String>
@@ -350,8 +356,8 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <!--Clothing Section-->
  <System:String x:Key="Clothing">Clothing</System:String>
  <System:String x:Key="ClothesAnySide">Unlock each side's apparel</System:String>
- <System:String x:Key="ClothesFree">All the offers are free</System:String>
- <System:String x:Key="ClothesLevelUnlock">Removes level and standing requirement from offers</System:String>
+ <System:String x:Key="ClothesFree">All clothing is free</System:String>
+ <System:String x:Key="ClothesLevelUnlock">Remove all prerequisites to buy clothing</System:String>
  <!--Healing Section-->
  <System:String x:Key="HealthMarkup">Health Markup</System:String>
  <System:String x:Key="FreeHealLvl">Free healing until you reach level:</System:String>
@@ -472,6 +478,9 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="GoonsFactory">Goons in Factory and their spawn chance:</System:String>
  <System:String x:Key="KillaFactory">Killa in Factory and his spawn chance:</System:String>
  <System:String x:Key="Halloween">Halloween</System:String>
+ <System:String x:Key="DisableZombies">Disable zombies</System:String>
+ <System:String x:Key="RandomInfectionLevel">Randomise infection level</System:String>
+
  <System:String x:Key="Christmas">Christmas</System:String>
  <System:String x:Key="DisableEvents">Disable ongoing events</System:String>
  <System:String x:Key="TagillaInterchange">Killa spawns with Tagilla on Interchange</System:String>
@@ -537,6 +546,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  
  <!--CSM Section-->
  <System:String x:Key="Cases">Cases</System:String>
+ <System:String x:Key="RemoveFilters">Remove Filters</System:String>
  <System:String x:Key="MoneyCase">Money Case:</System:String>
  <System:String x:Key="SimpleWallet">Simple Wallet:</System:String>
  <System:String x:Key="WZWallet">WZ Wallet:</System:String>
@@ -632,9 +642,9 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="FriendlyBosses">Make SCAV Bosses always hostile</System:String>
  <System:String x:Key="HostileBosses">Make SCAV Bosses peaceful towards you</System:String>
  <System:String x:Key="ScavTimer">Scav run cooldown in seconds:</System:String>
+ <System:String x:Key="ScavStats">SCAV stats</System:String>
  <System:String x:Key="CarBaseStanding">Standing for Car/Coop exfil:</System:String>
- <System:String x:Key="StandingFriendlyKill">Standing for friendly kill:</System:String>
- <System:String x:Key="StandingPMCKill">Standing for PMC kill:</System:String>
+
  <!--<System:String x:Key="Levels">Alpha:</System:String>
  <System:String x:Key="Levels">Alpha:</System:String>
  <System:String x:Key="Levels">Alpha:</System:String>-->
@@ -857,7 +867,10 @@ AI PMC still can be converted from raiders so be aware</System:String>
  <System:String xml:space="preserve" x:Key="HealthResortIncludeGuards_TT">Highly not recommended, this is more of a stress test than a feature
 You'll have more than 30 AI in a single area, you've been warned</System:String>
  <System:String xml:space="preserve" x:Key="Halloween_TT">Halloween event - enables event exclusive lights in hideout, 
-alters Zryachiy behavior and spawns, adds event loot into AI</System:String>
+alters Zryachiy behavior and spawns, adds event loot into AI, adds ritual mechanic</System:String>
+ <System:String  xml:space="preserve" x:Key="DisableZombies_TT">Disable zombies when halloween is enabled, by default they are on
+ Won't do anything if halloween is disabled</System:String>
+ <System:String  xml:space="preserve" x:Key="RandomInfectionLevel_TT">Randomises infection level in locations on server startup</System:String>
  <System:String xml:space="preserve" x:Key="Christmas_TT">Christmas event - enables event exclusive lights in hideout, gives you a christmas gift, 
 enables snow, enable the ability for Santa Claus to spawn, adds event loot into AI</System:String>
  <System:String  xml:space="preserve" x:Key="Types_TT">Daily missions splits into 3 types: Extermination, Completion, Exploration

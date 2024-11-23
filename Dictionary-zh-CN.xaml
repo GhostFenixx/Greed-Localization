@@ -255,7 +255,6 @@ SCAV section tooltips were in code but not binded to fields
  <System:String x:Key="ItemIDWeb">物品ID查询网站</System:String>
  <System:String x:Key="ModWeb">Mod 网页</System:String>
  <System:String x:Key="KoFi">Ko-Fi捐款链接</System:String>
- <System:String x:Key="EmuRC">EmutarkovRC Discord</System:String>
  <System:String x:Key="Fika">Project Fika Discord</System:String>
  <System:String x:Key="WikiPage">塔科夫维基百科Wiki</System:String>
 
@@ -271,6 +270,7 @@ SCAV section tooltips were in code but not binded to fields
  <System:String x:Key="WeightChanger">物品重量 系数:</System:String>
  <System:String x:Key="MalfunctChanceMult">武器故障 概率:</System:String>
  <System:String x:Key="MisfireChance">武器卡壳 概率:</System:String>
+ <System:String x:Key="FragmentMult">NEEDTRANSLATION:</System:String>
  <System:String x:Key="ExamineKeys">包括 钥匙</System:String>
  <System:String x:Key="WeaponHeatOff">武器过热 禁用</System:String>
  <System:String x:Key="SMGToHolster">允许 冲锋枪 放入 副武器栏</System:String>
@@ -286,7 +286,9 @@ SCAV section tooltips were in code but not binded to fields
 
  <!--Keys Section-->
  <System:String x:Key="Keys">钥匙</System:String>
- <System:String x:Key="RemoveKeysUsageNumber">钥匙/钥匙卡 无限次使用</System:String>
+ <!--<System:String x:Key="RemoveKeysUsageNumber">钥匙/钥匙卡 无限次使用</System:String>-->
+ <System:String x:Key="InfiniteKeycards">NEEDTRANSLATION</System:String>
+ <System:String x:Key="InfiniteKeys">NEEDTRANSLATION</System:String>
  <System:String x:Key="AvoidSingleKeys">除一次性钥匙</System:String>
  <System:String x:Key="AvoidMarkedKeys">除邪教符号钥匙</System:String>
  <System:String x:Key="KeyUseMult">钥匙使用次数 倍率:</System:String>
@@ -307,6 +309,10 @@ SCAV section tooltips were in code but not binded to fields
  <System:String x:Key="RoublesOrDefault">卢布:</System:String>
  <!--Individual Item Changer Section-->
  <System:String x:Key="Changer">独立物品修改 (详见 常见问题)</System:String>
+ <System:String x:Key="IDDefault">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="IDParent">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="IDPrice">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="IDFilter">NEEDTRANSLATION:</System:String>
 
  <!--Hideout Section-->
  <System:String x:Key="FuelConsumptionRate">燃料 消耗倍率:</System:String>
@@ -386,6 +392,7 @@ SCAV section tooltips were in code but not binded to fields
  <System:String x:Key="InsuranceMaximumTime">保险回保 最长时间(小时):</System:String>
  <System:String x:Key="InsuranceInterval">检查保险 间隔时间(秒):</System:String>
  <System:String x:Key="InsuranceTimeOverride">保险 覆盖时间(秒):</System:String>
+ <System:String x:Key="InsuranceAttachmentChance">NEEDTRANSLATION</System:String>
  <System:String x:Key="HealMarkup">治疗加价</System:String>
  <!--Repair Section-->
  <System:String x:Key="Repair">维修</System:String>
@@ -525,6 +532,8 @@ SCAV section tooltips were in code but not binded to fields
  <System:String x:Key="GoonsFactory">工厂 三狗刷新概率:</System:String>
  <System:String x:Key="KillaFactory">工厂 Killa刷新概率:</System:String>
  <System:String x:Key="Halloween">万圣节活动</System:String>
+ <System:String x:Key="DisableZombies">NEEDTRANSLATION</System:String>
+ <System:String x:Key="RandomInfectionLevel">NEEDTRANSLATION</System:String>
  <System:String x:Key="Christmas">圣诞节活动</System:String>
  <System:String x:Key="DisableEvents">关闭正在进行的活动事件</System:String>
  <System:String x:Key="GlukharLabs">实验室 生成格鲁哈</System:String>
@@ -589,6 +598,7 @@ SCAV section tooltips were in code but not binded to fields
 
  <!--CSM Section-->
  <System:String x:Key="Cases">容器 / 箱子</System:String>
+ <System:String x:Key="RemoveFilters">NEEDTRANSLATION</System:String>
  <System:String x:Key="MoneyCase">钱箱:</System:String>
  <System:String x:Key="SimpleWallet">简易钱包:</System:String>
  <System:String x:Key="WZWallet">WZ钱包:</System:String>
@@ -625,8 +635,8 @@ SCAV section tooltips were in code but not binded to fields
  <System:String x:Key="Pockets">PMC口袋:</System:String>
  <System:String x:Key="SpecsAmount">特殊装备栏槽位数量:</System:String>
  <System:String x:Key="Size">大小:</System:String>
- <System:String x:Key="Width">Width:</System:String>
- <System:String x:Key="Height">Height:</System:String>
+ <System:String x:Key="Width">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="Height">NEEDTRANSLATION:</System:String>
  <System:String x:Key="Columns">列:</System:String>
  <System:String x:Key="FirstCell">1号口袋:</System:String>
  <System:String x:Key="SecondCell">2号口袋:</System:String>
@@ -683,9 +693,8 @@ SCAV section tooltips were in code but not binded to fields
  <System:String x:Key="FriendlyBosses">无条件 敌对Boss</System:String>
  <System:String x:Key="HostileBosses">无条件 友好Boss</System:String>
  <System:String x:Key="ScavTimer">Scav冷却时间（秒）:</System:String>
+ <System:String x:Key="ScavStats">NEEDTRANSLATION</System:String>
  <System:String x:Key="CarBaseStanding">载具/合作撤离 基础声望:</System:String>
- <System:String x:Key="StandingFriendlyKill">友军击杀 声望:</System:String>
- <System:String x:Key="StandingPMCKill">PMC击杀 声望:</System:String>
 
  <!--Bots Section-->
  <System:String x:Key="BotsSpawnChance">Boss/精英AI 刷新概率</System:String>
@@ -908,6 +917,8 @@ SCAV section tooltips were in code but not binded to fields
 会导致单个区域内出现超过30个AI，请慎重修改</System:String>
  <System:String xml:space="preserve" x:Key="Halloween_TT">万圣节活动：启动藏身处的活动专属灯光，
 修改兹利亚奇Zryachiy的行为和刷出，AI将携带活动物品</System:String>
+ <System:String xml:space="preserve" x:Key="DisableZombies_TT">NEEDTRANSLATION</System:String>
+ <System:String  xml:space="preserve" x:Key="RandomInfectionLevel_TT">NEEDTRANSLATION</System:String>
  <System:String xml:space="preserve" x:Key="Christmas_TT">圣诞节活动：启动藏身处的活动专属灯光，并赠送一个圣诞礼物，
 启动下雪天气，启动圣诞老人的概率刷新功能，AI将携带活动物品</System:String>
  <System:String  xml:space="preserve" x:Key="Types_TT">每日任务分为3种类型：Elimination歼灭、Completion寻物上交、Exploration撤离地点
