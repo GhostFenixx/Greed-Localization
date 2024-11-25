@@ -213,10 +213,10 @@ TUE Stash и Gamma
     <System:String x:Key="RoublesOrDefault">Рубли:</System:String>
  <!--Individual Item Changer Section-->
  <System:String x:Key="Changer">Индивидуальный редактор предметов (Читай FAQ)</System:String>
- <System:String x:Key="IDDefault">Default IIC:</System:String>
- <System:String x:Key="IDParent">Change everything by Parent ID:</System:String>
- <System:String x:Key="IDPrice">Change/Add price in a handbook:</System:String>
- <System:String x:Key="IDFilter">Push an ID into Filter:</System:String>
+ <System:String x:Key="IDDefault">Стандартный IIC:</System:String>
+ <System:String x:Key="IDParent">Изменить всё по Parent ID:</System:String>
+ <System:String x:Key="IDPrice">Добавить/Изменить цену предмета:</System:String>
+ <System:String x:Key="IDFilter">Добавить ID в его Фильтр:</System:String>
  <!--Hideout Section-->
 
  <System:String x:Key="FuelConsumptionRate">Потребление Топлива:</System:String>
@@ -428,6 +428,7 @@ TUE Stash и Gamma
  <System:String x:Key="KillaFactory">Килла на Заводе и его шанс спавна:</System:String>
  <System:String x:Key="Halloween">Хэллоуин</System:String>
  <System:String x:Key="DisableZombies">Выключить зомби</System:String>
+ <System:String x:Key="RandomInfectionLevel">Случайный уровень заражения</System:String>
  <System:String x:Key="Christmas">Рождество</System:String>
  <System:String x:Key="DisableEvents">Отключить текущие события</System:String>
  <System:String x:Key="TagillaInterchange">Тагилла сопровождает Киллу в Развязке</System:String>
@@ -491,7 +492,7 @@ TUE Stash и Gamma
  <System:String x:Key="BundleOfferChance">Шанс того что предложение будет с пачкой предметов в %:</System:String>
  <!--CSM Section-->
  <System:String x:Key="Cases">Контейнеры</System:String>
- <System:String x:Key="RemoveFilters">NEEDTRANSLATION</System:String>
+ <System:String x:Key="RemoveFilters">Удалить фильтры</System:String>
  <System:String x:Key="MoneyCase">Денежный кейс:</System:String>
  <System:String x:Key="SimpleWallet">Простой бумажник:</System:String>
  <System:String x:Key="WZWallet">WZ Бумажник:</System:String>
@@ -804,6 +805,7 @@ TUE Stash и Gamma
   изменяет поведение и спавны зрячего, добавляет тематический лут в ИИ</System:String>
  <System:String  xml:space="preserve" x:Key="DisableZombies_TT">Выключает зомби при хэллоуине, по умолчанию они есть.
 Само по себе ничего не делает если событие отключено Disable zombies</System:String>
+ <System:String  xml:space="preserve" x:Key="RandomInfectionLevel_TT">Randomises infection level in locations on server startup</System:String>
  <System:String xml:space="preserve" x:Key="Christmas_TT">Включает праздничное освещение в убежище, дарит рождественнский подарок 
 Включает снег, включает спавн Санты Клауса, добавляет тематический лут в ИИ</System:String>
  <System:String xml:space="preserve" x:Key="QuestSwitch_TT">ВНИМАНИЕ: Это не изменит недавно принятые квесты</System:String>
