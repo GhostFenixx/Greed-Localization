@@ -560,7 +560,8 @@ TUE Stash та Gamma
  <System:String x:Key="RewardSpread">Множник мінімальної нагороди:</System:String>
 
  <System:String x:Key="Types">Типи місій:</System:String>
-
+ 
+ <System:String x:Key="RewardScale">Степені наград від рівня</System:String>
  <System:String x:Key="Levels">Рівні:</System:String>
  <System:String x:Key="Experience">Досвід:</System:String>
  <System:String x:Key="ItemsReward">Предмети:</System:String>

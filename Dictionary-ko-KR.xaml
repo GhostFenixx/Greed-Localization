@@ -5,9 +5,8 @@
 Independent Application made by GhostFenixx
 Using VS 2022 Tools on .NET 6 + ModernWPF Library By Kinnara
 https://github.com/Kinnara/ModernWpf
-Shared by CC BY-NC-ND License
-For more info: read license on - creativecommons.org
-It allows you to share, but not modify/build upon or commercially distribute(Read Sell).
+Shared by Personal Use Source License (PUSL) License
+For more info: read license on - https://github.com/GhostFenixx/Greed?tab=License-1-ov-file#readme
 </System:String>
  <System:String xml:space="preserve" x:Key="DisclaimerText">면책 조항
 이 애플리케이션은 비디오 게임 "Escape from Tarkov"의 미디어 및/또는 자료를 사용하며, https://escapefromtarkov.fandom.com/을 통해 접근할 수 있는 공식 게임 위키로 연결되는 링크를 포함합니다.
@@ -30,19 +29,20 @@ BattleStateGames - 해당 아이콘들을 만든 회사.
 KMC - SPT 웹사이트에 모드 재업로드.
 Nexus4880 - 케이스 크기 설정용 'Hide Special Icon' 플러그인 제작자
 Fire Hawk, Z3R0, Tabi - 테스터, 피드백 제공
-G10rgos, DaveyB0y, Fortis, olli991, Kain187 - 기부자
+G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains - Donations - 기부자
 현지화:
 한국어 - 루퍼, 고라니
 우크라이나어 - celebrutu
+중국어 - Volcano
 버그 리포트, UI 관련 피드백 제공, 다른 사용자들의 문제 해결 지원 등 어떤 형태로든 프로젝트에 도움을 주신 모든 분들께 감사드립니다.
 </System:String>
  <System:String xml:space="preserve" x:Key="ChangelogText">I Will not include logs from previous versions on major releases.
   1.9.0 For SPT 3.9.0-2
   Added: 
-  Bosses on Health Resort, 
+  Bosses on Health Resort event, (including an option field to include guards, if you have a death wish)
   Skier/Peacekeeper squad chances (Event),
   New fields to insurance, 
-  New fields to accomodate new version of EFT - Additions to Ground Zero,
+  New fields to accommodate new version of EFT - Additions to Ground Zero,
   Ukrainian and Korean localizations - by celebrutu and 루퍼, 고라니
   
   Reworked:
@@ -50,9 +50,11 @@ G10rgos, DaveyB0y, Fortis, olli991, Kain187 - 기부자
   AI PMC margin was split into two fields
   Insurance price multipliers were expanded to contain the field per trader levels.
   Reverted the functionality on flea option for selling items with 'Found in raid' tag, instead of removing that option - it does the opposite.
+  Bosses on Reserve were changed - now Tagilla is there by default and there is optional field to add bosses from Streets.
+  
   Fixed:
   SCAV pockets/health to not reroll scav on extract.
-  Cases dissapearance
+  Cases disappearance
   UI fixes related to presets.
   Pockets compatibility with UI Fixes
   PMC names and karma weren't pointing to all possible places
@@ -66,7 +68,6 @@ G10rgos, DaveyB0y, Fortis, olli991, Kain187 - 기부자
   Added: 
 TUE Stash and Gamma
 New section enablers for Currency, Cases and Secure cases.
-  
   Reworked:
 Currency section was reworked: GP Coin was added but BSG currency design was removed due to fact i cannot scale with coins.
 Holiday events and snow were reworked and now posses mostly full functionality that SPT has to offer.
@@ -77,6 +78,40 @@ SCAV regenerate even if you did a PMC run
 SCAV section tooltips were in code but not binded to fields
 [H1] Currency Enabler wasn't saving properly
 [H1] Missing Ukrainian tooltips in Events
+  
+  1.10.0 For SPT 3.10.0
+  Added:
+  Repeatable quests - now contains fields related to scaled reward
+  Additional switchers
+  Popup confirmation for re-saving a preset within same name
+  New fields in Custom section
+  New event - Tagilla follows Killa in interchange.
+  Partisan in Bots section.
+  Jaeger and Ref can be unlocked by default.
+  New lines for weirdos to read when server initializes.
+  Chinese Localization by Volcano.
+  GitHub integration
+  Individual Item Changer expansion
+  Stats to Scavs
+  Events related to zombies
+  Misc fields in flea and items
+  Removed:
+  Standing per kills
+  
+  Changed:
+  Default adjustments to match default 3.10 SPT.
+  Airdrops were rewritten to accommodate 3.10 changes.
+  FleaMarket>Price range got recolored to yellow to accommodate new tooltip adjusted to it.
+  SVM's code was revamped pretty heavy(400 lines less), waves and misc stuff were taken out of code space to separate .json files.
+  Scav Pockets ID will be changed to accommodate Mongo ID enforcement. My fault they weren't already tbh.
+  Patched HideSpecialIcon plugin to work under new EFT clients.
+  Changes to `Remove Assort` options, instead of removing them - it would set them to 0
+  To avoid issues with modded traders.
+  CSM>Custom pockets were changed to reduce causes of `nulled` pockets and straight-up the way to turn pockets back if custom option is not present.
+  Signal pistol to pockets - Added TUE pockets to be affected by that option as well - thanks to DiZek.
+  Fixes:
+  Ground Zero fields.
+  Health markup was applying too little values in backend.
  </System:String>
  <!--MessageBoxes and/or Exception handlers-->
  <System:String xml:space="preserve" x:Key="SVMWrongInstallation">SVM이 올바르게 설치되지 않았습니다. "user\mods" 경로에 위치해 있지 않습니다.
@@ -97,6 +132,8 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
 앞으로 이 메시지를 피하려면 프리셋에 고유한 이름을 지정하는 것이 어떨까요?</System:String>
  <System:String xml:space="preserve" x:Key="NonameLoaded">프리셋 필드가 비어 있어 무명 프리셋이 로드되었습니다.
 이 메시지를 피하려면 사용자 지정 이름으로 프리셋을 저장하고 선택하세요.</System:String>
+ <System:String xml:space="preserve" x:Key="OverridePreset">해당 이름의 프리셋이 이미 존재합니다.
+덮어쓰시겠습니까?</System:String>
  <System:String xml:space="preserve" x:Key="RunFailed">문제가 발생했습니다.
 서버와 런처가 게임과 같은 폴더에 위치하지 않은 것 같습니다.</System:String>
  <System:String xml:space="preserve" x:Key="ApplyFailedUnknown">작업이 취소되었습니다.
@@ -108,6 +145,8 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String xml:space="preserve" x:Key="SPTLink">'OK'버튼을 눌러 SPT Hub(현재 SPT 개발 허브)를 방문하세요.
 [주의 - 브라우저가 실행됩니다]</System:String>
  <System:String xml:space="preserve" x:Key="KofiLink">'OK'버튼을 눌러 Kofi.com(개발자를 후원할 수 있는 곳)을 방문하세요.
+[주의 - 브라우저가 실행됩니다]</System:String>
+ <System:String xml:space="preserve" x:Key="GitHubLink">'OK'버튼을 눌러 Github.com을 방문하세요. - 발견한 문제를 보고할 수 있습니다.
 [주의 - 브라우저가 실행됩니다]</System:String>
  <System:String xml:space="preserve" x:Key="FikaLink">'OK'버튼을 눌러 Project Fika Discord(GhostFenixx가 속한 SPT 커뮤니티 중 하나)를 방문하세요.
 [주의 - 브라우저가 실행됩니다]</System:String>
@@ -167,7 +206,9 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String x:Key="ItemIDWeb">ID Item Finder 사이트</System:String>
  <System:String x:Key="ModWeb">모드 페이지</System:String>
  <System:String x:Key="KoFi">Ko-Fi 기부 링크</System:String>
- <System:String x:Key="Fika">Project Fika 디스코드</System:String>
+ <System:String x:Key="GitHub">GitHub 이슈(issue) 보고하기</System:String>
+ <System:String x:Key="EmuRC">EmutarkovRC 디스코드</System:String>
+  <System:String x:Key="Fika">Project Fika 디스코드</System:String>
  <System:String x:Key="WikiPage">타르코프 위키</System:String>
 
  <!--Preset Notes Initial Text-->
@@ -182,7 +223,7 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String x:Key="WeightChanger">아이템 무게 :</System:String>
  <System:String x:Key="MalfunctChanceMult">무기 오작동 확률 :</System:String>
  <System:String x:Key="MisfireChance">무기 불발 확률 :</System:String>
- <System:String x:Key="FragmentMult">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="FragmentMult">탄환 파편화 확률:</System:String>
  <System:String x:Key="ExamineKeys">모든 열쇠(키) 조사 완료</System:String>
  <System:String x:Key="WeaponHeatOff">무기 과열 기능 끄기</System:String>
  <System:String x:Key="SMGToHolster">권총 슬롯에 기관단총(SMG) 장착 허용</System:String>
@@ -198,9 +239,8 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
 
  <!--Keys Section-->
  <System:String x:Key="Keys">열쇠(키) 설정 :</System:String>
- <!-- <System:String x:Key="RemoveKeysUsageNumber">열쇠(키) / 키카드 횟수 제한 삭제(무제한)</System:String>-->
- <System:String x:Key="InfiniteKeycards">NEEDTRANSLATION</System:String>
- <System:String x:Key="InfiniteKeys">NEEDTRANSLATION</System:String>
+ <System:String x:Key="InfiniteKeycards">키카드 무제한 사용</System:String>
+ <System:String x:Key="InfiniteKeys">열쇠(키) 무제한 사용</System:String>
  <System:String x:Key="AvoidSingleKeys">1회용 열쇠(키) 제외</System:String>
  <System:String x:Key="AvoidMarkedKeys">마크방 열쇠(키) 제외</System:String>
  <System:String x:Key="KeyUseMult">열쇠(키) 사용 횟수 배수 :</System:String>
@@ -221,10 +261,11 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String x:Key="RoublesOrDefault">루블 :</System:String>
  <!--Individual Item Changer Section-->
  <System:String x:Key="Changer">개별 아이템 편집기 (FAQ를 읽어주세요.)</System:String>
- <System:String x:Key="IDDefault">NEEDTRANSLATION:</System:String>
- <System:String x:Key="IDParent">NEEDTRANSLATION:</System:String>
- <System:String x:Key="IDPrice">NEEDTRANSLATION:</System:String>
- <System:String x:Key="IDFilter">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="IDDefault">기본 IIC:</System:String>
+ <System:String x:Key="IDParent">부모 ID로 모든 항목 변경:</System:String>
+ <System:String x:Key="IDPrice">핸드북에서 가격 변경/추가:</System:String>
+ <System:String x:Key="IDFilter">필터에 ID 추가:</System:String>
+
 
  <!--Hideout Section-->
  <System:String x:Key="FuelConsumptionRate">연료 소비율 :</System:String>
@@ -260,7 +301,7 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String x:Key="StashLvl2">창고 레벨 2(레프트 비하인드 에디션) :</System:String>
  <System:String x:Key="StashLvl3">창고 레벨 3(프레퍼어 포 이스케이프 에디션) :</System:String>
  <System:String x:Key="StashLvl4">창고 레벨 4(엣지 오브 다크니스 에디션 - EOD) :</System:String>
- <System:String x:Key="StashTUE">The Unheard Edition:</System:String>
+ <System:String x:Key="StashTUE">언허드 에디션:</System:String>
 
  <!--Traders Section-->
  <System:String x:Key="TradersMisc">상인 기타 설정</System:String>
@@ -295,7 +336,7 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
 
  <!--Services Section--> 
  <!--insurance Section-->
- <System:String x:Key="Insurance">보험</System:String>
+ <System:String x:Key="Insurance">보험 설정</System:String>
  <System:String x:Key="InsuranceStorageTime">보험 임시 보관함 유지 시간 (단위:시간) :</System:String>
  <System:String x:Key="InsuranceTradersTime">상인별 보험 반환 시간 (단위:시간):</System:String>
  <System:String x:Key="InsuranceTradersChance">보험 반환 확률 (%) :</System:String>
@@ -304,7 +345,7 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String x:Key="InsuranceMaximumTime">보험 반환 최대 시간 (단위:시간) :</System:String>
  <System:String x:Key="InsuranceInterval">서버가 프로필에서 보험을 확인하는 시간 간격 (단위:초) :</System:String>
  <System:String x:Key="InsuranceTimeOverride">보험이 다시 돌아오는 시간 (단위:초) :</System:String>
- <System:String x:Key="InsuranceAttachmentChance">NEEDTRANSLATION</System:String>
+ <System:String x:Key="InsuranceAttachmentChance">부착물이 분실되지 않을 확률 (단위:%):</System:String>
  <System:String x:Key="HealMarkup">힐 마크업</System:String>
  <!--Repair Section-->
  <System:String x:Key="Repair">수리 설정</System:String>
@@ -320,7 +361,7 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String x:Key="NoPermDamageWeapon">무기 수리 시 내구도가 소모되지 않음</System:String>
  <System:String x:Key="NoPermDamageArmor">방어구 수리 시 내구도가 마모되지 않음</System:String>
  <!--Clothing Section-->
- <System:String x:Key="Clothing">의상</System:String>
+ <System:String x:Key="Clothing">의상 설정</System:String>
  <System:String x:Key="ClothesAnySide">각 진영 의상 잠금 해제</System:String>
  <System:String x:Key="ClothesFree">모든 의상 무료</System:String>
  <System:String x:Key="ClothesLevelUnlock">의상의 레벨 및 평판 요구 사항 삭제</System:String>
@@ -413,20 +454,21 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String x:Key="GearExtract">RR 및 파라코드 필요 탈출구 요구 조건 제거</System:String>
  <System:String x:Key="ArmorExtract">방어구 관련 탈출구 조건 제한 제거</System:String>
  <System:String x:Key="NoBackpack">배낭 관련 탈출구 조건 제한 제거</System:String>
+  <!--Coop/Car Section-->
  <System:String x:Key="FreeCoop">협동 탈출구 제한 없음</System:String>
  <System:String x:Key="CoopPaid">협동 탈출구 화폐 지불</System:String>
  <System:String x:Key="FenceGift">협동 탈출구 탈출 시 펜스 선물 비활성화</System:String>
  <System:String x:Key="CarExtractTime">택시 탈출 대기 시간 (단위:초)</System:String>
  <System:String x:Key="CoopExitPrices">협동 탈출 지불 가격</System:String>
  <System:String x:Key="CarExitPrices">택시 탈출 지불 가격</System:String>
+ <System:String x:Key="CarAndCoop">택시/협동 탈출구 설정</System:String>
 
  <!--BTR Section-->
- <System:String x:Key="BTR">BTR</System:String>
+ <System:String x:Key="BTR">BTR 설정</System:String>
  <System:String x:Key="ForceBTRStash">BTR 인벤토리 강제 크기</System:String>
  <System:String x:Key="ForceBTRFriendly">BTR 항상 상호 작용 가능</System:String>
  <System:String x:Key="BTRTaxiPrice">기본 택시(이동) 가격(루블):</System:String>
  <System:String x:Key="BTRCoverPrice">기본 지원 사격 가격(루블):</System:String>
- 
  <System:String x:Key="BTRPriceMult">진영별 가격 배율:</System:String>
  <System:String x:Key="Usec">USEC:</System:String>
  <System:String x:Key="Bear">BEAR:</System:String>
@@ -442,8 +484,8 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String x:Key="GoonsFactory">군즈 팩토리(공장) 생성 확률 :</System:String>
  <System:String x:Key="KillaFactory">킬라 팩토리(공장) 생성 확률 :</System:String>
  <System:String x:Key="Halloween">할로윈</System:String>
- <System:String x:Key="DisableZombies">NEEDTRANSLATION</System:String>
- <System:String x:Key="RandomInfectionLevel">NEEDTRANSLATION</System:String>
+ <System:String x:Key="DisableZombies">좀비 이벤트 비활성화</System:String>
+ <System:String x:Key="RandomInfectionLevel">좀비 감염 수준 랜덤 설정</System:String>
  <System:String x:Key="Christmas">크리스마스</System:String>
  <System:String x:Key="DisableEvents">진행 중인 이벤트 비활성화</System:String>
  <System:String x:Key="TagillaInterchange">인터체인지에서 타길라와 함께 킬라 생성</System:String>
@@ -472,6 +514,16 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String x:Key="NoBots">없음</System:String>
  <System:String x:Key="Hard">어려움</System:String>
  <System:String x:Key="Random">무작위</System:String>
+
+<!--Raid Startup Section (Season)-->
+<System:String x:Key="ForceSeason">계절별 날씨 강제 설정</System:String>
+<System:String x:Key="Season">계절 유형:</System:String>
+<System:String x:Key="Summer">여름</System:String>
+<System:String x:Key="Autumn">가을</System:String>
+<System:String x:Key="Winter">겨울</System:String>
+<System:String x:Key="Spring">봄</System:String>
+<System:String x:Key="Storm">폭풍우</System:String>
+ 
  <!--Fleamarket Section-->
  <System:String x:Key="PlayerFlea">플레이어 판매/구매</System:String>
  <System:String x:Key="FleaMarketLevel">플리마켓 활성화 레벨</System:String>
@@ -496,12 +548,12 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String x:Key="FleaConditions">매물 내구도 설정 (단위:%)</System:String>
  <System:String x:Key="OffersRatio">매물 판매에 사용될 통화 비율 (단위:%)</System:String>
  <System:String x:Key="ExpireThreshold">만료된 매물이 n개 이상일 경우 새 매물 생성 :</System:String>
- <System:String x:Key="BundleOfferChance">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="BundleOfferChance">아이템이 묶음으로 등장할 확률 (%):</System:String>
+
 
  <!--CSM Section-->
-
  <System:String x:Key="Cases">보관함 크기 설정</System:String>
- <System:String x:Key="RemoveFilters">NEEDTRANSLATION</System:String>
+ <System:String x:Key="RemoveFilters">필터 제거</System:String>
  <System:String x:Key="MoneyCase">돈 가방(머니케이스) :</System:String>
  <System:String x:Key="SimpleWallet">지갑 :</System:String>
  <System:String x:Key="WZWallet">WZ 지갑 :</System:String>
@@ -540,8 +592,8 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String x:Key="Size">Size:</System:String>
  <!--<System:String x:Key="Rows">열(세로) :</System:String>
  <System:String x:Key="Columns">행(가로) :</System:String>-->
- <System:String x:Key="Width">NEEDTRANSLATION:</System:String>
- <System:String x:Key="Height">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="Width">가로:</System:String>
+ <System:String x:Key="Height">세로:</System:String>
  <System:String x:Key="FirstCell">첫 번째 칸 :</System:String>
  <System:String x:Key="SecondCell">두 번째 칸 :</System:String>
  <System:String x:Key="ThirdCell">세 번째 칸 :</System:String>
@@ -549,6 +601,7 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String x:Key="CasesInSpec">스페셜(spec) 슬롯에 보관함 삽입 가능</System:String>
  <System:String x:Key="InstallCSMPlugin">'HideSpecialIcon'을 설치하려면 여기를 클릭하세요.</System:String>
  <System:String xml:space="preserve" x:Key="InstallCSMPlugin_Tooltip">'Bepinex/plugins' 폴더에 스페셜(spec) 슬롯에 보관함을 삽입하는 플러그인이 설치됩니다.</System:String>
+
 
  <!--Quests Section-->
 
@@ -595,7 +648,7 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String x:Key="FriendlyBosses">스캐브(Scav) 보스를 항상 적대적으로 만들기</System:String>
  <System:String x:Key="HostileBosses">스캐브(Scav) 보스를 평화롭게 만들기</System:String>
  <System:String x:Key="ScavTimer">스캐브(Scav) 재사용 대기시간(단위:초) :</System:String>
- <System:String x:Key="ScavStats">NEEDTRANSLATION</System:String>
+ <System:String x:Key="ScavStats">스캐브(Scav) 스탯 편집기</System:String>
  <System:String x:Key="CarBaseStanding">택시 / 협동 탈출 시 펜스 우호도 :</System:String>
 
  <!--Bots Section-->
@@ -621,7 +674,6 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String x:Key="OverridePMCNames">기본 SPT 이름 제거</System:String>
  <!--Custom Section-->
  <System:String x:Key="Debug">디버그 설정</System:String>
- <!--<System:String x:Key="LoggerIntoServer">서버 내 프리셋 기록</System:String>-->
  <System:String x:Key="CustomFields">사용자 필드</System:String>
  <System:String x:Key="Mailbox">메신저</System:String>
  <System:String x:Key="LoggerIntoServer">서버 로그에 프리셋 기록</System:String>
@@ -692,6 +744,7 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String x:Key="Kaban">카반</System:String>
  <System:String x:Key="Kollontay">콜론테이</System:String>
  <System:String x:Key="Cultist">컬티스트</System:String>
+ <System:String x:Key="Partisan">파르티잔</System:String>
  <!--Unified names of Bots Types-->
  <System:String x:Key="SCAVAI">스캐브</System:String>
  <System:String x:Key="CursedSCAV">배신자 스캐브</System:String>
@@ -822,8 +875,9 @@ AI PMC는 여전히 레이더에서 변환될 수 있으므로 주의하세요.<
 단일 지역에 30명 이상의 AI가 생성되니 주의하세요. 이 점을 명심하시기 바랍니다!</System:String>
  <System:String xml:space="preserve" x:Key="Halloween_TT">은신처에 이벤트 전용 조명을 활성화하고, 
 지라치의 생성과 행동을 변경하며, AI에 이벤트 전리품을 추가합니다.</System:String>
- <System:String  xml:space="preserve" x:Key="DisableZombies_TT">NEEDTRANSLATION</System:String>
- <System:String  xml:space="preserve" x:Key="RandomInfectionLevel_TT">NEEDTRANSLATION</System:String>
+ <System:String  xml:space="preserve" x:Key="DisableZombies_TT">할로윈 이벤트가 활성화된 경우 좀비모드를 비활성화합니다. 기본적으로 좀비모드는 활성화되어 있습니다.
+할로윈 이벤트가 비활성화된 경우 이 설정은 아무런 영향을 미치지 않습니다.</System:String>
+ <System:String  xml:space="preserve" x:Key="RandomInfectionLevel_TT">서버 시작 시 각 위치의 감염 수준을 무작위로 설정합니다.</System:String>
  <System:String xml:space="preserve" x:Key="Christmas_TT">은신처에 이벤트 전용 조명을 활성화하고, 크리스마스 선물을 제공하며, 
 눈을 활성화하고, 산타클로스가 생성될 수 있도록 하며, AI에 이벤트 전리품을 추가합니다.</System:String>
  <System:String  xml:space="preserve" x:Key="Types_TT">일일 미션은 3가지 유형으로 나뉩니다: 섬멸, 완료, 탐험
