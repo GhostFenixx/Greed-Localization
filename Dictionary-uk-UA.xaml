@@ -568,14 +568,14 @@ TUE Stash та Gamma
  <System:String x:Key="Reputation">Репутація:</System:String>
  <System:String x:Key="SkillPoint">Кільість балів навичок:</System:String>
  <System:String x:Key="SkillChance">Шанс отримання балів навичок:</System:String>
- 
- <System:String x:Key="Elimination">Устранение</System:String>
- <System:String x:Key="Exploration">Выйти с локации</System:String>
- <System:String x:Key="Completion">Найти и передать</System:String>
- <System:String x:Key="CompElim">Найти и передать, Устранение</System:String>
- <System:String x:Key="CompExpl">Найти и передать, Выйти с локации</System:String>
- <System:String x:Key="ExplElim">Выйти с локации, Устранение</System:String>
- <System:String x:Key="ExplElimComp">Найти и передать, Выйти с локации, Устранение</System:String>
+
+ <System:String x:Key="Elimination">Усунення</System:String>
+ <System:String x:Key="Exploration">Вийти з локації</System:String>
+ <System:String x:Key="Completion">Найти та передати</System:String>
+ <System:String x:Key="CompElim">Найти та передати, Усунення</System:String>
+ <System:String x:Key="CompExpl">Найти та передати, Вийти з локації</System:String>
+ <System:String x:Key="ExplElim">Вийти з локації, Усунення</System:String>
+ <System:String x:Key="ExplElimComp">Найти та передати,Вийти з локації, Усунення</System:String>
 
  <!--Scav Section-->
  <System:String x:Key="SCAVHealth">Здоров'я Дикого</System:String>
