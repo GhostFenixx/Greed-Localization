@@ -240,6 +240,8 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="NoAccess">无法读取文件。请检查是否为Windows权限问题？</System:String>
  <System:String x:Key="NothingToLoad">无内容加载。未找到预设名。请先创建或选择一个已有预设</System:String>
  <System:String x:Key="NothingToApply">无预设可应用。请先保存或选择一个已有预设</System:String>
+ <System:String xml:space="preserve" x:Key="OverridePreset">有相同名字的预设已经存在
+你是否需要覆盖？</System:String>
  <System:String x:Key="PresetNameFail">无法保存预设。预设名中包含特殊字符</System:String>
  <System:String x:Key="PresetNamedNullError"> 预设名'Null'用于保留未创建预设的情况，请不要将您的预设命名为该名称</System:String>
  <System:String x:Key="RatioError">应用失败：跳蚤市场->AI报价生成设置->各货币报价的比例(百分比) 中的比例总和不为100。卢布，美元和欧元的总和应正好为100</System:String>
@@ -328,7 +330,7 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="ItemPriceMult">全局物品价格 :</System:String>
  <System:String x:Key="HeatFactor">武器发热 系数:</System:String>
  <System:String x:Key="ExamineTime">检视物品 时间:</System:String>
- <System:String x:Key="AmmoLoadSpeed">更换弹匣 时间:</System:String>
+ <System:String x:Key="AmmoLoadSpeed">弹匣填充/卸下子弹 时间:</System:String>
  <System:String x:Key="LootExp">拾取物品 经验:</System:String>
  <System:String x:Key="ExamineExp">检视物品 经验:</System:String>
  <System:String x:Key="WeightChanger">物品重量 系数:</System:String>
@@ -879,7 +881,7 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="SMGToHolster_TT">包括游戏中所有的冲锋枪</System:String>
  <System:String x:Key="ItemPriceMult_TT">乘以物品的基本价格，会影响跳蚤市场和商人买卖的价格</System:String>
  <System:String x:Key="ExamineTime_TT">影响鼠标中键点击未检查物品进行检视时间，不影响搜刮动作</System:String>
- <System:String  xml:space="preserve" x:Key="AmmoLoadSpeed_TT">乘以装填或卸下一发弹药到弹匣所需的时间
+ <System:String  xml:space="preserve" x:Key="AmmoLoadSpeed_TT">在战局中乘以子弹装填或卸下到弹匣所需的时间
 值越小，速度越快</System:String>
  <System:String xml:space="preserve" x:Key="PistolRound_TT">设置单格的最大弹药堆叠数大小
 适用于以下口径：9x18，9x19，9x21，7.65x25，.357(9x33)，.45ACP(11.43x23ACP)，46x30，5.7x28</System:String>
