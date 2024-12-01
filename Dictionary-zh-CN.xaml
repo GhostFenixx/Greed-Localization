@@ -1005,6 +1005,11 @@ Everyone else who provided any kind of support to the project, whether bug repor
 健康值仍会保留上一次更改的设置。因此，若需要重置健康值
 你需要在此处输入默认值，保存，运行一次游戏后并关闭该功能。
 健康值不会在 创建新预设 时应用</System:String>
+ <System:String xml:space="preserve" x:Key="PMCStats_TT">允许你编辑PMC的最大状态值
+注意：更改此设置会应用到预设中，因此即使你后续禁用该功能
+状态值仍会保留上一次更改的设置。因此，若需要重置状态值
+你需要在此处输入默认值，保存，运行一次游戏后并关闭该功能。
+状态值不会在 创建新预设 时应用</System:String>
  <System:String x:Key="Sell_chance_TT">若物品等于预定义价格，则默认的出售概率</System:String>
  <System:String  xml:space="preserve" x:Key="Sell_mult_TT">非线性概率的乘数
 例如：如果你以手册价格低20%的价格出售物品，则乘以（若为默认值）1.24

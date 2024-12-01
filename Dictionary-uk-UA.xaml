@@ -192,8 +192,9 @@ TUE Stash та Gamma
  <System:String x:Key="RaidDrop">Прибирає заборону на викид предметів у рейді</System:String>
  <System:String x:Key="NoGearPenalty">Спорядження без штрафів</System:String>
  <!--Keys Section-->
- <System:String x:Key="Keys">Ключі:</System:String>
- <System:String x:Key="RemoveKeysUsageNumber">Нескінченні ключі та ключ-картки</System:String>
+ <System:String x:Key="Keys">Ключі та ключ-картки:</System:String>
+ <System:String x:Key="InfiniteKeycards">Нескінченні ключ-картки</System:String>
+ <System:String x:Key="InfiniteKeys">Нескінченні ключі</System:String>
  <System:String x:Key="AvoidSingleKeys">Крім одноразових ключів</System:String>
  <System:String x:Key="AvoidMarkedKeys">Крім ключів від мічених кімнат</System:String>
  <System:String x:Key="KeyUseMult">Множник використання ключів:</System:String>
@@ -788,6 +789,11 @@ TUE Stash та Gamma
 при відключенні функції значення буде таким самим, як і в останньому його збережені,
 для скидання доведеться увімкнути цю секцію, виставити за замовчуванням і запустити гру.
 ЗДОРОВ'Я НЕ ЗМІНИТЬСЯ ПРИ СТВОРЕННІ НОВОГО ПРОФІЛЮ</System:String>
+ <System:String xml:space="preserve" x:Key="PMCStats_TT">Дозволяє змінити максимальні характеристики вашого ПВК.
+УВАГА: зміни йдуть у профіль і набувають чинності після запуску гри,
+при відключенні функції значення буде таким самим, як і в останньому його збережені,
+для скидання доведеться увімкнути цю секцію, виставити за замовчуванням і запустити гру.
+ХАРАКТЕРИСТИКИ НЕ ЗМІНЯТЬСЯ ПРИ СТВОРЕННІ НОВОГО ПРОФІЛЮ</System:String>
  <System:String x:Key="Sell_chance_TT">Шанс за промовчанням продати предмет, якщо його ціна дорівнює заданій.</System:String>
  <System:String x:Key="Sell_mult_TT">Чимало шансів зробити його нелінійним.
 Наприклад, якщо ви продаєте товар за ціною на 20% нижче, шанс збільшиться (якщо значення за замовчуванням) на 1,24.

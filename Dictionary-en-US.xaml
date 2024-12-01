@@ -239,7 +239,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="NoGearPenalty">Removes movement penalty from gear</System:String>
 
  <!--Keys Section-->
- <System:String x:Key="Keys">Keys:</System:String>
+ <System:String x:Key="Keys">Keys and keycards:</System:String>
  <System:String x:Key="InfiniteKeycards">Infinite uses for keycards</System:String>
  <System:String x:Key="InfiniteKeys">Infinite uses for keys</System:String>
  <System:String x:Key="AvoidSingleKeys">Except Single-use keys</System:String>
@@ -896,6 +896,11 @@ ATTENTION: Changes go to profile, so even if you disable this function - your he
 will have last change you did here, therefore to turn you health back 
 you need to enter defaults here, save, run the game and close it.
 HEALTH WILL NOT BE APPLIED UNDER NEW PROFILE CREATION</System:String>
+ <System:String x:Key="PMCStats_TT">Allows you to edit maximum stats of your PMC 
+ATTENTION: Changes go to profile, so even if you disable this function - your stats
+will have last change you did here, therefore to turn you stats back 
+you need to enter defaults here, save, run the game and close it.
+STATS WILL NOT BE APPLIED UNDER NEW PROFILE CREATION</System:String>
  <System:String x:Key="Sell_chance_TT">The default chance to sell an item if it is equal to predefined price.</System:String>
  <System:String x:Key="PriceRange_TT">CAUTION: Will not affect player selling prices, 
 if you want to sell for similar raised price, you might need to use Sell chance Multiplier</System:String>
