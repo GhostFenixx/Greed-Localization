@@ -18,7 +18,7 @@ If you find yourself uncomfortable to be in this list or you find certain name o
 </System:String>
  <System:String xml:space="preserve" x:Key="ThanksToText">Related to SVM:
 Ereshkigal - Main inspirator, a lot of initial code was used from Ereshkigal's mods, such as Bots loadouts, Aki Configurator and AKI-AIO.
-Senko, Chomp and other SPT Developers, RakTheGoose, Morgan, Assassin, DeadLeaves - Assisted or is part of the development in one way or another, whether it be being the owner of code snippets used in this mod, to actively developing the mod or providing help.
+Senko, Chomp and other SPT Developers, RakTheGoose, Morgan, Assassin, DeadLeaves, sptlaggy - Assisted or is part of the development in one way or another, whether it be being the owner of code snippets used in this mod, to actively developing the mod or providing help.
 TheSpartacus - Transition to SPT 3.0.0 and general help between releases
 Related to UI (GFVE/GREED):
 SerWolfik - for GFVE/Greed icon.
@@ -278,6 +278,8 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="RemoveConstructionsRequirements">Remove building requirements of materials</System:String>
  <System:String x:Key="RemoveSkillRequirements">Remove building requirements of skills</System:String>
  <System:String x:Key="RemoveTraderLevelRequirements">Remove building requirements of trader standing</System:String>
+ <System:String x:Key="CultistMaxRewards">Amount of rewards from circle:</System:String>
+ <System:String x:Key="CultistTime">Time for Cultist circle:</System:String>
 
  <!--Hideout Multipliers-->
  <System:String x:Key="HideoutProdMult">Hideout production time:</System:String>
@@ -433,11 +435,21 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="PMCStats">PMC Stats</System:String>
  <System:String x:Key="MaxHydration">Maximum Hydration:</System:String>
  <System:String x:Key="MaxEnergy">Maximum Energy:</System:String>
- 
+
+ <System:String x:Key="HandsStamina">Stamina (Hands)</System:String>
+ <System:String x:Key="LegsStamina">Stamina (Legs)</System:String>
+ <System:String x:Key="MaxStamina">Max Stamina:</System:String>
+ <System:String x:Key="StaminaRegenRate">Stamina regen rate:</System:String>
+ <System:String x:Key="StaminaStanceConsumption">Stamina consumption per stance</System:String>
+ <System:String x:Key="Standing">Standing</System:String>
+ <System:String x:Key="LayingDown">Laying down</System:String>
+ <System:String x:Key="Crouching">Crouching</System:String>
+ <System:String x:Key="JumpConsumption">Consumption per jump</System:String>
+ <System:String x:Key="SitToStandConsumption">Consumption on stand from crouch</System:String>
+
  <System:String x:Key="Stamina">Stamina</System:String>
  <System:String x:Key="UnlimitedStamina">Enable Unlimited Stamina</System:String>
  <System:String x:Key="FallDamage">Disable fall damage</System:String>
- <System:String x:Key="MaxStamina">Max stamina:</System:String>
  <!--Raid Settings Section-->
  <System:String x:Key="Removelabkey">Remove key-card requirement to access Laboratory</System:String>
  <System:String x:Key="LabInsurance">Working insurance inside Laboratory</System:String>
@@ -483,6 +495,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="HealthResortIncludeGuards">Including guards</System:String>
  <System:String x:Key="GoonsFactory">Goons in Factory and their spawn chance:</System:String>
  <System:String x:Key="KillaFactory">Killa in Factory and his spawn chance:</System:String>
+ <System:String x:Key="CultistBosses">Enable Cultists bosses and their spawn chance:</System:String>
  <System:String x:Key="Halloween">Halloween</System:String>
  <System:String x:Key="DisableZombies">Disable zombies</System:String>
  <System:String x:Key="RandomInfectionLevel">Randomise infection level</System:String>
@@ -532,8 +545,8 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="RepGain">Reputation gain per 100k roubles profit:</System:String>
  <System:String x:Key="RepLoss">Reputation loss per 100k roubles fees:</System:String>
  <System:String x:Key="Fleatime">Offer Time (In minutes):</System:String>
- <System:String x:Key="FleaFIR">Items bought from flea counts as "Found in Raid"</System:String>
- <System:String x:Key="FleaNoFIRSell">Flea sells only items with "Found in Raid" tag</System:String>
+ <System:String x:Key="FleaFIR">Bought items comes with "Found in Raid" tag</System:String>
+ <System:String x:Key="FleaNoFIRSell">Can only sell items with 'Found in Raid' tag</System:String>
  <System:String x:Key="DisableBSGList">Disable BSG Fleamarket blacklist (Will not fix selling)</System:String>
  <System:String x:Key="EventOffers">Allow event items offers to generate w/o event</System:String>
  <System:String x:Key="OverrideOffers">Override sell offers system</System:String>
@@ -574,6 +587,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="InjectorCase">Injector case:</System:String>
  <System:String x:Key="KeycardHolderCase">Keycard holder case:</System:String>
  <System:String x:Key="GKeychain">Gingy keychain:</System:String>
+ <System:String x:Key="StreamerCase">Streamer item case:</System:String>
 
  <!--Secure case Section-->
  <System:String x:Key="SecureContainers">Secure Containers</System:String>
@@ -659,7 +673,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="BotsSpawnChance">Bosses and Special types spawn chances</System:String>
  <System:String x:Key="BotsArmorDurab">AI Armor equipment durability</System:String>
  <System:String x:Key="BotsWeaponDurab">AI weapons durability</System:String>
- 
+ <System:String x:Key="ForcePartisan">Force Partisan</System:String>
  <!--PMC Section-->
  <System:String x:Key="AIToPMC">AI types into PMC converter in %</System:String>
  <System:String x:Key="PMCRatio">USEC/BEARs in raid ratio:</System:String>
@@ -709,6 +723,14 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="Min">Minimum</System:String>
  <System:String x:Key="Max">Maximum</System:String>
 
+ <!--Unified names of Editions-->
+ <System:String x:Key="Default">Default</System:String>
+ <System:String x:Key="Standard">Standard</System:String>
+ <System:String x:Key="lb">Left Behind</System:String>
+ <System:String x:Key="pfe">Prepare for Escape</System:String>
+ <System:String x:Key="eod">Edge of Darkness</System:String>
+ <System:String x:Key="Unheard">The Unheard</System:String>
+
  <!--Unified names of locations-->
  <System:String x:Key="Shoreline">Shoreline:</System:String>
  <System:String x:Key="FactoryDay">Day Factory:</System:String>
@@ -749,6 +771,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="Partisan">Partisan</System:String>
  <!--Unified names of Bots Types-->
  <System:String x:Key="SCAVAI">SCAVs:</System:String>
+ <System:String x:Key="SCAVAIFactory">SCAVs on Factory:</System:String>
  <System:String x:Key="CursedSCAV">Cursed SCAVs:</System:String>
  <System:String x:Key="Raiders">Raiders:</System:String>
  <System:String x:Key="SCAVSniper">SCAV Snipers:</System:String>
@@ -839,7 +862,8 @@ setting it to minimum possible may cause a fall in server performance</System:St
 Yeah, it will remove that time requirements.</System:String>
  <System:String xml:space="preserve" x:Key="UnlockQuestAssort_TT">This feature can throw an error if there is a custom trader mod, there is 2 cases how to deal with that:
  1) Move Custom trader mod below SVM in mod load order
- 2) If the mod in question uses Virtual's Custom Quest Loader, be sure they are both ABOVE SVM in mod load order, that may help, otherwise, do step 1 for both.</System:String>
+ 2) If the mod in question uses Virtual's Custom Quest Loader, be sure they are both ABOVE SVM in 
+mod load order, that may help, otherwise, do step 1 for both.</System:String>
  <System:String xml:space="preserve"  x:Key="NoRunThrough_TT">Removes the requirement for XP to achieve `survived` tag, basically disables 'Run Through'</System:String>
  <System:String xml:space="preserve"  x:Key="ChanceExtracts_TT">The exits that have probability to appear will always show up
 Such exits as:

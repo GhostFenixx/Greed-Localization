@@ -19,7 +19,7 @@ https://github.com/Kinnara/ModernWpf
 </System:String>
  <System:String xml:space="preserve" x:Key="ThanksToText">Помощь с SVM:
 Ereshkigal - Основа СВМ, изначально проект базировался на коде этого автора.
-Senko, Chomp а так же другие разработчики SPT, RakTheGoose, Morgan, Assassin, DeadLeaves - Помогали тестировкой, разработкой, распространением, или решали многие иные проблемы.
+Senko, Chomp а так же другие разработчики SPT, RakTheGoose, Morgan, Assassin, DeadLeaves, sptlaggy - Помогали тестировкой, разработкой, распространением, или решали многие иные проблемы.
 TheSpartacus - Перенос на SPT 3.0.0 и общая помощь между релизами
 Related to UI (GFVE/GREED):
 SerWolfik - за иконку.
@@ -416,10 +416,20 @@ CSM> Пользовательские карманы были изменены �
  <System:String x:Key="MaxHydration">Максимум Гидрации:</System:String>
  <System:String x:Key="MaxEnergy">Максимум Энергии:</System:String>
 
- <System:String x:Key="Stamina">Выносливость</System:String>
+ <System:String x:Key="HandsStamina">Выносливость Рук</System:String>
+ <System:String x:Key="LegsStamina">Выносливость Ног</System:String>
+ <System:String x:Key="MaxStamina">Максимальная выносливость:</System:String>
+ <System:String x:Key="StaminaRegenRate">Скорость генерации выносливости</System:String>
+ <System:String x:Key="StaminaStanceConsumption">Потребление выносливости при прицеливании от позы</System:String>
+ <System:String x:Key="Standing">Стоя</System:String>
+ <System:String x:Key="LayingDown">Лежа</System:String>
+ <System:String x:Key="Crouching">Присяди</System:String>
+ <System:String x:Key="JumpConsumption">Потребление за прыжок</System:String>
+ <System:String x:Key="SitToStandConsumption">Потребление с присяди встать</System:String>
+
  <System:String x:Key="UnlimitedStamina">Включить бесконечную выносливость</System:String>
  <System:String x:Key="FallDamage">Отключить урон от падения</System:String>
- <System:String x:Key="MaxStamina">Максимальная выносливость:</System:String>
+
  <!--Raid Settings Section-->
  <System:String x:Key="Removelabkey">Бесплатный проход в Лабораторию</System:String>
  <System:String x:Key="LabInsurance">Рабочая страховка в Лаборатории</System:String>
@@ -461,6 +471,7 @@ CSM> Пользовательские карманы были изменены �
  <System:String x:Key="HealthResortIncludeGuards">Включая Свиту</System:String>
  <System:String x:Key="GoonsFactory">Головорезы на Заводе и их шанс спавна:</System:String>
  <System:String x:Key="KillaFactory">Килла на Заводе и его шанс спавна:</System:String>
+ <System:String x:Key="CultistBosses">Включить боссов культистов и их шанс спавна:</System:String>
  <System:String x:Key="Halloween">Хэллоуин</System:String>
  <System:String x:Key="DisableZombies">Выключить зомби</System:String>
  <System:String x:Key="RandomInfectionLevel">Случайный уровень заражения</System:String>
@@ -549,6 +560,7 @@ CSM> Пользовательские карманы были изменены �
  <System:String x:Key="InjectorCase">Инъекторный Кейс:</System:String>
  <System:String x:Key="KeycardHolderCase">Кейс Для ключ карт:</System:String>
  <System:String x:Key="GKeychain">Ключница Gingy:</System:String>
+ <System:String x:Key="StreamerCase">Cтримерский кейс:</System:String>
 
  <!--Secure case Section-->
  <System:String x:Key="SecureContainers">Защищенные контейнеры</System:String>
@@ -666,6 +678,13 @@ CSM> Пользовательские карманы были изменены �
  <System:String x:Key="Toggles">Включаемое</System:String>
  <System:String x:Key="Min">Минимум</System:String>
  <System:String x:Key="Max">Максимум</System:String>
+ <!--Unified names of Editions-->
+ <System:String x:Key="Default">По умолчанию</System:String>
+ <System:String x:Key="Standard">Standard</System:String>
+ <System:String x:Key="lb">Left Behind</System:String>
+ <System:String x:Key="pfe">Prepare for Escape</System:String>
+ <System:String x:Key="eod">Edge of Darkness</System:String>
+ <System:String x:Key="Unheard">The Unheard</System:String>
  <!--Unified names of locations-->
     <System:String x:Key="Shoreline">Берег</System:String>
     <System:String x:Key="FactoryDay">Завод - День</System:String>
@@ -707,6 +726,7 @@ CSM> Пользовательские карманы были изменены �
  <System:String x:Key="Partisan">Партизан</System:String>
  <!--Unified names of Bots Types-->
  <System:String x:Key="SCAVAI">Дикие:</System:String>
+ <System:String x:Key="SCAVAIFactory">Дикие на заводе:</System:String>
  <System:String x:Key="CursedSCAV">Проклятые Дикие:</System:String>
  <System:String x:Key="Raiders">Рейдеры:</System:String>
  <System:String x:Key="SCAVSniper">Снайперы:</System:String>
@@ -790,7 +810,8 @@ CSM> Пользовательские карманы были изменены �
  <System:String xml:space="preserve" x:Key="RemoveTimeCondition_TT">Убирает скрытый таймер между квестами что бы они стали доступными</System:String>
  <System:String xml:space="preserve" x:Key="UnlockQuestAssort_TT">Эта опция может выкинуть ошибку если есть модовские торговцы, Есть 2 варианта что делать в таком случае:
  1) Сделайте так что бы мод с торговцем загружался после SVM
- 2) Если мод с торговцем использует Virtual's Custom Quest Loader, Сделайте так что бы он и мод торговца были выше SVM, Может помочь, Иначе делайте 1 вариант для обоих.</System:String>
+ 2) Если мод с торговцем использует Virtual's Custom Quest Loader, Сделайте так что бы он и мод торговца были 
+выше SVM, Может помочь, Иначе делайте 1 вариант для обоих.</System:String>
  <System:String  xml:space="preserve" x:Key="FenceBlacklist_TT">При отсутствии некоторых полей - может не запустится сервер
 Действуйте осторожно</System:String>
  <System:String xml:space="preserve" x:Key="SafeExit_TT">Позволяет выйти из игры через меню с сохранением лута
