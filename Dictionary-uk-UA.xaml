@@ -31,7 +31,7 @@ KMC - Публікація мода на сайті SPT
 Volcano - Представник SVM на Oddba  
 Nexus4880 - Творець плагіна 'Hide Special Icon' для Менеджера Кейсов
 Fire Hawk, Z3R0, Tabi - Тестери
-G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains - Фінансова підтримка
+G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains, Kiriko - Фінансова підтримка
 Локалізація:
 Корейська - 루퍼, 고라니
 Українська - celebrutu
@@ -140,7 +140,7 @@ TUE Stash та Gamma
     <System:String x:Key="Quests">Повторювані квести</System:String>
     <System:String x:Key="CSM">Менеджер Кейсів</System:String>
     <System:String x:Key="SCAV">Дикий Гравець</System:String>
-    <System:String x:Key="Bots">Дикі та Босси</System:String>
+    <System:String x:Key="Bots">Дикі та Боси</System:String>
     <System:String x:Key="PMC">ШІ ПВК</System:String>
     <!--Menu Control-->
     <System:String x:Key="Options">Опції</System:String>
@@ -231,6 +231,8 @@ TUE Stash та Gamma
  <System:String x:Key="RemoveConstructionsRequirements">Будівництво не вимагає матеріалів</System:String>
  <System:String x:Key="RemoveSkillRequirements">Будівництво не потребує навичок</System:String>
  <System:String x:Key="RemoveTraderLevelRequirements">Будівництво не потребує торговців</System:String>
+ <System:String x:Key="CultistMaxRewards">Amount of rewards from cultist circle:</System:String>
+ <System:String x:Key="CultistTime">Time for Cultist circle:</System:String>
  <!--Hideout Multipliers-->
  <System:String x:Key="HideoutProdMult">Час продукції:</System:String>
  <System:String x:Key="HideoutConstMult">Час будівництва:</System:String>
@@ -382,10 +384,20 @@ TUE Stash та Gamma
  <System:String x:Key="MaxHydration">Максимум Гідрації:</System:String>
  <System:String x:Key="MaxEnergy">Максимум Енергії:</System:String>
 
+ <System:String x:Key="HandsStamina">Витривалість Рук</System:String>
+ <System:String x:Key="LegsStamina">Витривалість Ніг</System:String>
+ <System:String x:Key="MaxStamina">Максимальна Витривалість:</System:String>
+ <System:String x:Key="StaminaRegenRate">Швидкість генерації Витривалості</System:String>
+ <System:String x:Key="StaminaStanceConsumption">Множник cпоживання витривалості при прицілюванні від пози</System:String>
+ <System:String x:Key="Standing">Стоя</System:String>
+ <System:String x:Key="LayingDown">Лежа</System:String>
+ <System:String x:Key="Crouching">Присяді</System:String>
+ <System:String x:Key="JumpConsumption">Споживання за стрибок</System:String>
+ <System:String x:Key="StanceSwitchConsumption">Cпоживання витривалості за зміну пози</System:String>
+
  <System:String x:Key="Stamina">Витривалість</System:String>
  <System:String x:Key="UnlimitedStamina">Включити нескінченну витривалість</System:String>
  <System:String x:Key="FallDamage">Вимкнути шкоду від падіння</System:String>
- <System:String x:Key="MaxStamina">Максимальна витривалість:</System:String>
  <!--Raid Settings Section-->
  <System:String x:Key="Removelabkey">Безкоштовний прохід до Лабораторії</System:String>
  <System:String x:Key="LabInsurance">Робоча страховка у Лабораторії</System:String>
@@ -421,7 +433,7 @@ TUE Stash та Gamma
  <System:String x:Key="RaidersEverywhere">Рейдери замість Диких</System:String>
  <System:String x:Key="BossesOnReserve">Всі Боси на Резерві</System:String>
  <System:String x:Key="IncludeTagilla">Включаючи Тагіллу</System:String>
- <System:String x:Key="IncludeStreetBosses">Включаючи боссів Вулиць Таркова</System:String>
+ <System:String x:Key="IncludeStreetBosses">Включаючи босів Вулиць Таркова</System:String>
  <System:String x:Key="CultistsEverywhere">Культисти замість Диких</System:String>
  <System:String x:Key="BossesOnCustoms">Всі Боси на Митниці</System:String>
  <System:String x:Key="BossesOnHealthResort">Всі Боси в Санаторії</System:String>
@@ -437,6 +449,8 @@ TUE Stash та Gamma
  <System:String x:Key="TagillaInterchange">Тагілла сопроводжуе кіллу у Развязці</System:String>
  <System:String x:Key="GlukharLabs">Глухар у Лабораторії</System:String>
  <System:String x:Key="Bloodhounds">Шанс спавна загону Погоні</System:String>
+ <System:String x:Key="DisableHalloweenAIFriendly">Вимкнути припинення вогню</System:String>
+ <System:String x:Key="NonSeasonalQuests">Увімкнути внесезонні квести</System:String>
  <!--Raid Startup Section-->
  <System:String x:Key="RaidStartup">Налаштування перед початком рейда</System:String>
  <System:String x:Key="Cursed">Позначений і проклятий</System:String>
@@ -593,6 +607,7 @@ TUE Stash та Gamma
  <System:String x:Key="BotsSpawnChance">Шанси спавна босів та спец типів ШІ</System:String>
  <System:String x:Key="BotsArmorDurab">Міцність спорядження ШІ</System:String>
  <System:String x:Key="BotsWeaponDurab">Міцність зброї ШІ</System:String>
+ <System:String x:Key="ForcePartisan">Змінити поведінку спавна Партизана</System:String>
  <!--PMC Section-->
  <System:String x:Key="AIToPMC">Конвертер типів ШІ у ПВК у %</System:String>
  <System:String x:Key="PMCRatio">Співвідношення ПВК BEAR/USEC у рейді:</System:String>
@@ -814,7 +829,7 @@ TUE Stash та Gamma
  <System:String x:Key="Halloween_TT">Вмикає святкове освітлення в сховищі, змінює поведінку та спавни Зрячого, добавляє тематичну здобич в ШІ.</System:String>
  <System:String x:Key="DisableZombies_TT">Вимикає зомбі під час свята, по замовчуванню вони є.
 Нічого не робить якщо свято не активно.</System:String>
- <System:String  xml:space="preserve" x:Key="RandomInfectionLevel_TT">При запуске сервера локации получат случайные уровни инфекции, кроме лаборатории</System:String>
+ <System:String  xml:space="preserve" x:Key="RandomInfectionLevel_TT">При запуску сервера локації отримають випадкові рівні инфекції, окрім лабораторії</System:String>
  <System:String xml:space="preserve" x:Key="Christmas_TT">Вмикає святкове освітлення, дарує різдвяний подарунок. Вмикає сніг, вмикає спавн Санта Клауса, добавляє тематичну здобич в ШІ. </System:String>
  <System:String xml:space="preserve" x:Key="HealthResortIncludeGuards_TT">Дуже не рекомендується, це скоріше стрес тест ніж опція
 У вас буде більше 30 ШІ в одному місці, Я попередив</System:String>
@@ -827,4 +842,9 @@ TUE Stash та Gamma
 Якщо Дикий з'явився - є 25%(За замовчуванням) що він стане ПВК, працює так само з іншими полями.</System:String>
  <System:String xml:space="preserve" x:Key="ScavPockets_TT">УВАГА: Відключення секції не видаляє кишені до наступного Дикого</System:String>
  <System:String x:Key="ScavTimer_TT">УВАГА: Це не зміне існуючий таймер</System:String>
+ <System:String xml:space="preserve" x:Key="ForcePartisan_TT">По замовчуванню у Партизана є деякий тріггер який по ідеї може впливати на його спавн.
+Ця опція видаляє цей тріггер дозволяє Партизану з'являться як і інши боси.</System:String>
+ <System:String xml:space="preserve" x:Key="DisableHalloweenAIFriendly_TT">По замовчуванню якщо зомбі увімкнені діє ненапад у якому Дикі не будуть на вас нападати и такоє ПВК з деяким шансом.
+Ця опція вимикає цю повидінку, що робе ШІ реагувати як звичайно.
+УВАГА: Ця опція перепише зміни до агрессивності в секції ШІ ПВК </System:String>
 </ResourceDictionary>

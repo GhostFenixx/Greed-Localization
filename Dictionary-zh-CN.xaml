@@ -48,7 +48,7 @@ KMC - 将模组重新上传到SPT网站。
 Volcano - SVM的Oddba论坛代表
 Nexus4880 - '隐藏特殊图标'插件的创建者，为Case Space Manager提供支持
 Fire Hawk, Z3R0, Tabi - 测试人员，反馈
-G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains - 捐赠者
+G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains, Kiriko - 捐赠者
 本地化：
 韩文 - 루퍼, 고라니
 乌克兰文 - celebrutu
@@ -392,6 +392,8 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="RemoveConstructionsRequirements">去除藏身处设施 材料 要求</System:String>
  <System:String x:Key="RemoveSkillRequirements">去除藏身处设施 技能 要求</System:String>
  <System:String x:Key="RemoveTraderLevelRequirements">去除藏身处设施 商人等级 要求</System:String>
+ <System:String x:Key="CultistMaxRewards">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="CultistTime">NEEDTRANSLATION:</System:String>
 
  <!--Hideout Multipliers-->
  <System:String x:Key="HideoutProdMult">藏身处 生产时间:</System:String>
@@ -551,6 +553,16 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="UnlimitedStamina">启动无限耐力</System:String>
  <System:String x:Key="FallDamage">关闭跌落伤害</System:String>
  <System:String x:Key="MaxStamina">耐力 最大值:</System:String>
+ 
+ <System:String x:Key="HandsStamina">NEEDTRANSLATION</System:String>
+ <System:String x:Key="LegsStamina">NEEDTRANSLATION</System:String>
+ <System:String x:Key="StaminaRegenRate">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="StaminaStanceConsumption">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="Standing">NEEDTRANSLATION</System:String>
+ <System:String x:Key="LayingDown">NEEDTRANSLATION</System:String>
+ <System:String x:Key="Crouching">NEEDTRANSLATION</System:String>
+ <System:String x:Key="JumpConsumption">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="StanceSwitchConsumption">NEEDTRANSLATION:</System:String>
  <!--Raid Settings Section-->
  <System:String x:Key="Removelabkey">移除 实验室白卡限制</System:String>
  <System:String x:Key="LabInsurance">实验室 保险生效</System:String>
@@ -605,6 +617,8 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="GlukharLabs">实验室 生成格鲁哈</System:String>
  <System:String x:Key="Bloodhounds">寻血猎犬BloodHunter 生成概率</System:String>
  <System:String x:Key="RedBlueEvent">配件商Skier/美商Peacekeepers 小队 生成概率</System:String>
+ <System:String x:Key="DisableHalloweenAIFriendly">NEEDTRANSLATION</System:String>
+ <System:String x:Key="NonSeasonalQuests">NEEDTRANSLATION</System:String>
  <!--Raid Startup Section-->
  <System:String x:Key="RaidStartup">战局开局 设置</System:String>
  <System:String x:Key="Cursed">被标记诅咒</System:String>
@@ -766,7 +780,7 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="BotsSpawnChance">Boss/精英AI 刷新概率</System:String>
  <System:String x:Key="BotsArmorDurab">AI护甲装备 耐久度</System:String>
  <System:String x:Key="BotsWeaponDurab">AI武器 耐久度</System:String>
- 
+ <System:String x:Key="ForcePartisan">NEEDTRANSLATION</System:String>
  <!--PMC Section-->
  <System:String x:Key="AIToPMC">AI PMC  转换概率(百分比)</System:String>
  <System:String x:Key="PMCRatio">USEC/BEAR 比例:</System:String>
@@ -780,7 +794,8 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="PMCUpgradedWeapon">武器附魔:</System:String>
  <System:String x:Key="PMCHaveYourName">生成的AI PMC带有玩家名字和前缀 概率:</System:String>
  <System:String x:Key="AllPMCHaveYourName">所有AI PMC都带有玩家名字和前缀 概率:</System:String>
- <System:String x:Key="PMCHostility">同阵营PMC敌对 概率:</System:String>
+ <System:String x:Key="PMCSameHostility">同阵营PMC敌对 概率:</System:String>
+ <System:String x:Key="PMCHostility">NEEDTRANSLATION:</System:String>
  <System:String x:Key="PMCNames">PMC名字</System:String>
  <System:String x:Key="OverridePMCNames">移除 SPT默认名字</System:String>
  <!--Custom Section-->
@@ -817,6 +832,7 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="Max">最大值</System:String>
 
  <!--Unified names of Editions-->
+ <!--NEEDTRANSLATION, maybe, currently only Default and The Unheard is used in Traders>Quest reward time-->
  <System:String x:Key="Default">Default</System:String>
  <System:String x:Key="Standard">Standard</System:String>
  <System:String x:Key="lb">Left Behind</System:String>
@@ -1034,6 +1050,8 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="ScavTimer_TT">注意：这不会影响现有的冷却时间</System:String>
  <System:String xml:space="preserve" x:Key="ScavPockets_TT">注意：若你在进行更改后禁用该功能
 它会使你当前的Scav口袋失效</System:String>
+ <System:String xml:space="preserve" x:Key="ForcePartisan_TT">NEEDTRANSLATION</System:String>
+ <System:String xml:space="preserve" x:Key="DisableHalloweenAIFriendly_TT">NEEDTRANSLATION</System:String>
  <!--<System:String x:Key="Bosses">Boss:</System:String>
  <System:String x:Key="Followers">Boss保镖:</System:String>-->
 

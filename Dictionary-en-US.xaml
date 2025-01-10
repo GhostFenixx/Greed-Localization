@@ -30,7 +30,7 @@ KMC - Reuploading the mod onto the SPT website.
 Volcano - Oddba representative of SVM
 Nexus4880 - Creator of 'Hide Special Icon' Plugin for Case Space Manager
 Fire Hawk, Z3R0, Tabi - Testers, feedback
-G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains - Donations
+G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains, Kiriko - Donations
 Localisation:
 Korean - 루퍼, 고라니
 Ukrainian - celebrutu
@@ -278,7 +278,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="RemoveConstructionsRequirements">Remove building requirements of materials</System:String>
  <System:String x:Key="RemoveSkillRequirements">Remove building requirements of skills</System:String>
  <System:String x:Key="RemoveTraderLevelRequirements">Remove building requirements of trader standing</System:String>
- <System:String x:Key="CultistMaxRewards">Amount of rewards from circle:</System:String>
+ <System:String x:Key="CultistMaxRewards">Amount of rewards from cultist circle:</System:String>
  <System:String x:Key="CultistTime">Time for Cultist circle:</System:String>
 
  <!--Hideout Multipliers-->
@@ -440,12 +440,12 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="LegsStamina">Stamina (Legs)</System:String>
  <System:String x:Key="MaxStamina">Max Stamina:</System:String>
  <System:String x:Key="StaminaRegenRate">Stamina regen rate:</System:String>
- <System:String x:Key="StaminaStanceConsumption">Stamina consumption per stance</System:String>
+ <System:String x:Key="StaminaStanceConsumption">Stamina consumption multiplier per stance</System:String>
  <System:String x:Key="Standing">Standing</System:String>
  <System:String x:Key="LayingDown">Laying down</System:String>
  <System:String x:Key="Crouching">Crouching</System:String>
- <System:String x:Key="JumpConsumption">Consumption per jump</System:String>
- <System:String x:Key="SitToStandConsumption">Consumption on stand from crouch</System:String>
+ <System:String x:Key="JumpConsumption">Consumption per jump:</System:String>
+ <System:String x:Key="StanceSwitchConsumption">Consumption on stand from other stances</System:String>
 
  <System:String x:Key="Stamina">Stamina</System:String>
  <System:String x:Key="UnlimitedStamina">Enable Unlimited Stamina</System:String>
@@ -466,6 +466,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="GearExtract">No RR and Paracord required on climbing extracts</System:String>
  <System:String x:Key="ArmorExtract">Allow armor on climbing extracts</System:String>
  <System:String x:Key="NoBackpack">Remove restrictions to backpack related extracts</System:String>
+ <System:String x:Key="ForceTransitStash">Force size of Transit Inventory</System:String>
  <!--Coop/Car Section-->
  <System:String x:Key="FreeCoop">No Coop Exits restrictions</System:String>
  <System:String x:Key="CoopPaid">Make Coop extracts - paid extracts</System:String>
@@ -499,8 +500,9 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="Halloween">Halloween</System:String>
  <System:String x:Key="DisableZombies">Disable zombies</System:String>
  <System:String x:Key="RandomInfectionLevel">Randomise infection level</System:String>
-
+ <System:String x:Key="DisableHalloweenAIFriendly">Disable ceasefire</System:String>
  <System:String x:Key="Christmas">Christmas</System:String>
+ <System:String x:Key="NonSeasonalQuests">Enable Non-Seasonal event quests</System:String>
  <System:String x:Key="DisableEvents">Disable ongoing events</System:String>
  <System:String x:Key="TagillaInterchange">Killa spawns with Tagilla on Interchange</System:String>
  <System:String x:Key="GlukharLabs">Glukhar in Laboratory</System:String>
@@ -594,7 +596,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="Alpha">Alpha:</System:String>
  <System:String x:Key="Beta">Beta:</System:String>
  <System:String x:Key="Gamma">Gamma:</System:String>
- <System:String x:Key="GammaTUE">TUE Gamma:</System:String>
+ <System:String x:Key="GammaTUE">Unheard Gamma:</System:String>
  <System:String x:Key="Epsilon">Epsilon:</System:String>
  <System:String x:Key="Kappa">Kappa:</System:String>
  <System:String x:Key="WaistPouch">Waist Pouch:</System:String>
@@ -673,7 +675,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="BotsSpawnChance">Bosses and Special types spawn chances</System:String>
  <System:String x:Key="BotsArmorDurab">AI Armor equipment durability</System:String>
  <System:String x:Key="BotsWeaponDurab">AI weapons durability</System:String>
- <System:String x:Key="ForcePartisan">Force Partisan</System:String>
+ <System:String x:Key="ForcePartisan">Change Partisan's spawn behavior</System:String>
  <!--PMC Section-->
  <System:String x:Key="AIToPMC">AI types into PMC converter in %</System:String>
  <System:String x:Key="PMCRatio">USEC/BEARs in raid ratio:</System:String>
@@ -687,7 +689,8 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="PMCUpgradedWeapon">Weapon has Enchancement:</System:String>
  <System:String x:Key="PMCHaveYourName">Spawned AI PMC have your name with a prefix:</System:String>
  <System:String x:Key="AllPMCHaveYourName">All Spawned AI PMC has your name with a prefix:</System:String>
- <System:String x:Key="PMCHostility">Hostilities of a PMC of the same faction:</System:String>
+ <System:String x:Key="PMCSameHostility">Hostilities of a PMC of the same faction:</System:String>
+ <System:String x:Key="PMCHostility">Hostilities of a PMC of the different faction:</System:String>
  <System:String x:Key="PMCNames">PMC Names</System:String>
  <System:String x:Key="OverridePMCNames">Remove Default SPT names</System:String>
  <!--Custom Section-->
@@ -931,7 +934,6 @@ if you want to sell for similar raised price, you might need to use Sell chance 
  <System:String  xml:space="preserve" x:Key="Sell_mult_TT">Multiplier to the chance to make it non linear. 
 For example - if you sell an item with 20% less price than handbook one - it would multiply (if value is default to) 1.24.
 End up ending in 25% more sell chance, the higher the difference, the more extreme the multiplier works.</System:String>
-
  <System:String xml:space="preserve" x:Key="DisableBSGList_TT">CAUTION: It will not affect their 'possibly' broken prices, some items might be too cheap.</System:String>
  <System:String xml:space="preserve" x:Key="PMCRatio_TT">The Chance in % Ratio that spawned PMC will be USEC or BEAR, 100 means USEC only, 0 means Bear only.</System:String>
  <System:String xml:space="preserve" x:Key="ScavHealth_TT">Allows you to edit your SCAV's body parts health, will not affect other SCAVs
@@ -942,7 +944,10 @@ If SCAV spawns - there is 25%(By default) he will convert to PMC, works exactly 
  <System:String x:Key="ScavTimer_TT">CAUTION: It will not affect existing timer</System:String>
  <System:String xml:space="preserve" x:Key="ScavPockets_TT">CAUTION: It will nullify pockets of your current scav if 
 you disable the section after making changes</System:String>
- <!--<System:String x:Key="Bosses">Bosses:</System:String>
- <System:String x:Key="Followers">Boss guards:</System:String>-->
-
+ <System:String xml:space="preserve" x:Key="ForcePartisan_TT">By default Partisan has certain trigger event that could possibly affect his spawn.
+This option removes it making Partisan spawn as any other boss</System:String>
+ <System:String xml:space="preserve" x:Key="DisableHalloweenAIFriendly_TT">By default if zombies are on there is a ceasefire where SCAVs would not attack you so is PMC with certain chance.
+This option will disable that behavior, ultimately making AI behave as usual
+CAUTION: This will override AI PMC fields related to hostility.</System:String>
+ 
 </ResourceDictionary>
