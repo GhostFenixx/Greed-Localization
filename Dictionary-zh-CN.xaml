@@ -392,8 +392,8 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="RemoveConstructionsRequirements">去除藏身处设施 材料 要求</System:String>
  <System:String x:Key="RemoveSkillRequirements">去除藏身处设施 技能 要求</System:String>
  <System:String x:Key="RemoveTraderLevelRequirements">去除藏身处设施 商人等级 要求</System:String>
- <System:String x:Key="CultistMaxRewards">NEEDTRANSLATION:</System:String>
- <System:String x:Key="CultistTime">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="CultistMaxRewards">邪教圈 奖励数量:</System:String>
+ <System:String x:Key="CultistTime">邪教圈 供奉时间:</System:String>
 
  <!--Hideout Multipliers-->
  <System:String x:Key="HideoutProdMult">藏身处 生产时间:</System:String>
@@ -554,15 +554,15 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="FallDamage">关闭跌落伤害</System:String>
  <System:String x:Key="MaxStamina">耐力 最大值:</System:String>
  
- <System:String x:Key="HandsStamina">NEEDTRANSLATION</System:String>
- <System:String x:Key="LegsStamina">NEEDTRANSLATION</System:String>
- <System:String x:Key="StaminaRegenRate">NEEDTRANSLATION:</System:String>
- <System:String x:Key="StaminaStanceConsumption">NEEDTRANSLATION:</System:String>
- <System:String x:Key="Standing">NEEDTRANSLATION</System:String>
- <System:String x:Key="LayingDown">NEEDTRANSLATION</System:String>
- <System:String x:Key="Crouching">NEEDTRANSLATION</System:String>
- <System:String x:Key="JumpConsumption">NEEDTRANSLATION:</System:String>
- <System:String x:Key="StanceSwitchConsumption">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="HandsStamina">耐力(上肢)</System:String>
+ <System:String x:Key="LegsStamina">耐力(下肢)</System:String>
+ <System:String x:Key="StaminaRegenRate">耐力 恢复率:</System:String>
+ <System:String x:Key="StaminaStanceConsumption">不同姿态 耐力消耗倍数:</System:String>
+ <System:String x:Key="Standing">站立姿态</System:String>
+ <System:String x:Key="LayingDown">匍匐姿态</System:String>
+ <System:String x:Key="Crouching">半蹲姿态</System:String>
+ <System:String x:Key="JumpConsumption">跳跃 消耗倍率:</System:String>
+ <System:String x:Key="StanceSwitchConsumption">切换姿态 消耗倍率:</System:String>
  <!--Raid Settings Section-->
  <System:String x:Key="Removelabkey">移除 实验室白卡限制</System:String>
  <System:String x:Key="LabInsurance">实验室 保险生效</System:String>
@@ -579,6 +579,7 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="GearExtract">移除 撤离点"冰镐和绳索"限制</System:String>
  <System:String x:Key="ArmorExtract">移除 撤离点"不能穿护甲"限制</System:String>
  <System:String x:Key="NoBackpack">移除 撤离点"不能穿背包"限制</System:String>
+ <System:String x:Key="ForceTransitStash">转移点仓库 尺寸</System:String>
  <!--Coop/Car Section-->
  <System:String x:Key="CarAndCoop">载具/合作撤离点</System:String>
  <System:String x:Key="FreeCoop">合作撤离点 无条件限制</System:String>
@@ -617,8 +618,9 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="GlukharLabs">实验室 生成格鲁哈</System:String>
  <System:String x:Key="Bloodhounds">寻血猎犬BloodHunter 生成概率</System:String>
  <System:String x:Key="RedBlueEvent">配件商Skier/美商Peacekeepers 小队 生成概率</System:String>
- <System:String x:Key="DisableHalloweenAIFriendly">NEEDTRANSLATION</System:String>
- <System:String x:Key="NonSeasonalQuests">NEEDTRANSLATION</System:String>
+ <System:String x:Key="DisableHalloweenAIFriendly">禁用停战状态</System:String>
+ <System:String x:Key="NonSeasonalQuests">禁用季节活动任务</System:String>
+ <System:String x:Key="CultistBosses">邪教徒Boss 及 生成概率:</System:String>
  <!--Raid Startup Section-->
  <System:String x:Key="RaidStartup">战局开局 设置</System:String>
  <System:String x:Key="Cursed">被标记诅咒</System:String>
@@ -700,13 +702,14 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="InjectorCase">注射器收纳盒:</System:String>
  <System:String x:Key="KeycardHolderCase">钥匙卡收纳盒:</System:String>
  <System:String x:Key="GKeychain">Gingy钥匙串:</System:String>
+ <System:String x:Key="StreamerCase">主播物品箱:</System:String>
 
  <!--Secure case Section-->
  <System:String x:Key="SecureContainers">安全箱</System:String>
  <System:String x:Key="Alpha">Alpha:</System:String>
  <System:String x:Key="Beta">Beta:</System:String>
  <System:String x:Key="Gamma">Gamma:</System:String>
- <System:String x:Key="GammaTUE">Gamma(未闻者版):</System:String>
+ <System:String x:Key="GammaTUE">Gamma(蓝边):</System:String>
  <System:String x:Key="Epsilon">Epsilon:</System:String>
  <System:String x:Key="Kappa">Kappa:</System:String>
  <System:String x:Key="WaistPouch">腰包:</System:String>
@@ -780,7 +783,7 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="BotsSpawnChance">Boss/精英AI 刷新概率</System:String>
  <System:String x:Key="BotsArmorDurab">AI护甲装备 耐久度</System:String>
  <System:String x:Key="BotsWeaponDurab">AI武器 耐久度</System:String>
- <System:String x:Key="ForcePartisan">NEEDTRANSLATION</System:String>
+ <System:String x:Key="ForcePartisan">修改 Partisan 生成行为</System:String>
  <!--PMC Section-->
  <System:String x:Key="AIToPMC">AI PMC  转换概率(百分比)</System:String>
  <System:String x:Key="PMCRatio">USEC/BEAR 比例:</System:String>
@@ -795,7 +798,7 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="PMCHaveYourName">生成的AI PMC带有玩家名字和前缀 概率:</System:String>
  <System:String x:Key="AllPMCHaveYourName">所有AI PMC都带有玩家名字和前缀 概率:</System:String>
  <System:String x:Key="PMCSameHostility">同阵营PMC敌对 概率:</System:String>
- <System:String x:Key="PMCHostility">NEEDTRANSLATION:</System:String>
+ <System:String x:Key="PMCHostility">不同阵营 PMC 的敌对行为:</System:String>
  <System:String x:Key="PMCNames">PMC名字</System:String>
  <System:String x:Key="OverridePMCNames">移除 SPT默认名字</System:String>
  <!--Custom Section-->
@@ -833,12 +836,12 @@ Everyone else who provided any kind of support to the project, whether bug repor
 
  <!--Unified names of Editions-->
  <!--NEEDTRANSLATION, maybe, currently only Default and The Unheard is used in Traders>Quest reward time-->
- <System:String x:Key="Default">Default</System:String>
- <System:String x:Key="Standard">Standard</System:String>
+ <System:String x:Key="Default">默认</System:String>
+ <System:String x:Key="Standard">白边</System:String>
  <System:String x:Key="lb">Left Behind</System:String>
  <System:String x:Key="pfe">Prepare for Escape</System:String>
- <System:String x:Key="eod">Edge of Darkness</System:String>
- <System:String x:Key="Unheard">The Unheard</System:String>
+ <System:String x:Key="eod">黑边</System:String>
+ <System:String x:Key="Unheard">蓝边</System:String>
  <!--Unified names of locations-->
  <System:String x:Key="Shoreline">海岸线:</System:String>
  <System:String x:Key="FactoryDay">工厂 白天:</System:String>
@@ -1050,8 +1053,11 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="ScavTimer_TT">注意：这不会影响现有的冷却时间</System:String>
  <System:String xml:space="preserve" x:Key="ScavPockets_TT">注意：若你在进行更改后禁用该功能
 它会使你当前的Scav口袋失效</System:String>
- <System:String xml:space="preserve" x:Key="ForcePartisan_TT">NEEDTRANSLATION</System:String>
- <System:String xml:space="preserve" x:Key="DisableHalloweenAIFriendly_TT">NEEDTRANSLATION</System:String>
+ <System:String xml:space="preserve" x:Key="ForcePartisan_TT">默认情况下，Partisan 生成需要某些触发条件，可能会影响其生成。
+该选项可将其移除，使 Partisan 像其他任何 Boss 一样正常生成</System:String>
+ <System:String xml:space="preserve" x:Key="DisableHalloweenAIFriendly_TT">默认情况下，如果丧尸出现，就会进入停火状态，SCAV 不会攻击你，PMC 也有一定的几率。
+该选项将禁用停火状态，使 AI 对玩家/其他AI进行正常攻击
+注意！这将覆盖与 AI PMC 版块中与敌意相关的设置。</System:String>
  <!--<System:String x:Key="Bosses">Boss:</System:String>
  <System:String x:Key="Followers">Boss保镖:</System:String>-->
 
