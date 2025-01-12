@@ -113,6 +113,40 @@ Everyone else who provided any kind of support to the project, whether bug repor
   Fixes:
   Ground Zero fields.
   Health markup was applying too little values in backend.
+  
+  1.10.1 For SPT 3.10.0-3.10.5
+  Added:
+  Stamina Expansion
+  Streamer case in CSM section
+  Cultist circle fields in hideout section
+  Partisan on Customs.
+  Cultists bosses event.
+  Field to enable event quests (non season ones)
+  Removal of Halloween's AI ceasefire
+  AI Hostility (little) expansion ( if only you knew how much time i wasted fixing it for new version)
+
+  Changed:
+  IIC (and price changer) now supports blank spaces, `#` and `//` comments - request by SGZ-Creations.
+  AI converted has new field to accomodate the fact factory has own override for it.
+
+  Quest Redeem time being split between editions. - reported by sgtlaggy
+  Partisan can be forced without it's trigger.
+  Adjusted Hideout Stash sizes (To accomodate live changes, 28>30, 38>40, 48>50)
+  Additional checkers for quest rewards (to avoid NaNs)
+  Limits to numerous fields.
+  PMC Ratio switched to blue - I really tried, but i couldn't make it be 100% one type of AI spawn, i don't know what scenario causes such behavior, it still does take an effect, including Scav to PMC conversion.
+
+  Fixes:
+  Infinite keys fix
+  Fix for newly made scav and his stats (When SCAV dies - he doesn't retain changed pockets/health/stats if killed)
+  Fix for quest types (once again) - pointed by SGZ-Creations
+  Fixes pointed by sgtlaggy - thanks to him btw - Fixes for Hideout, weight and examine 'if' statements
+  Clothes unlock now includes removing requirements for achievements (only affects Adik for now) - requested by Kikere
+  Seasonal quests weren't appearing with events enabled.
+  Scav Quests - fixed reputational default value - thanks to Slothgang for spotting it.
+  Loose Loot - Customs were set to a Streets value - whoops, thanks to Vinnie.
+  Removed:
+  MIA at the end of the raid - got deprecated in 3.10, i missed that, thanks CrocodileJonesy
  </System:String>
  <!--MessageBoxes and/or Exception handlers-->
  <System:String xml:space="preserve" x:Key="SVMWrongInstallation">You've incorrectly installed SVM, it is not located under "user\mods"
