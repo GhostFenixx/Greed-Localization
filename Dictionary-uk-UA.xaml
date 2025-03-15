@@ -157,6 +157,8 @@ G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains, Kiriko - Фінанс
  <System:String x:Key="InfiniteKeys">Нескінченні ключі</System:String>
  <System:String x:Key="AvoidSingleKeys">Крім одноразових ключів</System:String>
  <System:String x:Key="AvoidMarkedKeys">Крім ключів від мічених кімнат</System:String>
+ <System:String x:Key="AvoidResidential">Крім житлової картки</System:String>
+ <System:String x:Key="AvoidOddKeys">Крім незвичайних ключей</System:String>
  <System:String x:Key="KeyUseMult">Множник використання ключів:</System:String>
  <System:String x:Key="KeycardUseMult">Множник використання Ключ-карт:</System:String>
  <System:String x:Key="KeyDurabilityThreshold">Кількість використання не може бути вищою:</System:String>
@@ -291,9 +293,9 @@ G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains, Kiriko - Фінанс
  <System:String x:Key="AllContainers">Максимальний шанс контейнерів</System:String>
  <System:String x:Key="LocationsLoot">Множник здобичі в локаціях</System:String>
  <!--Airdrop Section-->
- <System:String x:Key="Airdrops"> Airdrop в повітрі</System:String>
+ <System:String x:Key="Airdrops">Скид с повітря (Airdrop)</System:String>
  <System:String x:Key="AirdropsTimeMinMax">Час для прибуття літака в хвилинах:</System:String>
- <System:String x:Key="AirdropChance">Шанс появи Airdrop-у на локацію (%)</System:String>
+ <System:String x:Key="AirdropChance">Шанс появи Скиду на локацію (%)</System:String>
 
  <!--Unified names of fields inside crates and expander headers-->
  <System:String x:Key="Mixed">Вміст ящика з різним</System:String>
@@ -489,6 +491,8 @@ G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains, Kiriko - Фінанс
  <System:String x:Key="InjectorCase">Ін'єкторний Кейс:</System:String>
  <System:String x:Key="KeycardHolderCase">Кейс для ключ карт:</System:String>
  <System:String x:Key="GKeychain">Ключниця Gingy:</System:String>
+ <System:String x:Key="StreamerCase">Cтрімерський кейс:</System:String>
+ <System:String x:Key="ArmorPlateCase">Кейс для бронепліт:</System:String>
 
  <!--Secure case Section-->
  <System:String x:Key="SecureContainers">Захищені контейнери</System:String>
@@ -525,7 +529,7 @@ G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains, Kiriko - Фінанс
  <System:String x:Key="ScavQuests">Квести Дикого</System:String>
  <System:String x:Key="QuestLifespan">Цикл життя квестів у хвилинах:</System:String>
  <System:String x:Key="AmountofQuests">Кількість квестів за цикл:</System:String>
- <System:String x:Key="QuestLevel">Рівень персонажа для доступу:</System:String>
+ <System:String x:Key="QuestLevel">Рівень ПВК для доступу:</System:String>
  <System:String x:Key="KillsAmountLvl1">Кількість вбивств [Рівень 1-15]:</System:String>
  <System:String x:Key="KillsAmountLvl2">Кількість вбивств [Рівень 16-40]:</System:String>
  <System:String x:Key="KillsAmountLvl3">Кількість вбивств [Рівень 41-100]:</System:String>
@@ -535,7 +539,8 @@ G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains, Kiriko - Фінанс
  <System:String x:Key="RewardSpread">Множник мінімальної нагороди:</System:String>
 
  <System:String x:Key="Types">Типи місій:</System:String>
- 
+ <System:String x:Key="Reroll">Безкоштовних змін:</System:String>
+
  <System:String x:Key="RewardScale">Степені наград від рівня</System:String>
  <System:String x:Key="Levels">Рівні:</System:String>
  <System:String x:Key="Experience">Досвід:</System:String>
@@ -689,6 +694,9 @@ G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains, Kiriko - Фінанс
 Для таких калібрів: 6.8x51 7.62x51, 7.62x54R, 12.7x55, .338LM</System:String>
  <System:String xml:space="preserve" x:Key="DisableDefaultCashStack_TT">Якщо увімкнено: Співвідношення доларів та євро до рубля буде 1 до 100.
 Поля доларів та євро будуть відключені</System:String>
+ <System:String xml:space="preserve" x:Key="AvoidOddKeys_TT">Виключає ключі у яких не звичайна кількість використання (2,5,10,20) не включаючи мічені кімнати
+ Такі ключі як: Притулки від Рефа, Вихід із заводу, ящик від контейнера, пару ключів з вулиць тощо.</System:String>
+ <System:String x:Key="AvoidResidential_TT">Ключ-карта від житлового модуля TerraGroup Labs за замовчуванням має 2 використання.</System:String>
  <System:String  xml:space="preserve" x:Key="HideoutMisc_TT">Не чіпайте ці поля якщо у вас йде виробництво/будівництво у вашему профілі.
 Це може пошкодити споживання ресурсів або час дiї, на свій страх і ризик.</System:String>
  <System:String x:Key="RemoveConstructionsRequirements_TT">Не вимагає жодних ресурсів чи грошей для будівництва</System:String>

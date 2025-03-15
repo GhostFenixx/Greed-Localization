@@ -147,6 +147,20 @@ Everyone else who provided any kind of support to the project, whether bug repor
   Loose Loot - Customs were set to a Streets value - whoops, thanks to Vinnie.
   Removed:
   MIA at the end of the raid - got deprecated in 3.10, i missed that, thanks CrocodileJonesy
+  
+  1.11.0 For SPT 3.11
+  Added:
+  Repeatable Quests > Free rerolls for each type.
+  New fields in Keys section
+  Armor Plates case in CSM
+  Changed:
+  Switched Greed's .Net 6 to .Net 9.
+  Fixed:
+  Scav Transits.
+  Cultist Circle times.
+  Repeatable Quest rep to zero
+  Removed:
+  AI PMC > Convert AI to PMC
  </System:String>
  <!--MessageBoxes and/or Exception handlers-->
  <System:String xml:space="preserve" x:Key="SVMWrongInstallation">You've incorrectly installed SVM, it is not located under "user\mods"
@@ -275,7 +289,9 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <!--Keys Section-->
  <System:String x:Key="Keys">Keys and keycards:</System:String>
  <System:String x:Key="InfiniteKeycards">Infinite uses for keycards</System:String>
+ <System:String x:Key="AvoidResidential">Except Residential keycard</System:String>
  <System:String x:Key="InfiniteKeys">Infinite uses for keys</System:String>
+ <System:String x:Key="AvoidOddKeys">Except Odd keys</System:String>
  <System:String x:Key="AvoidSingleKeys">Except Single-use keys</System:String>
  <System:String x:Key="AvoidMarkedKeys">Except keys for marked rooms</System:String>
  <System:String x:Key="KeyUseMult">Multiplier of keys uses:</System:String>
@@ -624,6 +640,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="KeycardHolderCase">Keycard holder case:</System:String>
  <System:String x:Key="GKeychain">Gingy keychain:</System:String>
  <System:String x:Key="StreamerCase">Streamer item case:</System:String>
+ <System:String x:Key="ArmorPlateCase">Armor plate case:</System:String>
 
  <!--Secure case Section-->
  <System:String x:Key="SecureContainers">Secure Containers</System:String>
@@ -688,6 +705,8 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="RewardSpread">Reward spread multiplier:</System:String>
 
  <System:String x:Key="Types">Mission Types:</System:String>
+ <System:String x:Key="Reroll">Free Rerolls:</System:String>
+
 
  <!--Scav Section-->
  <System:String x:Key="SCAVHealth">SCAV Health</System:String>
@@ -843,6 +862,9 @@ per cell for these calibers: 12x70, 20x70, 23x75</System:String>
 per cell for these calibers: 5.45x39, 5.56x45, .300, .366, 7.62x39, 9x39</System:String>
  <System:String xml:space="preserve" x:Key="MarksmanRound_TT">Sets the maximum ammunition stack size 
 per cell for these calibers: 6.8x51 7.62x51, 7.62x54R, 12.7x55, .338LM</System:String>
+ <System:String xml:space="preserve" x:Key="AvoidOddKeys_TT">Avoids keys that has odd number of uses (2,5,10,20) excluding marked rooms
+ Such keys as: Ref's Hideout keys, Factory exit key, couple of streets keys (Chek 15), cargo key, etc.</System:String>
+ <System:String x:Key="AvoidResidential_TT">TerraGroup Labs residential unit keycard which by default has 2 uses</System:String>
  <System:String xml:space="preserve" x:Key="DisableDefaultCashStack_TT">If Enabled: Dollars and Euros will scale by Rouble stack with the ratio of 1:100. 
 Dollars and Euros fields will be disabled</System:String>
  <System:String x:Key="RemoveConstructionsRequirements_TT">Removes Materials as a requirement for construction</System:String>

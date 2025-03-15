@@ -155,6 +155,8 @@ G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains, Kiriko - Финанс
  <System:String x:Key="RemoveKeysUsageNumber">Бесконечные ключи и ключ-карты</System:String>
  <System:String x:Key="AvoidSingleKeys">Кроме одноразовых ключей</System:String>
  <System:String x:Key="AvoidMarkedKeys">Кроме ключей от меченых комнат</System:String>
+ <System:String x:Key="AvoidResidential">Кроме жилого блока</System:String>
+ <System:String x:Key="AvoidOddKeys">Кроме необычных ключей</System:String>
  <System:String x:Key="KeyUseMult">Множитель использований ключей:</System:String>
  <System:String x:Key="KeycardUseMult">Множитель использований Ключ-карт:</System:String>
  <System:String x:Key="KeyDurabilityThreshold">Кол-во использований не может быть выше:</System:String>
@@ -491,6 +493,7 @@ G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains, Kiriko - Финанс
  <System:String x:Key="KeycardHolderCase">Кейс Для ключ карт:</System:String>
  <System:String x:Key="GKeychain">Ключница Gingy:</System:String>
  <System:String x:Key="StreamerCase">Cтримерский кейс:</System:String>
+ <System:String x:Key="ArmorPlateCase">Кейс для бронеплит:</System:String>
 
  <!--Secure case Section-->
  <System:String x:Key="SecureContainers">Защищенные контейнеры</System:String>
@@ -538,7 +541,7 @@ G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains, Kiriko - Финанс
  <System:String x:Key="RewardSpread">Множитель минимальной награды:</System:String>
 
  <System:String x:Key="Types">Типы миссий:</System:String>
-
+ <System:String x:Key="Reroll">Бесплатных замен:</System:String>
  <System:String x:Key="RewardScale">Степени наград от уровня</System:String>
  <System:String x:Key="Levels">Уровни:</System:String>
  <System:String x:Key="Experience">Опыт:</System:String>
@@ -695,7 +698,10 @@ G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains, Kiriko - Финанс
 для таких калибров: 6.8x51 7.62x51, 7.62x54R, 12.7x55, .338LM</System:String>
  <System:String xml:space="preserve" x:Key="DisableDefaultCashStack_TT">Если включено: Соотношение долларок и евро к рублю будет 1 к 100.
 Поля долларов и евро будут отключены</System:String>
-<System:String  xml:space="preserve" x:Key="HideoutMisc_TT">Не трогайте эти поля если у вас идёт производство/строительство в вашем профиле.
+ <System:String xml:space="preserve" x:Key="AvoidOddKeys_TT">Исключает ключи у которых не обычное кол-во использований (2,5,10,20) не включая меченые комнаты
+ Такие ключи как: Убежища от Рефа, Выход из завода, ящик от контейнера, пару ключей с улиц итд.</System:String>
+ <System:String x:Key="AvoidResidential_TT">Ключ-карта от жилого модуля TerraGroup Labs по умолчанию имеет 2 использования</System:String>
+ <System:String  xml:space="preserve" x:Key="HideoutMisc_TT">Не трогайте эти поля если у вас идёт производство/строительство в вашем профиле.
 Это может повредить потребление ресурсов или время действия, на свой страх и риск.</System:String>
  <System:String x:Key="RemoveConstructionsRequirements_TT">Не требует никаких ресурсов или денег для постройки</System:String>
  <System:String x:Key="RemoveSkillRequirements_TT">Не требует уровни навыков вашего ЧВК для постройки</System:String>
