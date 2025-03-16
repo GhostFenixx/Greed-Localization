@@ -161,6 +161,11 @@ Everyone else who provided any kind of support to the project, whether bug repor
   Repeatable Quest rep to zero
   Removed:
   AI PMC > Convert AI to PMC
+  
+  1.11.1 For SPT 3.11
+  Added: 
+  Ref in traders section
+  Remove FIR requirements for materials in Hideout 
  </System:String>
  <!--MessageBoxes and/or Exception handlers-->
  <System:String xml:space="preserve" x:Key="SVMWrongInstallation">You've incorrectly installed SVM, it is not located under "user\mods"
@@ -326,6 +331,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="MaxBitcoins">Maximum amount of stored bitcoins:</System:String>
  <System:String x:Key="BitcoinTime">Time required to generate a bitcoin in minutes:</System:String>
  <System:String x:Key="RemoveConstructionsRequirements">Remove building requirements of materials</System:String>
+ <System:String x:Key="RemoveConstructionsFIRRequirements">Remove requirements for FIR materials</System:String>
  <System:String x:Key="RemoveSkillRequirements">Remove building requirements of skills</System:String>
  <System:String x:Key="RemoveTraderLevelRequirements">Remove building requirements of trader standing</System:String>
  <System:String x:Key="CultistMaxRewards">Amount of rewards from cultist circle:</System:String>
@@ -811,6 +817,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="Fence">Fence:</System:String>
  <System:String x:Key="Peacekeeper">Peacekeeper:</System:String>
  <System:String x:Key="Jaeger">Jaeger:</System:String>
+ <System:String x:Key="Ref">Ref:</System:String>
  <System:String x:Key="Lightkeeper">Lightkeeper:</System:String>
  <!--Unified names of Bosses-->
  <System:String x:Key="Killa">Killa</System:String>

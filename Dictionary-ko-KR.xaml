@@ -202,6 +202,7 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String x:Key="MaxBitcoins">저장된 비트코인 최대 수량 :</System:String>
  <System:String x:Key="BitcoinTime">비트코인 생성 시간 (단위:분) :</System:String>
  <System:String x:Key="RemoveConstructionsRequirements">시설 건설 재료 요구사항 제거</System:String>
+ <System:String x:Key="RemoveConstructionsFIRRequirements">인레이드(FIR) 재료에 대한 요구 사항 제거</System:String>
  <System:String x:Key="RemoveSkillRequirements">시설 건설 스킬 요구사항 제거</System:String>
  <System:String x:Key="RemoveTraderLevelRequirements">시설 건설 상인 레벨 요구사항 제거</System:String>
  <System:String x:Key="CultistMaxRewards">컬티스트 서클 보상 횟수:</System:String>
@@ -686,6 +687,7 @@ Server Value Modifier 모드 웹페이지의 설치 가이드를 따라주세요
  <System:String x:Key="Fence">펜스 :</System:String>
  <System:String x:Key="Peacekeeper">피스키퍼 :</System:String>
  <System:String x:Key="Jaeger">예거 :</System:String>
+ <System:String x:Key="Ref">레프 :</System:String>
  <System:String x:Key="Lightkeeper">라이트키퍼 :</System:String>
  <!--Unified names of Bosses-->
  <System:String x:Key="Killa">킬라</System:String>

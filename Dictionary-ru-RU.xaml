@@ -190,6 +190,7 @@ G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains, Kiriko - Финанс
     <System:String x:Key="MaxBitcoins">Максимальное количество биткоинов:</System:String>
     <System:String x:Key="BitcoinTime">Время требуемое для биткоина в минутах:</System:String>
  <System:String x:Key="RemoveConstructionsRequirements">Строительство не требует не материалов</System:String>
+ <System:String x:Key="RemoveConstructionsFIRRequirements">Не требуются "найдены в рейде" материалы</System:String>
  <System:String x:Key="RemoveSkillRequirements">Строительство не требует навыков</System:String>
  <System:String x:Key="RemoveTraderLevelRequirements">Строительство не требует торговцев</System:String>
 
@@ -645,7 +646,8 @@ G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains, Kiriko - Финанс
     <System:String x:Key="Fence">Скупщик</System:String>
     <System:String x:Key="Peacekeeper">Миротворец</System:String>
     <System:String x:Key="Jaeger">Егерь</System:String>
-    <System:String x:Key="Lightkeeper">Смотритель</System:String>
+    <System:String x:Key="Ref">Реф</System:String>
+ <System:String x:Key="Lightkeeper">Смотритель</System:String>
  <!--Unified names of Bosses-->
  <System:String x:Key="Killa">Килла</System:String>
  <System:String x:Key="Tagilla">Тагилла</System:String>

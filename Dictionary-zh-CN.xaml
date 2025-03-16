@@ -239,6 +239,7 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="MaxBitcoins">比特币存储数 上限:</System:String>
  <System:String x:Key="BitcoinTime">比特币 生产时间(分钟):</System:String>
  <System:String x:Key="RemoveConstructionsRequirements">去除藏身处设施 材料 要求</System:String>
+ <System:String x:Key="RemoveConstructionsFIRRequirements">移除藏身处建材“在战局中找到”要求</System:String>
  <System:String x:Key="RemoveSkillRequirements">去除藏身处设施 技能 要求</System:String>
  <System:String x:Key="RemoveTraderLevelRequirements">去除藏身处设施 商人等级 要求</System:String>
  <System:String x:Key="CultistMaxRewards">邪教圈 奖励数量:</System:String>
@@ -716,6 +717,7 @@ Everyone else who provided any kind of support to the project, whether bug repor
  <System:String x:Key="Fence">Fence:</System:String>
  <System:String x:Key="Peacekeeper">Peacekeeper:</System:String>
  <System:String x:Key="Jaeger">Jaeger:</System:String>
+ <System:String x:Key="Ref">Ref:</System:String>
  <System:String x:Key="Lightkeeper">Lightkeeper:</System:String>
  <!--Unified names of Bosses-->
  <System:String x:Key="Killa">Killa</System:String>

@@ -191,6 +191,7 @@ G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains, Kiriko - Фінанс
     <System:String x:Key="MaxBitcoins">Максимальна кількість біткоїнів:</System:String>
     <System:String x:Key="BitcoinTime">Час необхідний для біткоїну в хвилинах:</System:String>
  <System:String x:Key="RemoveConstructionsRequirements">Будівництво не вимагає матеріалів</System:String>
+ <System:String x:Key="RemoveConstructionsFIRRequirements">Не потребує матеріалів "Знайдених у рейді"</System:String>
  <System:String x:Key="RemoveSkillRequirements">Будівництво не потребує навичок</System:String>
  <System:String x:Key="RemoveTraderLevelRequirements">Будівництво не потребує торговців</System:String>
  <System:String x:Key="CultistMaxRewards">Amount of rewards from cultist circle:</System:String>
@@ -641,7 +642,8 @@ G10rgos, DaveyB0y, Fortis, olli991, Kain187, GamesB4Gains, Kiriko - Фінанс
     <System:String x:Key="Fence">Скупник</System:String>
     <System:String x:Key="Peacekeeper">Миротворець</System:String>
     <System:String x:Key="Jaeger">Єгер</System:String>
-    <System:String x:Key="Lightkeeper">Доглядач</System:String>
+ <System:String x:Key="Ref">Реф</System:String>
+ <System:String x:Key="Lightkeeper">Доглядач</System:String>
  <!--Unified names of Bosses-->
  <System:String x:Key="Killa">Кілла</System:String>
  <System:String x:Key="Tagilla">Тагілла</System:String>
