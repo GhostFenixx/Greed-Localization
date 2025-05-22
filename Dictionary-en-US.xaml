@@ -216,23 +216,23 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <!--Buttons-->
  <System:String x:Key="ApplyButton">Apply</System:String>
  <System:String x:Key="Applied">Preset Applied!</System:String>
- <System:String x:Key="LoadButton">Load preset</System:String>
+ <System:String x:Key="LoadButton">Load Preset</System:String>
  <System:String x:Key="Saved">Preset Saved!</System:String>
- <System:String x:Key="SaveButton">Save preset</System:String>
+ <System:String x:Key="SaveButton">Save Preset</System:String>
  <System:String x:Key="Loaded">Preset Loaded!</System:String>
  <!--Tab Control-->
  <System:String x:Key="MainPage">Main Page</System:String>
- <System:String x:Key="Items">Inventory and items</System:String>
+ <System:String x:Key="Items">Inventory and Items</System:String>
  <System:String x:Key="Custom">Custom Fields and Mods</System:String>
  <System:String x:Key="faq">F.A.Q</System:String>
- <System:String x:Key="Notes">Preset notes</System:String>
+ <System:String x:Key="Notes">Preset Notes</System:String>
  <System:String x:Key="Hideout">Hideout</System:String>
  <System:String x:Key="Traders">Traders</System:String>
- <System:String x:Key="Services">Traders services</System:String>
+ <System:String x:Key="Services">Trader services</System:String>
  <System:String x:Key="Loot">Loot</System:String>
  <System:String x:Key="Player">Player and Skills</System:String>
  <System:String x:Key="Raid">Raid Settings</System:String>
- <System:String x:Key="Fleamarket">Flea market</System:String>
+ <System:String x:Key="Fleamarket">Flea Market</System:String>
  <System:String x:Key="Quests">Repeatable Quests</System:String>
  <System:String x:Key="CSM">Case Space Manager</System:String>
  <System:String x:Key="SCAV">Player SCAV</System:String>
@@ -245,7 +245,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="Info">Additional Info</System:String>
  <System:String x:Key="Language">Language</System:String>
  <!--Menu Tab Controls-->
- <System:String x:Key="LoadLast">Load last loaded preset on launch</System:String>
+ <System:String x:Key="LoadLast">Load last loaded Preset on launch</System:String>
  <System:String x:Key="RunServerAndLauncher">Run Server and Launcher</System:String>
  <System:String x:Key="CloseServerAndLauncher">Close Server and Launcher</System:String>
  <System:String x:Key="PresetFolder">Open Preset folder</System:String>
@@ -257,8 +257,8 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  
  <System:String x:Key="SPTHUB">SPT HUB Discord</System:String>
  <System:String x:Key="SPTWEB">SPT Website</System:String>
- <System:String x:Key="ItemIDWeb">ID Item Finder website</System:String>
- <System:String x:Key="ModWeb">Mod's webpage</System:String>
+ <System:String x:Key="ItemIDWeb">ID Item Finder Website</System:String>
+ <System:String x:Key="ModWeb">Mod's Webpage</System:String>
  <System:String x:Key="KoFi">Ko-Fi Donation link</System:String>
  <System:String x:Key="GitHub">Report an issue on GitHub</System:String>
  <System:String x:Key="EmuRC">EmutarkovRC Discord</System:String>
@@ -266,7 +266,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="WikiPage">Tarkov Wiki</System:String>
 
  <!--Preset Notes Initial Text-->
- <System:String x:Key="PresetInitialText">This is your canvas for notes, use it however you want, it will save in the preset</System:String>
+ <System:String x:Key="PresetInitialText">This is your canvas for notes, use it however you want and it will be saved in the preset</System:String>
  <!--Items Section-->
  <System:String x:Key="ItemPriceMult">Global price of items:</System:String>
  <System:String x:Key="HeatFactor">Heat Factor:</System:String>
@@ -280,36 +280,36 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="FragmentMult">Bullet fragmentation chance:</System:String>
  <System:String x:Key="ExamineKeys">Including keys</System:String>
  <System:String x:Key="WeaponHeatOff">Turn off weapon overheat</System:String>
- <System:String x:Key="SMGToHolster">Allow SMGs in holster slot</System:String>
- <System:String x:Key="PistolToMain">Allow pistols on primary slots</System:String>
+ <System:String x:Key="SMGToHolster">Allow SMGs in the holster slot</System:String>
+ <System:String x:Key="PistolToMain">Allow pistols in the primary slot</System:String>
  <System:String x:Key="AllExaminedItems">All items examined</System:String>
  <System:String x:Key="EquipRigsWithArmors">Allow armored rigs with armors</System:String>
  <System:String x:Key="RemoveSecureContainerFilters">Remove secure container filters</System:String>
- <System:String x:Key="AddSignalPistolToSpec">Allow Signal pistol into Special slot</System:String>
+ <System:String x:Key="AddSignalPistolToSpec">Allow Signal pistol in the Special slots</System:String>
  <System:String x:Key="RemoveRaidRestr">Remove In-raid restrictions</System:String>
- <System:String x:Key="RaidDrop">Removes `Can't be dropped in raid` tag</System:String>
- <System:String x:Key="RemoveBackpacksRestrictions">Removes backpack restrictions</System:String>
- <System:String x:Key="NoGearPenalty">Removes movement penalty from gear</System:String>
+ <System:String x:Key="RaidDrop">Remove `Can't be dropped in raid` tag</System:String>
+ <System:String x:Key="RemoveBackpacksRestrictions">Remove backpack restrictions</System:String>
+ <System:String x:Key="NoGearPenalty">Remove movement penalty from gear</System:String>
 
  <!--Keys Section-->
- <System:String x:Key="Keys">Keys and keycards:</System:String>
+ <System:String x:Key="Keys">Keys and Keycards:</System:String>
  <System:String x:Key="InfiniteKeycards">Infinite uses for keycards</System:String>
- <System:String x:Key="AvoidResidential">Except Residential keycard</System:String>
+ <System:String x:Key="AvoidResidential">Except the Residential keycard</System:String>
  <System:String x:Key="InfiniteKeys">Infinite uses for keys</System:String>
- <System:String x:Key="AvoidOddKeys">Except Odd keys</System:String>
- <System:String x:Key="AvoidSingleKeys">Except Single-use keys</System:String>
- <System:String x:Key="AvoidMarkedKeys">Except keys for marked rooms</System:String>
- <System:String x:Key="KeyUseMult">Multiplier of keys uses:</System:String>
- <System:String x:Key="KeycardUseMult">Multiplier of keycard uses:</System:String>
+ <System:String x:Key="AvoidOddKeys">Except odd keys</System:String>
+ <System:String x:Key="AvoidSingleKeys">Except single-use keys</System:String>
+ <System:String x:Key="AvoidMarkedKeys">Except for marked room keys</System:String>
+ <System:String x:Key="KeyUseMult">Multiplier for key uses:</System:String>
+ <System:String x:Key="KeycardUseMult">Multiplier for keycard uses:</System:String>
  <System:String x:Key="KeyDurabilityThreshold">Amount of uses can't go over:</System:String>
  <!--Ammo Stack Section-->
  <System:String x:Key="AmmoStack">Ammo stacks</System:String>
- <System:String x:Key="MarksmanRound">Marksman Rifles Rounds:</System:String>
- <System:String x:Key="RifleRound">Assault Rifles Rounds:</System:String>
+ <System:String x:Key="MarksmanRound">Marksman Rifle Rounds:</System:String>
+ <System:String x:Key="RifleRound">Assault Rifle Rounds:</System:String>
  <System:String x:Key="ShotgunRound">Shotgun Rounds:</System:String>
  <System:String x:Key="PistolRound">Pistol/SMG Rounds:</System:String>
  <!--Currency stack Section-->
- <System:String x:Key="CurrencyStack">Currency stack per cell</System:String>
+ <System:String x:Key="CurrencyStack">Currency stack size per cell</System:String>
  <System:String x:Key="DisableDefaultCashStack">Follow EFT default cash stack design</System:String>
  <System:String x:Key="Dollars">Dollars:</System:String>
  <System:String x:Key="Euros">Euros:</System:String>
@@ -319,29 +319,29 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="Changer">Individual item changer (Read FAQ)</System:String>
  <System:String x:Key="IDDefault">Default IIC:</System:String>
  <System:String x:Key="IDParent">Change everything by Parent ID:</System:String>
- <System:String x:Key="IDPrice">Change/Add price in a handbook:</System:String>
+ <System:String x:Key="IDPrice">Change/Add price in the handbook:</System:String>
  <System:String x:Key="IDFilter">Push an ID into Filter:</System:String>
  <!--Hideout Section-->
  <System:String x:Key="FuelConsumptionRate">Fuel consumption rate:</System:String>
  <System:String x:Key="NoFuelMult">Efficiency multiplier with no fuel:</System:String>
- <System:String x:Key="AirFilterRate">Air filter rate usage per time:</System:String>
- <System:String x:Key="GPUBoostRate">GPU boost rate deficiency per unit:</System:String>
- <System:String x:Key="WaterFilterRate">Water filter spent per purified water creation:</System:String>
- <System:String x:Key="WaterFilterTime">Time spent in minutes to create purified water:</System:String>
+ <System:String x:Key="AirFilterRate">Air filter consumption rate:</System:String>
+ <System:String x:Key="GPUBoostRate">GPU efficiency per unit:</System:String>
+ <System:String x:Key="WaterFilterRate">Water filter spent for each purified water created:</System:String>
+ <System:String x:Key="WaterFilterTime">Time spent (in minutes) to create purified water:</System:String>
  <System:String x:Key="MaxBitcoins">Maximum amount of stored bitcoins:</System:String>
  <System:String x:Key="BitcoinTime">Time required to generate a bitcoin in minutes:</System:String>
- <System:String x:Key="RemoveConstructionsRequirements">Remove building requirements of materials</System:String>
- <System:String x:Key="RemoveConstructionsFIRRequirements">Remove requirements for FIR materials</System:String>
- <System:String x:Key="RemoveSkillRequirements">Remove building requirements of skills</System:String>
- <System:String x:Key="RemoveTraderLevelRequirements">Remove building requirements of trader standing</System:String>
- <System:String x:Key="CultistMaxRewards">Amount of rewards from cultist circle:</System:String>
- <System:String x:Key="CultistTime">Time for Cultist circle:</System:String>
+ <System:String x:Key="RemoveConstructionsRequirements">Remove construction item requirements</System:String>
+ <System:String x:Key="RemoveConstructionsFIRRequirements">Remove the FiR requirement</System:String>
+ <System:String x:Key="RemoveSkillRequirements">Remove the character skill requirement</System:String>
+ <System:String x:Key="RemoveTraderLevelRequirements">Remove trader standing construction requirement</System:String>
+ <System:String x:Key="CultistMaxRewards">Number of rewards from the cultist circle:</System:String>
+ <System:String x:Key="CultistTime">Cultist Circle cycle time:</System:String>
 
  <!--Hideout Multipliers-->
  <System:String x:Key="HideoutProdMult">Hideout production time:</System:String>
- <System:String x:Key="HideoutConstMult">Hideout constructions time:</System:String>
- <System:String x:Key="ScavCaseTime">Scav case time:</System:String>
- <System:String x:Key="ScavCasePrice">Scav case offer price:</System:String>
+ <System:String x:Key="HideoutConstMult">Hideout construction time:</System:String>
+ <System:String x:Key="ScavCaseTime">Scav Case cycle time:</System:String>
+ <System:String x:Key="ScavCasePrice">Scav Case offer price:</System:String>
  <!--Offline Regeneration Section-->
  <System:String x:Key="Regeneration">Regeneration</System:String>
  <System:String x:Key="OfflineRegen">Completely Remove Offline Regen</System:String>
@@ -354,10 +354,10 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="HideoutRegen">You can remove hideout bonuses below</System:String>
  <!--Stash Section-->
  <System:String x:Key="Stash">Stash size</System:String>
- <System:String x:Key="StashLvl1">Stash Level One(Standard):</System:String>
- <System:String x:Key="StashLvl2">Stash Level Two(Left Behind):</System:String>
- <System:String x:Key="StashLvl3">Stash Level Three(Prepare to Escape):</System:String>
- <System:String x:Key="StashLvl4">Stash Level Four(Edge of Darkness):</System:String>
+ <System:String x:Key="StashLvl1">Level one stash (Standard):</System:String>
+ <System:String x:Key="StashLvl2">Level two stash (Left Behind):</System:String>
+ <System:String x:Key="StashLvl3">Level three stash (Prepare to Escape):</System:String>
+ <System:String x:Key="StashLvl4">Level four stash (Edge of Darkness):</System:String>
  <System:String x:Key="StashTUE">The Unheard Edition:</System:String>
 
  <!--Traders Section-->
@@ -367,65 +367,65 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="FIRTrade">Items sold by traders are "Found in Raid"</System:String>
  <System:String x:Key="AllQuestsAvailable">All quests available</System:String>
  <System:String x:Key="RemoveTimeCondition">Remove timer for new quests</System:String>
- <System:String x:Key="TradersLvl4">All traders LV4</System:String>
+ <System:String x:Key="TradersLvl4">All traders are LV4</System:String>
  <System:String x:Key="FIRRestrictsQuests">No "Found in Raid" requirements in quests</System:String>
  <System:String x:Key="RemoveTradeLimits">Remove all trade limits</System:String>
  <System:String x:Key="IncreaseAssort">Drastically increase trader stock quantity</System:String>
  <System:String x:Key="QuestRedeemTime">Quest reward redeem time in hours:</System:String>
  <System:String x:Key="StockTime">New stock time in minutes:</System:String>
- <System:String x:Key="MinDurabSell">Minimum gear durability for sale:</System:String>
+ <System:String x:Key="MinDurabSell">Minimum gear durability to sell:</System:String>
  <System:String x:Key="PriceMarkup">Price Markup (Selling)</System:String>
  <System:String x:Key="PriceAssort">Price Multiplier (Trader Assort)</System:String>
- <System:String x:Key="RemoveCurrencyOffers">Removes every currency offer from traders</System:String>
- <System:String x:Key="RemoveBarterOffers">Removes every barter offer from traders</System:String>
- <System:String x:Key="UnlockQuestAssort">Unlock trader offers behind quests</System:String>
+ <System:String x:Key="RemoveCurrencyOffers">Remove every currency offer from traders</System:String>
+ <System:String x:Key="RemoveBarterOffers">Remove every barter offer from traders</System:String>
+ <System:String x:Key="UnlockQuestAssort">Unlock quest-gated trader offers</System:String>
  
  <!--Fence Section-->
  <System:String x:Key="FenceSettings">Fence Settings</System:String>
- <System:String x:Key="FenceAmountOnSale">Items on sale:</System:String> 
- <System:String x:Key="FencePremiumAmountOnSale">Additional items on sale on Rep 6+:</System:String>
- <System:String x:Key="FencePresetCount">Amount of gun builds on sale:</System:String>
+ <System:String x:Key="FenceAmountOnSale">Number of items on sale:</System:String> 
+ <System:String x:Key="FencePremiumAmountOnSale">Additional items on sale with 6+ Rep:</System:String>
+ <System:String x:Key="FencePresetCount">Number of gun builds on sale:</System:String>
  <System:String x:Key="FencePriceMult">Item price multiplier:</System:String>
  <System:String x:Key="FencePresetMult">Gun builds price multiplier:</System:String>
- <System:String x:Key="FenceGunDurability">Durability of guns:</System:String>
- <System:String x:Key="FenceArmorDurability">Durability of armor:</System:String>
+ <System:String x:Key="FenceGunDurability">Durability of guns on offer:</System:String>
+ <System:String x:Key="FenceArmorDurability">Durability of armors on offer:</System:String>
  <System:String x:Key="FenceBlacklist">Fence Blacklist:</System:String>
 
  <!--Services Section--> 
  <!--insurance Section-->
  <System:String x:Key="Insurance">Insurance</System:String>
- <System:String x:Key="InsuranceStorageTime">Insurance storage lifespan in hours:</System:String>
- <System:String x:Key="InsuranceTradersTime">Insurance return time by traders in hours:</System:String>
- <System:String x:Key="InsuranceTradersChance">Return chance in % :</System:String>
+ <System:String x:Key="InsuranceStorageTime">Insurance storage lifespan (in hours):</System:String>
+ <System:String x:Key="InsuranceTradersTime">Insurance return time (in hours):</System:String>
+ <System:String x:Key="InsuranceTradersChance">Return chance (in %) :</System:String>
  <System:String x:Key="InsuranceTradersPriceMult">Price multiplier for insurance</System:String>
- <System:String x:Key="InsuranceMinimumTime">Minimum time for insurance return in hours:</System:String>
- <System:String x:Key="InsuranceMaximumTime">Maximum time for insurance return in hours:</System:String>
- <System:String x:Key="InsuranceInterval">Time interval to check for insurance in seconds:</System:String>
- <System:String x:Key="InsuranceTimeOverride">Override insurance time to seconds:</System:String>
- <System:String x:Key="InsuranceAttachmentChance">Chance your attachments won't be stripped in % </System:String>
+ <System:String x:Key="InsuranceMinimumTime">Minimum return time for insurance (hours):</System:String>
+ <System:String x:Key="InsuranceMaximumTime">Maximum return time for insurance (hours):</System:String>
+ <System:String x:Key="InsuranceInterval">Frequency of insurance checks (in seconds):</System:String>
+ <System:String x:Key="InsuranceTimeOverride">Override insurance time to the following value (in seconds):</System:String>
+ <System:String x:Key="InsuranceAttachmentChance">Chance your attachments won't be stripped (in %) </System:String>
  <System:String x:Key="HealMarkup">Heal Markup</System:String>
  <!--Repair Section-->
  <System:String x:Key="Repair">Repair</System:String>
  <System:String x:Key="RepairMarkup">Repair Price markup:</System:String>
- <System:String x:Key="ArmorSkillMult">Amount of 'Armor skill' given per point repaired</System:String>
- <System:String x:Key="WeaponMaintenanceSkillMult">Amount of 'Weapon Maintenance' given per point repaired</System:String>
- <System:String x:Key="IntellectSkillMult">Amount of 'Intellect' given per point repaired by</System:String>
+ <System:String x:Key="ArmorSkillMult">'Light/Heavy Armor' skill gained per point repaired</System:String>
+ <System:String x:Key="WeaponMaintenanceSkillMult">'Weapon Maintenance' skill gained per point repaired</System:String>
+ <System:String x:Key="IntellectSkillMult">'Intellect' skill gained for each point repaired by</System:String>
  <System:String x:Key="WeaponRepairKit">Weapon repair kit:</System:String>
  <System:String x:Key="ArmorRepairKit">Armor repair kit:</System:String>
  <System:String x:Key="RepairKit">Repair kits:</System:String>
  <System:String x:Key="IntellectSkillLimit">Maximum amount of 'Intellect' given per one repair</System:String>
  <System:String x:Key="NoRandomDamageOnRepair">No more random damage on repair</System:String>
- <System:String x:Key="NoPermDamageWeapon">Weapon repair won't wear durability</System:String>
- <System:String x:Key="NoPermDamageArmor">Armor repair won't wear durability</System:String>
+ <System:String x:Key="NoPermDamageWeapon">Weapon repair won't degrade durability</System:String>
+ <System:String x:Key="NoPermDamageArmor">Armor repair won't degrade durability</System:String>
  <!--Clothing Section-->
  <System:String x:Key="Clothing">Clothing</System:String>
- <System:String x:Key="ClothesAnySide">Unlock each side's apparel</System:String>
- <System:String x:Key="ClothesFree">All clothing is free</System:String>
- <System:String x:Key="ClothesLevelUnlock">Remove all prerequisites to buy clothing</System:String>
+ <System:String x:Key="ClothesAnySide">Unlock apparel from both factions</System:String>
+ <System:String x:Key="ClothesFree">All apparel is free</System:String>
+ <System:String x:Key="ClothesLevelUnlock">Remove all prerequisites to buy apparel</System:String>
  <!--Healing Section-->
  <System:String x:Key="HealthMarkup">Health Markup</System:String>
  <System:String x:Key="FreeHealLvl">Free healing until you reach level:</System:String>
- <System:String x:Key="FreeHealRaids">Free healing until you do more raids than:</System:String>
+ <System:String x:Key="FreeHealRaids">Free healing for up to this many raids:</System:String>
  <System:String x:Key="TherapistHealthPrice">Therapist healing price multiplier</System:String>
  <System:String x:Key="Lvl1">Level 1:</System:String>
  <System:String x:Key="Lvl2">Level 2:</System:String>
@@ -435,18 +435,17 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="LooseLoot">Loose</System:String>
  <System:String x:Key="ContainerLoot">In containers</System:String>
  <System:String x:Key="AllContainers">Spawn all containers</System:String>
- <System:String x:Key="LocationsLoot">Multipliers of loot on locations</System:String>
+ <System:String x:Key="LocationsLoot">Location-specific loot multipliers</System:String>
  <!--Airdrop Section-->
  <System:String x:Key="Airdrops">Airdrops</System:String>
- <System:String x:Key="AirdropsTimeMinMax">Time window for 
-        Airdrop in minutes:</System:String>
- <System:String x:Key="AirdropChance">Airdrop chance to appear per location (in %)</System:String>
+ <System:String x:Key="AirdropsTimeMinMax">Airdrop time window (in minutes):</System:String>
+ <System:String x:Key="AirdropChance">Per-location airdrop spawn chance (%)</System:String>
 
  <!--Unified names of fields inside crates and expander headers-->
- <System:String x:Key="Mixed">Contents of mixed supply crate</System:String>
- <System:String x:Key="WepArmor">Contents of military supply crate</System:String>
- <System:String x:Key="Medical">Contents of humanitarian supply crate</System:String>
- <System:String x:Key="BarterCrate">Contents of miscellaneous supply crate</System:String>
+ <System:String x:Key="Mixed">Contents of the mixed supply crate</System:String>
+ <System:String x:Key="WepArmor">Contents of the military supply crate</System:String>
+ <System:String x:Key="Medical">Contents of the humanitarian supply crate</System:String>
+ <System:String x:Key="BarterCrate">Contents of the miscellaneous supply crate</System:String>
 
  <System:String x:Key="Guns">Guns:</System:String>
  <System:String x:Key="BarterLoot">Barter items:</System:String>
@@ -458,23 +457,23 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="WeaponSkillMult">Weapon skill:</System:String>
  <System:String x:Key="HydrationLoss">Hydration loss rate:</System:String>
  <System:String x:Key="EnergyLoss">Energy loss rate:</System:String>
- <System:String x:Key="BlackStomach">Energy/Hydration rate with blacked stomach:</System:String>
+ <System:String x:Key="BlackStomach">Energy/Hydration rate with a blacked out stomach:</System:String>
 
- <System:String x:Key="Skills">Skills leveling effeciency</System:String>
- <System:String x:Key="SkillMinEffect">Minimum skill XP gain under fatigue:</System:String>
+ <System:String x:Key="Skills">Skill leveling effeciency</System:String>
+ <System:String x:Key="SkillMinEffect">Minimum skill XP gain while fatigued:</System:String>
  <System:String x:Key="SkillFatiguePerPoint">Skill fatigue added per point:</System:String>
- <System:String x:Key="SkillFreshEffect">XP gain multiplier under fresh points:</System:String>
- <System:String x:Key="SkillFPoints">Amount of fresh skill points:</System:String>
- <System:String x:Key="SkillPointsBeforeFatigue">Skill points before fatigue starts:</System:String>
- <System:String x:Key="SkillFatigueReset">Skill fatigue reset time in seconds:</System:String>
+ <System:String x:Key="SkillFreshEffect">XP gain multiplier while fresh:</System:String>
+ <System:String x:Key="SkillFPoints">Number of fresh skill points:</System:String>
+ <System:String x:Key="SkillPointsBeforeFatigue">Skill points before the fatigue sets in:</System:String>
+ <System:String x:Key="SkillFatigueReset">Skill fatigue reset time (in seconds):</System:String>
 
  <System:String x:Key="DiedHealth">Post-Raid Health status</System:String>
  <System:String x:Key="Death">Limb health multiplier after death:</System:String>
- <System:String x:Key="Blacked">Limb health multiplier after blacked:</System:String>
+ <System:String x:Key="Blacked">Limb health multiplier after getting blacked out:</System:String>
  <System:String x:Key="Savehealth">Save health after raid</System:String>
  <System:String x:Key="Saveeffects">Save effects after raid</System:String>
 
- <System:String x:Key="RaidMult">End of raid profile XP multipliers</System:String>
+ <System:String x:Key="RaidMult">End-of-raid profile XP multipliers</System:String>
  <System:String x:Key="MIA">MIA:</System:String>
  <System:String x:Key="Survived">Survived:</System:String>
  <System:String x:Key="Killed">Killed:</System:String>
@@ -483,7 +482,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="CharXP">Character XP per action</System:String>
  <System:String x:Key="ScavKill">Scav Kills:</System:String>
  <System:String x:Key="PMCKill">PMC kills:</System:String>
- <System:String x:Key="ScavHMult">Headshot multiplier:</System:String>
+ <System:String x:Key="ScavHMult">Scav Headshot multiplier:</System:String>
  <System:String x:Key="PMCHMult">PMC Headshot multiplier:</System:String>
 
  <System:String x:Key="PMCHealth">PMC Health</System:String>
@@ -495,41 +494,41 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="HandsStamina">Stamina (Hands)</System:String>
  <System:String x:Key="LegsStamina">Stamina (Legs)</System:String>
  <System:String x:Key="MaxStamina">Max Stamina:</System:String>
- <System:String x:Key="StaminaRegenRate">Stamina regen rate:</System:String>
- <System:String x:Key="StaminaStanceConsumption">Stamina consumption multiplier per stance</System:String>
+ <System:String x:Key="StaminaRegenRate">Stamina regeneration rate:</System:String>
+ <System:String x:Key="StaminaStanceConsumption">Stamina consumption multiplier by stance</System:String>
  <System:String x:Key="Standing">Standing</System:String>
- <System:String x:Key="LayingDown">Laying down</System:String>
+ <System:String x:Key="LayingDown">Lying down</System:String>
  <System:String x:Key="Crouching">Crouching</System:String>
  <System:String x:Key="JumpConsumption">Consumption per jump:</System:String>
- <System:String x:Key="StanceSwitchConsumption">Consumption on stand from other stances</System:String>
+ <System:String x:Key="StanceSwitchConsumption">Stamina consumption while:</System:String>
 
  <System:String x:Key="Stamina">Stamina</System:String>
  <System:String x:Key="UnlimitedStamina">Enable Unlimited Stamina</System:String>
  <System:String x:Key="FallDamage">Disable fall damage</System:String>
  <!--Raid Settings Section-->
- <System:String x:Key="Removelabkey">Remove key-card requirement to access Laboratory</System:String>
+ <System:String x:Key="Removelabkey">Remove the Laboratory access keycard requirement</System:String>
  <System:String x:Key="LabInsurance">Working insurance inside Laboratory</System:String>
  <System:String x:Key="SafeExit">Safe Exit</System:String>
  <System:String x:Key="SaveGearAfterDeath">Softcore</System:String>
- <System:String x:Key="NoRunThrough">No 'survived' run requirements</System:String>
+ <System:String x:Key="NoRunThrough">No 'Survived' run requirements</System:String>
  <System:String x:Key="SaveQuestItems">Save quest items on death</System:String>
  <System:String x:Key="SandboxAccessLevel">Maximum PMC level for newbie Ground Zero access</System:String>
  <System:String x:Key="ExtractsSettings">Extracts Settings</System:String>
- <System:String x:Key="RaidTime">Additional raid time in minutes:</System:String>
+ <System:String x:Key="RaidTime">Additional raid time (in minutes):</System:String>
  <System:String x:Key="Timeacceleration">Raid time acceleration multiplier:</System:String>
  <System:String x:Key="ChanceExtracts">All chance based extracts always available</System:String>
  <System:String x:Key="ExtendedExtracts">Default extracts available from any side</System:String>
  <System:String x:Key="GearExtract">No RR and Paracord required on climbing extracts</System:String>
  <System:String x:Key="ArmorExtract">Allow armor on climbing extracts</System:String>
- <System:String x:Key="NoBackpack">Remove restrictions to backpack related extracts</System:String>
+ <System:String x:Key="NoBackpack">Remove restrictions for backpack related extracts</System:String>
  <System:String x:Key="ForceTransitStash">Force size of Transit Inventory</System:String>
  <!--Coop/Car Section-->
- <System:String x:Key="FreeCoop">No Coop Exits restrictions</System:String>
- <System:String x:Key="CoopPaid">Make Coop extracts - paid extracts</System:String>
- <System:String x:Key="FenceGift">Disable Fence's gift for Coop extracts</System:String>
+ <System:String x:Key="FreeCoop">No Co-op exit restrictions</System:String>
+ <System:String x:Key="CoopPaid">Make Co-op extracts - paid extracts</System:String>
+ <System:String x:Key="FenceGift">Disable Fence's gift for Co-op extracts</System:String>
  <System:String x:Key="CarExitPrices">Car exit Prices</System:String>
  <System:String x:Key="CarExtractTime">Car extraction time in seconds:</System:String>
- <System:String x:Key="CoopExitPrices">Coop exit prices</System:String>
+ <System:String x:Key="CoopExitPrices">Co-op exit prices</System:String>
  <System:String x:Key="CarAndCoop">Car/Co-op extracts</System:String>
 
  <!--BTR Section-->
@@ -538,21 +537,24 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="ForceBTRFriendly">BTR is always interactable</System:String>
  <System:String x:Key="BTRTaxiPrice">Base taxi price in roubles:</System:String>
  <System:String x:Key="BTRCoverPrice">Base fire support price in roubles:</System:String>
- <System:String x:Key="BTRPriceMult">Price multiplier per faction:</System:String>
+ <System:String x:Key="BTRPriceMult">Price multiplier by faction:</System:String>
+ <System:String x:Key="BTRTimeMin">Minimum spawn time window (in minutes):</System:String>
+ <System:String x:Key="BTRTimeMax">Maximum spawn time window (in minutes):</System:String>
+ <System:String x:Key="BTRChance">BTR Spawn Chance (in %):</System:String>
  <System:String x:Key="Usec">USEC:</System:String>
  <System:String x:Key="Bear">BEAR:</System:String>
 
  <!--Events Section-->
  <System:String x:Key="Events">Events</System:String>
- <System:String x:Key="RaidersEverywhere">Change all SCAV to Raiders</System:String>
- <System:String x:Key="BossesOnReserve">All bosses in Reserve</System:String>
- <System:String x:Key="IncludeStreetBosses">Include Tarkov Street bosses</System:String>
- <System:String x:Key="BossesOnCustoms">All bosses in Customs</System:String>
+ <System:String x:Key="RaidersEverywhere">Change all SCAVs to Raiders</System:String>
+ <System:String x:Key="BossesOnReserve">All bosses on Reserve</System:String>
+ <System:String x:Key="IncludeStreetBosses">Include Tarkov Streets bosses</System:String>
+ <System:String x:Key="BossesOnCustoms">All bosses on Customs</System:String>
  <System:String x:Key="BossesOnHealthResort">All bosses in Health Resort</System:String>
  <System:String x:Key="HealthResortIncludeGuards">Including guards</System:String>
- <System:String x:Key="GoonsFactory">Goons in Factory and their spawn chance:</System:String>
- <System:String x:Key="KillaFactory">Killa in Factory and his spawn chance:</System:String>
- <System:String x:Key="CultistBosses">Enable Cultists bosses and their spawn chance:</System:String>
+ <System:String x:Key="GoonsFactory">Goons on Factory, with the following spawn chance:</System:String>
+ <System:String x:Key="KillaFactory">Killa on Factory, with the following spawn chance:</System:String>
+ <System:String x:Key="CultistBosses">Enable Cultists, with the following spawn chance:</System:String>
  <System:String x:Key="Halloween">Halloween</System:String>
  <System:String x:Key="DisableZombies">Disable zombies</System:String>
  <System:String x:Key="RandomInfectionLevel">Randomise infection level</System:String>
@@ -561,21 +563,21 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="NonSeasonalQuests">Enable Non-Seasonal event quests</System:String>
  <System:String x:Key="DisableEvents">Disable ongoing events</System:String>
  <System:String x:Key="TagillaInterchange">Killa spawns with Tagilla on Interchange</System:String>
- <System:String x:Key="GlukharLabs">Glukhar in Laboratory</System:String>
+ <System:String x:Key="GlukharLabs">Glukhar on Laboratory</System:String>
  <System:String x:Key="Bloodhounds">Bloodhounds spawn chance</System:String>
- <System:String x:Key="RedBlueEvent">Skier/Peacekeepers squads spawn chance</System:String>
+ <System:String x:Key="RedBlueEvent">Skier/Peacekeeper squads spawn chance</System:String>
  <!--Raid Startup Section-->
  <System:String x:Key="RaidStartup">Raid startup settings</System:String>
  <System:String x:Key="Cursed">Tagged and Cursed</System:String>
  <System:String x:Key="MIARaid">MIA at the end of the raid</System:String>
  <System:String x:Key="LootRaid">Save Loot after raid</System:String>
- <System:String x:Key="AIDifficulty">Difficulty of AI</System:String>
- <System:String x:Key="AIAmount">Amount of AI</System:String>
+ <System:String x:Key="AIDifficulty">AI Difficulty</System:String>
+ <System:String x:Key="AIAmount">Number of AI</System:String>
  <System:String x:Key="DeployTimer">Deploy timer in the raid</System:String>
  <System:String x:Key="EnableBosses">Enable Bosses</System:String>
  <System:String x:Key="ScavWars">Scav Wars</System:String>
 
- <System:String x:Key="AsOnline">As in online</System:String>
+ <System:String x:Key="AsOnline">As online</System:String>
  <System:String x:Key="High">High</System:String>
  <System:String x:Key="Horde">Horde</System:String>
  <System:String x:Key="Low">Low</System:String>
@@ -596,29 +598,29 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="Storm">Storm</System:String>
  <!--Fleamarket Section-->
  <System:String x:Key="PlayerFlea">Player Selling/Buying</System:String>
- <System:String x:Key="FleaMarketLevel">Lvl to access Fleamarket:</System:String>
+ <System:String x:Key="FleaMarketLevel">Level to access the Flea market:</System:String>
  <System:String x:Key="EnableFees">Enable fees</System:String>
  <System:String x:Key="Sell_chance">Base Sell chance:</System:String>
- <System:String x:Key="Sell_mult">Sell chance Multiplier:</System:String>
- <System:String x:Key="RepGain">Reputation gain per 100k roubles profit:</System:String>
- <System:String x:Key="RepLoss">Reputation loss per 100k roubles fees:</System:String>
- <System:String x:Key="Fleatime">Offer Time (In minutes):</System:String>
- <System:String x:Key="FleaFIR">Bought items comes with "Found in Raid" tag</System:String>
+ <System:String x:Key="Sell_mult">Sell chance multiplier:</System:String>
+ <System:String x:Key="RepGain">Reputation gain per 100k roubles of profit:</System:String>
+ <System:String x:Key="RepLoss">Reputation loss per 100k roubles of fees:</System:String>
+ <System:String x:Key="Fleatime">Offer time (in minutes):</System:String>
+ <System:String x:Key="FleaFIR">Purchased items are marked as "Found in Raid"</System:String>
  <System:String x:Key="FleaNoFIRSell">Can only sell items with 'Found in Raid' tag</System:String>
- <System:String x:Key="DisableBSGList">Disable BSG Fleamarket blacklist (Will not fix selling)</System:String>
- <System:String x:Key="EventOffers">Allow event items offers to generate w/o event</System:String>
- <System:String x:Key="OverrideOffers">Override sell offers system</System:String>
+ <System:String x:Key="DisableBSGList">Disable BSG Flea market blacklist (Will not fix selling)</System:String>
+ <System:String x:Key="EventOffers">Allow event item offers to generate w/o event</System:String>
+ <System:String x:Key="OverrideOffers">Override the sell offers system</System:String>
  <System:String x:Key="SellOffersAmount">Amount of offers:</System:String>
  <System:String x:Key="AIOffers">AI generated offers</System:String>
  <System:String x:Key="NonStack">Amount of non-stackable items per offer:</System:String>
- <System:String x:Key="Stack">Amount of Stackable items per offer:</System:String>
- <System:String x:Key="OffersPerItem">Offers per Item:</System:String>
+ <System:String x:Key="Stack">Amount of stackable items per offer:</System:String>
+ <System:String x:Key="OffersPerItem">Offers per item:</System:String>
  <System:String x:Key="PriceRange">Price range:</System:String>
- <System:String x:Key="OfferTime">Offer lifespan in minutes:</System:String>
- <System:String x:Key="FleaConditions">Offers wear condition in %</System:String>
- <System:String x:Key="OffersRatio">Offers Ratio between currencies (in %)</System:String>
- <System:String x:Key="ExpireThreshold">Generate new offers if expired offers is more than:</System:String>
- <System:String x:Key="BundleOfferChance">Chance for items to be in a bundle in %:</System:String>
+ <System:String x:Key="OfferTime">Offer lifespan (in minutes):</System:String>
+ <System:String x:Key="FleaConditions">Offer condition (in %)</System:String>
+ <System:String x:Key="OffersRatio">Offer ratio by currency (in %)</System:String>
+ <System:String x:Key="ExpireThreshold">Generate new offers if the expired offers are more than:</System:String>
+ <System:String x:Key="BundleOfferChance">Chance for items to appear as a bundle (in %):</System:String>
  
  
  <!--CSM Section-->
@@ -656,11 +658,12 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="GammaTUE">Unheard Gamma:</System:String>
  <System:String x:Key="Epsilon">Epsilon:</System:String>
  <System:String x:Key="Kappa">Kappa:</System:String>
+ <System:String x:Key="DesecratedKappa">Desecrated Kappa:</System:String>
  <System:String x:Key="WaistPouch">Waist Pouch:</System:String>
  <System:String x:Key="Dev">Developer:</System:String>
  <!--PMC Pockets Section-->
  <System:String x:Key="Pockets">PMC Pockets:</System:String>
- <System:String x:Key="SpecsAmount">Amount of spec slots:</System:String>
+ <System:String x:Key="SpecsAmount">Number of special slots:</System:String>
  <System:String x:Key="Size">Size:</System:String>
  <!--<System:String x:Key="Rows">Rows:</System:String>
  <System:String x:Key="Columns">Columns:</System:String>-->
@@ -670,7 +673,7 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="SecondCell">2nd  Cell:</System:String>
  <System:String x:Key="ThirdCell">3rd  Cell:</System:String>
  <System:String x:Key="FourthCell">4th  Cell:</System:String>
- <System:String x:Key="CasesInSpec">Allow cases to be inserted to special slots</System:String>
+ <System:String x:Key="CasesInSpec">Allow these cases in special slots</System:String>
  <System:String x:Key="InstallCSMPlugin">Click here to install 'HideSpecialIcon'</System:String>
  <System:String xml:space="preserve" x:Key="InstallCSMPlugin_Tooltip">This will install a plugin inside 'Bepinex/plugins' that will
   hide inventories of cases inside special slots</System:String>
@@ -679,17 +682,17 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <!--Quests Section-->
 
  <System:String x:Key="QuestRepToZero">Remove reputation penalty for quest reroll</System:String>
- <System:String x:Key="QuestCostMult">Multiplier of a cost to reroll a quest</System:String>
+ <System:String x:Key="QuestCostMult">Quest reroll cost multiplier</System:String>
  <System:String x:Key="DailyQuests">Daily Quests</System:String>
  <System:String x:Key="WeeklyQuests">Weekly Quests</System:String>
  <System:String x:Key="ScavQuests">Scav Quests</System:String>
  <System:String x:Key="QuestLifespan">Quest lifespan in minutes:</System:String>
- <System:String x:Key="AmountofQuests">Amount of quests per cycle:</System:String>
+ <System:String x:Key="AmountofQuests">Number of quests per cycle:</System:String>
  <System:String x:Key="QuestLevel">Level to access:</System:String>
- <System:String x:Key="KillsAmountLvl1">Amount of Kills [Lvl range 1-15]:</System:String>
- <System:String x:Key="KillsAmountLvl2">Amount of Kills [Lvl range 16-40]:</System:String>
- <System:String x:Key="KillsAmountLvl3">Amount of Kills [Lvl range 41-100]:</System:String>
- <System:String x:Key="ScavKillsLvl2">Amount of Kills [Lvl range 16-100]:</System:String>
+ <System:String x:Key="KillsAmountLvl1">Number of Kills [Lvl range 1-15]:</System:String>
+ <System:String x:Key="KillsAmountLvl2">Number of Kills [Lvl range 16-40]:</System:String>
+ <System:String x:Key="KillsAmountLvl3">Number of Kills [Lvl range 41-100]:</System:String>
+ <System:String x:Key="ScavKillsLvl2">Number of Kills [Lvl range 16-100]:</System:String>
 
  <System:String x:Key="Elimination">Elimination</System:String>
  <System:String x:Key="Exploration">Exploration</System:String>
@@ -699,14 +702,14 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="ExplElim">Exploration, Elimination</System:String>
  <System:String x:Key="ExplElimComp">Completion, Exploration, Elimination</System:String>
 
- <System:String x:Key="RewardScale">Level based scale of rewards</System:String>
+ <System:String x:Key="RewardScale">Level-based reward scaling</System:String>
  <System:String x:Key="Levels">Levels:</System:String>
  <System:String x:Key="Experience">Experience:</System:String>
  <System:String x:Key="ItemsReward">Items:</System:String>
  <System:String x:Key="Reputation">Reputation:</System:String>
- <System:String x:Key="SkillPoint">Amount of skill points:</System:String>
+ <System:String x:Key="SkillPoint">Number of skill points:</System:String>
  <System:String x:Key="SkillChance">Chance to get skill points:</System:String>
- <System:String x:Key="RequiredItems">Amount of items required:</System:String>
+ <System:String x:Key="RequiredItems">Number of items required:</System:String>
  <System:String x:Key="MaxExtracts">Maximum Extracts required:</System:String>
  <System:String x:Key="RewardSpread">Reward spread multiplier:</System:String>
 
@@ -717,14 +720,14 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <!--Scav Section-->
  <System:String x:Key="SCAVHealth">SCAV Health</System:String>
  <System:String x:Key="SCAVPockets">SCAV Pockets</System:String>
- <System:String x:Key="ScavLab">Enable access to laboratory</System:String>
- <System:String x:Key="HostileScavs">Make other SCAVs always hostile</System:String>
- <System:String x:Key="FriendlyScavs">Make other SCAVs peaceful towards you</System:String>
- <System:String x:Key="FriendlyBosses">Make SCAV Bosses always hostile</System:String>
- <System:String x:Key="HostileBosses">Make SCAV Bosses peaceful towards you</System:String>
- <System:String x:Key="ScavTimer">Scav run cooldown in seconds:</System:String>
+ <System:String x:Key="ScavLab">Enable access to Laboratory</System:String>
+ <System:String x:Key="HostileScavs">Other SCAVs are always hostile</System:String>
+ <System:String x:Key="FriendlyScavs">Other SCAVs are peaceful towards you</System:String>
+ <System:String x:Key="FriendlyBosses">SCAV Bosses are always hostile</System:String>
+ <System:String x:Key="HostileBosses">SCAV Bosses are peaceful towards you</System:String>
+ <System:String x:Key="ScavTimer">SCAV run cooldown (in seconds):</System:String>
  <System:String x:Key="ScavStats">SCAV stats</System:String>
- <System:String x:Key="CarBaseStanding">Standing for Car/Coop exfil:</System:String>
+ <System:String x:Key="CarBaseStanding">Fence standing for Car/Co-op exfil:</System:String>
 
  <!--<System:String x:Key="Levels">Alpha:</System:String>
  <System:String x:Key="Levels">Alpha:</System:String>
@@ -732,24 +735,24 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
 
  <!--Bots Section-->
  <System:String x:Key="BotsSpawnChance">Bosses and Special types spawn chances</System:String>
- <System:String x:Key="BotsArmorDurab">AI Armor equipment durability</System:String>
- <System:String x:Key="BotsWeaponDurab">AI weapons durability</System:String>
+ <System:String x:Key="BotsArmorDurab">AI armor durability</System:String>
+ <System:String x:Key="BotsWeaponDurab">AI weapon durability</System:String>
  <System:String x:Key="ForcePartisan">Change Partisan's spawn behavior</System:String>
  <!--PMC Section-->
  <System:String x:Key="AIToPMC">AI types into PMC converter in %</System:String>
  <System:String x:Key="PMCRatio">USEC/BEARs in raid ratio:</System:String>
  <System:String x:Key="LootMelee">Lootable Melee</System:String>
- <System:String x:Key="DisableLowLevelPMC">Disable Low level gear PMC</System:String>
+ <System:String x:Key="DisableLowLevelPMC">Disable low level gear on PMCs</System:String>
  <System:String x:Key="ForcePMC">Override default chance of SPT PMC Waves</System:String>
- <System:String x:Key="PMCLevelDownMargin">Level Margin of AI PMC below your level</System:String>
- <System:String x:Key="PMCLevelUpMargin">Level Margin of AI PMC above your level</System:String>
+ <System:String x:Key="PMCLevelDownMargin">Level Margin of AI PMCs below your level</System:String>
+ <System:String x:Key="PMCLevelUpMargin">Level Margin of AI PMCs above your level</System:String>
  <System:String x:Key="Chances">Chance in %</System:String>
  <System:String x:Key="WeaponInBackpacks">Weapons inside AI PMC backpacks:</System:String>
- <System:String x:Key="PMCUpgradedWeapon">Weapon has Enchancement:</System:String>
- <System:String x:Key="PMCHaveYourName">Spawned AI PMC have your name with a prefix:</System:String>
- <System:String x:Key="AllPMCHaveYourName">All Spawned AI PMC has your name with a prefix:</System:String>
+ <System:String x:Key="PMCUpgradedWeapon">Weapon enhancement chance:</System:String>
+ <System:String x:Key="PMCHaveYourName">Spawned AI PMCs have your name with a prefix:</System:String>
+ <System:String x:Key="AllPMCHaveYourName">All Spawned AI PMCs have your name with a prefix:</System:String>
  <System:String x:Key="PMCSameHostility">Hostilities of a PMC of the same faction:</System:String>
- <System:String x:Key="PMCHostility">Hostilities of a PMC of the different faction:</System:String>
+ <System:String x:Key="PMCHostility">Hostilities of a PMC of the opposite faction:</System:String>
  <System:String x:Key="PMCNames">PMC Names</System:String>
  <System:String x:Key="OverridePMCNames">Remove Default SPT names</System:String>
  <!--Custom Section-->
@@ -757,9 +760,9 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="CustomFields">User fields</System:String>
  <System:String x:Key="Mailbox">Mailbox</System:String>
  <System:String x:Key="LoggerIntoServer">Log the preset inside server log</System:String>
- <System:String x:Key="DisableSPTFriend">Disables SPT Friend</System:String>
- <System:String x:Key="DisableCommando">Disables Commando</System:String>
- <System:String x:Key="DisablePMCMessages">Disables PMC responses in your mailbox</System:String>
+ <System:String x:Key="DisableSPTFriend">Disable SPT Friend</System:String>
+ <System:String x:Key="DisableCommando">Disable Commando</System:String>
+ <System:String x:Key="DisablePMCMessages">Disable PMC responses in your mailbox</System:String>
  <System:String x:Key="CustomCheck1">Custom Checkbox 1</System:String>
  <System:String x:Key="CustomCheck2">Custom Checkbox 2</System:String>
  <System:String x:Key="CustomCheck3">Custom Checkbox 3</System:String>
@@ -844,23 +847,23 @@ Something went wrong, is there incorrect type in the field or it is empty?</Syst
  <System:String x:Key="Followers">Boss guards:</System:String>
 
  <!--Tooltips-->
- <System:String x:Key="EquipRigsWithArmors_TT">Allows equipping Armored rigs such as AVS or Tac-Tec with armor such as Trooper or Slick</System:String>
- <System:String  xml:space="preserve" x:Key="RemoveBackpacksRestrictions_TT">Allows putting any items into any backpack
- CAUTION: If you plan to put items that can't be discarded in raid it is Highly recommended to use "Removes 'Can't be dropped in Raid' tag"
- Otherwise - those items will be deleted if you die, even if insured or in softcore</System:String>
+ <System:String x:Key="EquipRigsWithArmors_TT">Allows equipping armored rigs such as AVS or Tac-Tec with armors such as the Trooper or Slick</System:String>
+ <System:String  xml:space="preserve" x:Key="RemoveBackpacksRestrictions_TT">Allows you to put any item into any backpack.
+ CAUTION: If you plan on putting in items that can't be discarded in raid, it is highly recommended to enable the "Remove 'Can't be dropped in Raid' tag" option - 
+ otherwise, those items will be deleted on death, even if insured or on softcore.</System:String>
  <System:String xml:space="preserve" x:Key="RemoveSecureContainerFilters_TT">Allows putting any items into any secure container
-  CAUTION: If you plan to put items that can't be discarded in raid it is Highly recommended to use "Removes 'Can't be dropped in Raid' tag"
- Otherwise - those items will be deleted if you die, even if insured or in softcore
+  CAUTION: If you plan on putting in items that can't be discarded in raid, it is highly recommended to enable the "Remove 'Can't be dropped in Raid' tag" option - 
+ otherwise, those items will be deleted on death, even if insured or on softcore.
  </System:String>
- <System:String x:Key="RemoveRaidRestr_TT">Allows to take any item inside the raid</System:String>
- <System:String x:Key="NoGearPenalty_TT">Removes penalty such as reduced movement speed mouse movement and weapon ergonomic from the equipment</System:String>
- <System:String x:Key="RaidDrop_TT">Allows to drop anything inside the raid</System:String>
- <System:String x:Key="PistolToMain_TT">Including Revolvers and Sawed-Off shotguns</System:String>
- <System:String x:Key="SMGToHolster_TT">Includes every SMG in the game</System:String>
- <System:String x:Key="ItemPriceMult_TT">Multiplies the base price for the item, it will affect selling/buying on flea and selling to traders</System:String>
- <System:String x:Key="ExamineTime_TT">Affects time of the process when you MMB on the unexamined item, does not affect search speed</System:String>
- <System:String  xml:space="preserve" x:Key="AmmoLoadSpeed_TT">Multiplies required time to load or unload a round into a magazine
-Smaller the value - faster process</System:String>
+ <System:String x:Key="RemoveRaidRestr_TT">Enables bringing any item into a raid.</System:String>
+ <System:String x:Key="NoGearPenalty_TT">Removes gear penalties like slower movement, reduced weapon ergonomics, and turning speed.</System:String>
+ <System:String x:Key="RaidDrop_TT">Enables dropping any item during a raid.</System:String>
+ <System:String x:Key="PistolToMain_TT">This includes Revolvers and Sawed-Off shotguns.</System:String>
+ <System:String x:Key="SMGToHolster_TT">This includes every SMG in the game.</System:String>
+ <System:String x:Key="ItemPriceMult_TT">Multiplies the base price for the item. Affects buying/selling on the flea market and sales to traders.</System:String>
+ <System:String x:Key="ExamineTime_TT">Affects how quickly unexamined items are inspected. Does not impact general search speed.</System:String>
+ <System:String  xml:space="preserve" x:Key="AmmoLoadSpeed_TT">Multiplies the required time to load or unload a round into a magazine. 
+The smaller the value, the faster the process.</System:String>
  <System:String xml:space="preserve" x:Key="PistolRound_TT">Sets the maximum ammunition stack size 
 per cell for these calibers: 9x18, 9x19, 9x21, 7.62x25, .357(9x33), .45ACP(11.43x23ACP), 46x30, 5.7x28</System:String>
  <System:String xml:space="preserve" x:Key="ShotgunRound_TT">Sets the maximum ammunition stack size 
@@ -869,148 +872,148 @@ per cell for these calibers: 12x70, 20x70, 23x75</System:String>
 per cell for these calibers: 5.45x39, 5.56x45, .300, .366, 7.62x39, 9x39</System:String>
  <System:String xml:space="preserve" x:Key="MarksmanRound_TT">Sets the maximum ammunition stack size 
 per cell for these calibers: 6.8x51 7.62x51, 7.62x54R, 12.7x55, .338LM</System:String>
- <System:String xml:space="preserve" x:Key="AvoidOddKeys_TT">Avoids keys that has odd number of uses (2,5,10,20) excluding marked rooms
- Such keys as: Ref's Hideout keys, Factory exit key, couple of streets keys (Chek 15), cargo key, etc.</System:String>
- <System:String x:Key="AvoidResidential_TT">TerraGroup Labs residential unit keycard which by default has 2 uses</System:String>
- <System:String xml:space="preserve" x:Key="DisableDefaultCashStack_TT">If Enabled: Dollars and Euros will scale by Rouble stack with the ratio of 1:100. 
-Dollars and Euros fields will be disabled</System:String>
- <System:String x:Key="RemoveConstructionsRequirements_TT">Removes Materials as a requirement for construction</System:String>
- <System:String x:Key="RemoveSkillRequirements_TT">Removes PMC Skill levels as a requirement for construction</System:String>
- <System:String x:Key="RemoveTraderLevelRequirements_TT">Removes Trader reputation levels as a requirement for construction</System:String>
- <System:String  xml:space="preserve" x:Key="HideoutMisc_TT">Do not edit fields if you have ongoing production/construction in your profile.
-It may cause some inconsistencies with time or materials required, you've been warned.</System:String>
- <System:String xml:space="preserve" x:Key="AirFilterRate_TT">Value it multiplies is "0.0047222222222222".
+ <System:String xml:space="preserve" x:Key="AvoidOddKeys_TT">Excludes keys with non-standard use counts (e.g., 2, 5, 10, 20), such as Ref's Hideout keys, the Factory Exit key, certain Streets keys (e.g., Chek 15), the Cargo key, etc. 
+Does not affect Marked Room keys.</System:String>
+ <System:String x:Key="AvoidResidential_TT">TerraGroup Labs residential unit keycard, which has two uses by default.</System:String>
+ <System:String xml:space="preserve" x:Key="DisableDefaultCashStack_TT">If ticked, Dollars and Euros will scale with the Rouble stack at a 1:100 ratio.  
+Dollar and Euro input fields will be disabled.</System:String>
+ <System:String x:Key="RemoveConstructionsRequirements_TT">Removes materials as a requirement for construction.</System:String>
+ <System:String x:Key="RemoveSkillRequirements_TT">Removes PMC Skill levels as a requirement for construction.</System:String>
+ <System:String x:Key="RemoveTraderLevelRequirements_TT">Removes trader reputation levels as a requirement for construction.</System:String>
+ <System:String  xml:space="preserve" x:Key="HideoutMisc_TT">Do not edit fields if you have ongoing production/construction on your profile.
+It may cause some inconsistencies with the time or materials required. You have been warned.</System:String>
+ <System:String xml:space="preserve" x:Key="AirFilterRate_TT">Multiplies the constant 0.0047222222222222 by the entered value.
 By default it takes ~211 seconds to spend 1 unit of the air filter.
-Smaller the value results in longer consumption time</System:String>
- <System:String xml:space="preserve" x:Key="GPUBoostRate_TT">Value it multiplies is "0,041225".
-The bigger the value, the more each GPU matters.
-To achieve roughly 1x increase per GPU - set it to 24,26.</System:String>
- <System:String xml:space="preserve" x:Key="FuelConsumptionRate_TT">Value it multiplies is "0,00131944444444".
-It takes 758 seconds to spend 1 unit of the fuel.
-Smaller the value results in the longer it lasts</System:String>
- <System:String xml:space="preserve" x:Key="NoFuelMult_TT">The value is multiplies is "0.07".
-Bigger value results in faster production without fuel</System:String>
- <System:String xml:space="preserve" x:Key="HideoutProdMult_TT">Modifies required time for each Production.
-Smaller value results in faster production</System:String>
- <System:String xml:space="preserve" x:Key="HideoutConstMult_TT">Modifies required time for each Contruction.
-Smaller value results in faster production</System:String>
- <System:String xml:space="preserve" x:Key="ScavCaseTime_TT">Modifies required time for Scav Case offer.
-Smaller value results in faster process</System:String>
- <System:String xml:space="preserve" x:Key="ScavCasePrice_TT">Modifies required price for Scav Case offers.
-Smaller value results in cheaper process. 
-Affects only offers that require currency</System:String> 
- <System:String x:Key="FIRTrade_TT">Everything you will buy from traders will have `Found in Raid` tag.</System:String>
- <System:String xml:space="preserve" x:Key="QuestLifespan_TT">Set the time for how long a repeatable quest will be active and when you'll get a new one.
-Be advised, it will only take an effect when current quests have run out.</System:String>
- <System:String xml:space="preserve" x:Key="QuestSwitch_TT">BE ADVISED: It will not change freshy accepted quests</System:String>
- <System:String xml:space="preserve" x:Key="RewardSpread_TT">Set it to 0 will remove the randomisation.
- Set to 1 to set the random multiply between 0 and 2.
- By default it's 0.5x-1.5x. Formula is (1-Spread, 1+Spread)</System:String>
- <System:String  xml:space="preserve" x:Key="AllContainers_TT">Basically forces every chance based container to spawn on the map.
-Not really balanced and will increase the load on PC</System:String>
- <System:String x:Key="RemoveTradeLimits_TT">Removes the trader offer's limit on how many items you can buy per stock</System:String>
- <System:String x:Key="IncreaseAssort_TT">Made with no balance in mind: Increases amount of single item you can buy from trader over a million</System:String>
- <System:String x:Key="RemoveCurrencyOffers_TT">Excluding fence and peacekeeper</System:String>
- <System:String xml:space="preserve" x:Key="PriceAssort_TT">Affects prices of items traders sells to you.
-The higher values, the more expensive the items</System:String>
- <System:String xml:space="preserve" x:Key="PriceMarkup_TT">Affecting traders 'discount'. 100 would stand for selling the item for a full price.
-1 would make them buy for minimum price possible.</System:String>
- <System:String x:Key="ClothesAnySide_TT">Allows to buy both USEC and BEAR apparels</System:String>
- <System:String x:Key="ClothesFree_TT">Removes the cash requirements to buy an apparel</System:String>
- <System:String x:Key="ClothesLevelUnlock_TT">Removes the requirements for PMC level, Trader level and Quests</System:String>
- <System:String xml:space="preserve" x:Key="AllQuestsAvailable_TT">Technically safe to use, but as the moment you accept unlocked quest
-It will bind to your profile and became an irreversible action</System:String>
- <System:String xml:space="preserve" x:Key="InsuranceInterval_TT">How often server checks if there is an available insurance in seconds, 
-setting it to minimum possible may cause a fall in server performance</System:String>
- <System:String xml:space="preserve" x:Key="InsuranceTimeOverride_TT">Overrides time for every trader capable of insurance, it is still is under affect of the interval above</System:String>
- <System:String xml:space="preserve" x:Key="InsuranceTradersPriceMult_TT">By default insurance costs more the higher trader level</System:String>
- <System:String xml:space="preserve" x:Key="RemoveTimeCondition_TT">You know those quests that will show up after 24 real hours passed?
-Yeah, it will remove that time requirements.</System:String>
- <System:String xml:space="preserve" x:Key="UnlockQuestAssort_TT">This feature can throw an error if there is a custom trader mod, there is 2 cases how to deal with that:
- 1) Move Custom trader mod below SVM in mod load order
+Smaller values result in increased consumption times.</System:String>
+ <System:String xml:space="preserve" x:Key="GPUBoostRate_TT">Multiplies the constant 0.041225 by the entered value.
+The greater the value, the more each GPU matters.
+To negate this constant entirely (and thus dramatically increase GPU efficiency), set the value below to 24,26.</System:String>
+ <System:String xml:space="preserve" x:Key="FuelConsumptionRate_TT">Multiplies the constant 0.00131944444444 by the entered value.
+It takes 758 seconds to spend 1 unit of fuel.
+Smaller values result in longer-lasting fuel.</System:String>
+ <System:String xml:space="preserve" x:Key="NoFuelMult_TT">Multiplies the constant 0.07 by the entered value.
+Greater values result in faster production times without fuel.</System:String>
+ <System:String xml:space="preserve" x:Key="HideoutProdMult_TT">Modifies the time required to produce something in the hideout.
+Smaller values result in faster production times.</System:String>
+ <System:String xml:space="preserve" x:Key="HideoutConstMult_TT">Modifies the time required to construct something in the hideout.
+Smaller values result in faster construction times.</System:String>
+ <System:String xml:space="preserve" x:Key="ScavCaseTime_TT">Modifies the time required to complete each Scav Case cycle.
+Smaller values result in faster Scav Case return times.</System:String>
+ <System:String xml:space="preserve" x:Key="ScavCasePrice_TT">Modifies the price for each Scav Case offer.
+The smaller the value, the less you pay. 
+Affects only currency-based offers.</System:String> 
+ <System:String x:Key="FIRTrade_TT">Everything you purchase from traders will come with the `Found in Raid` tag.</System:String>
+ <System:String xml:space="preserve" x:Key="QuestLifespan_TT">Sets how long a repeatable quest remains active and when a new one becomes available.
+Be advised: It will only take effect when the current quests timers have run out.</System:String>
+ <System:String xml:space="preserve" x:Key="QuestSwitch_TT">Be advised: It will not change newly accepted quests.</System:String>
+ <System:String xml:space="preserve" x:Key="RewardSpread_TT">Setting this to 0 will remove randomisation (RNG) entirely.
+ Setting this value to 1 will result in the reward spread between 0 and 2.
+ By default, this value is 0.5, resulting in 0.5x-1.5x the reward.
+ Formula: (1 – X, 1 + X), with X as the entered value.</System:String>
+ <System:String  xml:space="preserve" x:Key="AllContainers_TT">Forces every chance-based container to spawn on the map.
+Not at all balanced and will increase the load on your PC.</System:String>
+ <System:String x:Key="RemoveTradeLimits_TT">Removes trader offer limits (how many items you can buy per stock).</System:String>
+ <System:String x:Key="IncreaseAssort_TT">Not balanced: Increases the quantity of any purchasable item to over a million.</System:String>
+ <System:String x:Key="RemoveCurrencyOffers_TT">Excluding Fence and Peacekeeper</System:String>
+ <System:String xml:space="preserve" x:Key="PriceAssort_TT">Affects prices of items sold by traders.
+The greater the value, the more expensive the items will be.</System:String>
+ <System:String xml:space="preserve" x:Key="PriceMarkup_TT">Affects trader discount.
+A value of 100 means the items will be purchased by traders at full price; 1 means the lowest possible price.</System:String>
+ <System:String x:Key="ClothesAnySide_TT">Allows you to purchase both USEC and BEAR apparel.</System:String>
+ <System:String x:Key="ClothesFree_TT">Removes cash requirements for purchasing apparel.</System:String>
+ <System:String x:Key="ClothesLevelUnlock_TT">Removes quest, PMC level, and trader level requirements.</System:String>
+ <System:String xml:space="preserve" x:Key="AllQuestsAvailable_TT">Technically safe to use, but once you accept any unlocked quest,
+it becomes permanently bound to your profile. This cannot be undone.</System:String>
+ <System:String xml:space="preserve" x:Key="InsuranceInterval_TT">How often the server checks for available insurance returns (in seconds). 
+Setting this value too low may cause strain on the server - hurting performance.</System:String>
+ <System:String xml:space="preserve" x:Key="InsuranceTimeOverride_TT">Overrides the timer for every trader capable of insurance. 
+Insurance returns are still is affected by the interval above.</System:String>
+ <System:String xml:space="preserve" x:Key="InsuranceTradersPriceMult_TT">By default, insurance costs increase with higher trader levels.</System:String>
+ <System:String xml:space="preserve" x:Key="RemoveTimeCondition_TT">Remember quests that show up only after 24 real-life hours have passed?
+Enable this to remove that time restriction.</System:String>
+ <System:String xml:space="preserve" x:Key="UnlockQuestAssort_TT">This feature can throw an error if you have a custom trader mod. 
+There are two ways of dealing with that:
+ 1) Move the custom trader mod below SVM in the mod load order, or
  2) If the mod in question uses Virtual's Custom Quest Loader, be sure they are both ABOVE SVM in 
-mod load order, that may help, otherwise, do step 1 for both.</System:String>
- <System:String xml:space="preserve"  x:Key="NoRunThrough_TT">Removes the requirement for XP to achieve `survived` tag, basically disables 'Run Through'</System:String>
- <System:String xml:space="preserve"  x:Key="ChanceExtracts_TT">The exits that have probability to appear will always show up
-Such exits as:
+mod load order (if this fails, do step 1 for both)</System:String>
+ <System:String xml:space="preserve"  x:Key="NoRunThrough_TT">Removes XP requirement for the 'Survived' tag.
+Effectively disables 'Run Through'.</System:String>
+ <System:String xml:space="preserve"  x:Key="ChanceExtracts_TT">Chance-based exits will always be available.
+Such exits are:
  Streets: Courtyard, Primorsky Ave Taxi V-Ex
  Interchange: Power Station V-Ex
- Customs: Dorms V-Ex,Old Gas Station,Smuggler's Boat,ZB-1012
- Woords: RUAF Gate,ZB-014,ZB-016
+ Customs: Dorms V-Ex, Old Gas Station, Smuggler's Boat, ZB-1012
+ Woords: RUAF Gate, ZB-014, ZB-016
  Shoreline: Pier Boat
- Laboratory: Parking Gate,Hangar Gate
+ Laboratory: Parking Gate, Hangar Gate
  </System:String>
- <System:String xml:space="preserve" x:Key="ExtendedExtracts_TT">Allows you to use exits on same side you've deployed</System:String>
- <System:String xml:space="preserve" x:Key="NoBackpack_TT">Removes the requirements for specific exits that requires no backpack
- Such exits as:
+ <System:String xml:space="preserve" x:Key="ExtendedExtracts_TT">Allows you to use extraction points on the same side you deployed from.</System:String>
+ <System:String xml:space="preserve" x:Key="NoBackpack_TT">Removes the 'no backpack' requirement for certain extraction points.
+ Such exits are:
   Interchange: Hole in the Fence
   Reserve: Sewer Manhole
   The Laboratory: Ventilation Shaft
  </System:String>
- <System:String xml:space="preserve" x:Key="ArmorExtract_TT">Removes the requirements for climbing exits to be without armor
- Such exits as:
+ <System:String xml:space="preserve" x:Key="ArmorExtract_TT">Removes the 'no armor' requirement for certain extraction points.
+ Such exits are:
   Lighthouse: Mountain Pass
   Reserve: Cliff Descent
    </System:String>
- <System:String xml:space="preserve" x:Key="GearExtract_TT">Removes the requirements for climbing exits to have Red Rebel Ice Pick and Paracord
- Such exits as:
+ <System:String xml:space="preserve" x:Key="GearExtract_TT">Removes the 'Red Rebel Ice Pick' and 'Paracord' requirements for extraction points.
+ Such exits are:
   Lighthouse: Mountain Pass
   Reserve: Cliff Descent
  </System:String>
 
- <System:String xml:space="preserve" x:Key="RaidersEverywhere_TT">Will override every initial PMC and SCAV spawns
-AI PMC still can be converted from raiders so be aware</System:String>
- <System:String xml:space="preserve" x:Key="HealthResortIncludeGuards_TT">Highly not recommended, this is more of a stress test than a feature
-You'll have more than 30 AI in a single area, you've been warned</System:String>
- <System:String xml:space="preserve" x:Key="Halloween_TT">Halloween event - enables event exclusive lights in hideout, 
-alters Zryachiy behavior and spawns, adds event loot into AI, adds ritual mechanic</System:String>
- <System:String  xml:space="preserve" x:Key="DisableZombies_TT">Disable zombies when halloween is enabled, by default they are on
- Won't do anything if halloween is disabled</System:String>
- <System:String  xml:space="preserve" x:Key="RandomInfectionLevel_TT">Randomises infection level in locations on server startup</System:String>
+ <System:String xml:space="preserve" x:Key="RaidersEverywhere_TT">Will override all initial PMC and SCAV spawns.
+Beware: AI PMCs can still be converted from raiders.</System:String>
+ <System:String xml:space="preserve" x:Key="HealthResortIncludeGuards_TT">Not recommended! This is more of a stress test than a feature.
+You will have more than 30 AI in a single area. Enable at your own peril.</System:String>
+ <System:String xml:space="preserve" x:Key="Halloween_TT">Halloween event - enables event exclusive lights in the hideout, 
+alters Zryachiy behavior/spawns, adds event loot to AI, as well as the ritual mechanic.</System:String>
+ <System:String  xml:space="preserve" x:Key="DisableZombies_TT">Disable zombies when Halloween is enabled, as they are on by default.
+ Will not work if Halloween is disabled.</System:String>
+ <System:String  xml:space="preserve" x:Key="RandomInfectionLevel_TT">Randomises the infection level of various locations on server startup.</System:String>
  <System:String xml:space="preserve" x:Key="Christmas_TT">Christmas event - enables event exclusive lights in hideout, gives you a christmas gift, 
-enables snow, enable the ability for Santa Claus to spawn, adds event loot into AI</System:String>
- <System:String  xml:space="preserve" x:Key="Types_TT">Daily missions splits into 3 types: Extermination, Completion, Exploration
- Extermination - Kill PMC, SCAVs or Bosses. Sometimes into specific body part or from close/long range.
- Completion - Provide items with `found in raid` tag
- Exploration - Exfiltrate from specific location with the tag `survived`. Sometimes through specific exit</System:String>
- <System:String  xml:space="preserve" x:Key="FenceBlacklist_TT">Removing certain IDs may result in an error on the server launch. 
-Proceed with caution</System:String>
- <System:String xml:space="preserve" x:Key="SafeExit_TT">Allows to leave via menu to save gear/loot however it will count
-the raid status as `Runner` and will not yield items with `Found in Raid` tag.
-Conflicts with "softcore" option</System:String>
- <System:String xml:space="preserve" x:Key="SaveGearAfterDeath_TT">Dying, Leaving via menu or getting lost will count
-your raid status as `Runner`. Saves your stuff but removes 'Found in Raid' tag from items
-Conflicts with "safe exit" option</System:String>
- <System:String  xml:space="preserve" x:Key="PMCHealth_TT">Allows you to edit maximum health of your PMC 
-ATTENTION: Changes go to profile, so even if you disable this function - your health
-will have last change you did here, therefore to turn you health back 
-you need to enter defaults here, save, run the game and close it.
-HEALTH WILL NOT BE APPLIED UNDER NEW PROFILE CREATION</System:String>
- <System:String x:Key="PMCStats_TT">Allows you to edit maximum stats of your PMC 
-ATTENTION: Changes go to profile, so even if you disable this function - your stats
-will have last change you did here, therefore to turn you stats back 
-you need to enter defaults here, save, run the game and close it.
-STATS WILL NOT BE APPLIED UNDER NEW PROFILE CREATION</System:String>
- <System:String x:Key="Sell_chance_TT">The default chance to sell an item if it is equal to predefined price.</System:String>
- <System:String x:Key="PriceRange_TT">CAUTION: Will not affect player selling prices, 
-if you want to sell for similar raised price, you might need to use Sell chance Multiplier</System:String>
- <System:String  xml:space="preserve" x:Key="Sell_mult_TT">Multiplier to the chance to make it non linear. 
-For example - if you sell an item with 20% less price than handbook one - it would multiply (if value is default to) 1.24.
-End up ending in 25% more sell chance, the higher the difference, the more extreme the multiplier works.</System:String>
- <System:String xml:space="preserve" x:Key="DisableBSGList_TT">CAUTION: It will not affect their 'possibly' broken prices, some items might be too cheap.</System:String>
- <System:String xml:space="preserve" x:Key="PMCRatio_TT">The Chance in % Ratio that spawned PMC will be USEC or BEAR, 100 means USEC only, 0 means Bear only.</System:String>
- <System:String xml:space="preserve" x:Key="ScavHealth_TT">Allows you to edit your SCAV's body parts health, will not affect other SCAVs
-CAUTION: It may not revert health of your current scav if
-you disable the section after making changes</System:String>
- <System:String xml:space="preserve" x:Key="AIToPMC_TT">AI Types into PMC converter is chance based
-If SCAV spawns - there is 25%(By default) he will convert to PMC, works exactly the same for the rest of the fields there.</System:String>
- <System:String x:Key="ScavTimer_TT">CAUTION: It will not affect existing timer</System:String>
- <System:String xml:space="preserve" x:Key="ScavPockets_TT">CAUTION: It will nullify pockets of your current scav if 
-you disable the section after making changes</System:String>
- <System:String xml:space="preserve" x:Key="ForcePartisan_TT">By default Partisan has certain trigger event that could possibly affect his spawn.
-This option removes it making Partisan spawn as any other boss</System:String>
- <System:String xml:space="preserve" x:Key="DisableHalloweenAIFriendly_TT">By default if zombies are on there is a ceasefire where SCAVs would not attack you so is PMC with certain chance.
-This option will disable that behavior, ultimately making AI behave as usual
+enables snow, as well as the ability for Santa Claus to spawn, and adds event loot to AI.</System:String>
+ <System:String  xml:space="preserve" x:Key="Types_TT">Daily missions are split into 3 types: Extermination, Completion, and Exploration.
+ Extermination – Kill PMCs, Scavs, or Bosses. May require specific body parts or certain ranges (close or long).
+ Completion - Fetch items with the 'found in raid' tag.
+ Exploration - Exfiltrate from specific a location with the 'Survived' tag. May require a specific exit.</System:String>
+ <System:String  xml:space="preserve" x:Key="FenceBlacklist_TT">Removing certain IDs may result in an error on server launch. 
+Proceed with caution!</System:String>
+ <System:String xml:space="preserve" x:Key="SafeExit_TT">Allows you to leave via menu to save gear/loot.
+You will, however, be counted as 'Run Through' - stripping your loot from being FiR.
+Conflicts with the 'Softcore' option.</System:String>
+ <System:String xml:space="preserve" x:Key="SaveGearAfterDeath_TT">Dying, leaving via menu or getting lost will be counted as 'Run Through'.
+Saves your things, but removes the 'Found in Raid' tag from items.
+Conflicts with the 'Safe Exit' option.</System:String>
+ <System:String  xml:space="preserve" x:Key="PMCHealth_TT">Allows you to edit the maximum health of your PMC.
+ATTENTION: Changes are saved to your profile, so disabling this function won't revert your health.
+To restore your health to default, re-enter the default values, save, launch the game, then close it.
+Health changes will not automatically apply when creating a new profile.</System:String>
+ <System:String x:Key="PMCStats_TT">Allows you to edit the maximum stats of your PMC.
+ATTENTION: Changes are saved to your profile, so disabling this function won't revert your stats.
+To restore your stats to default, re-enter the default values, save, launch the game, then close it.
+Stat changes will not automatically apply when creating a new profile.</System:String>
+ <System:String x:Key="Sell_chance_TT">The default chance to sell an item if it is equal to the predefined price.</System:String>
+ <System:String x:Key="PriceRange_TT">CAUTION: Will not affect player selling prices.
+If you want to sell for a similarly raised price, use 'Sell chance Multiplier' instead.</System:String>
+ <System:String  xml:space="preserve" x:Key="Sell_mult_TT">Multiplier that makes the sell chance variable. 
+Example: If you sell an item for 20% less than its handbook value, the chance would be multiplied by 1.24 (default).
+This results in a 25% greater sell chance. The greater the difference, the more extreme the results.</System:String>
+ <System:String xml:space="preserve" x:Key="DisableBSGList_TT">CAUTION: Will not affect their (possibly) broken prices. Some items might be too cheap.</System:String>
+ <System:String xml:space="preserve" x:Key="PMCRatio_TT">Ratio (in %) for a spawned PMC to be USEC or BEAR. 100 = USEC only, 0 = BEAR only.</System:String>
+ <System:String xml:space="preserve" x:Key="ScavHealth_TT">Allows you to edit your SCAV's body part health. Will not affect other SCAVs.
+CAUTION: Disabling this section after making changes may not revert your current SCAV's health.</System:String>
+ <System:String xml:space="preserve" x:Key="AIToPMC_TT">The AI Types into PMC converter is chance based.
+If SCAV spawns - there is a 25% chance (default) that he converts to a PMC. Works exactly the same for the rest of the fields there.</System:String>
+ <System:String x:Key="ScavTimer_TT">CAUTION: Changing this will not affect the existing timer!</System:String>
+ <System:String xml:space="preserve" x:Key="ScavPockets_TT">CAUTION: Disabling this section after making changes will nullify your current SCAV's pockets.</System:String>
+ <System:String xml:space="preserve" x:Key="ForcePartisan_TT">By default, Partisan has a specific trigger event that possibly affects his spawn.
+This option removes it, making Partisan spawn like any other boss.</System:String>
+ <System:String xml:space="preserve" x:Key="DisableHalloweenAIFriendly_TT">By default, when zombies are enabled, SCAVs won't attack you, and PMCs may also hold fire.
+This option disables that behavior, causing AI to act as normal.
 CAUTION: This will override AI PMC fields related to hostility.</System:String>
  
 </ResourceDictionary>
